@@ -1,9 +1,11 @@
 "use client";
 
 import { Menu } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { usePathname, useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -13,94 +15,111 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import ThemeToggle from "@/components/ui/theme-toggle";
+import { RootState } from "@/store";
+import { clearAuth } from "@/store/slices/authSlice";
+import { createClient } from "@/utils/supabase/client";
 
-type HeaderProps = {
-  userName?: string;
-  role?: string;
-};
+import { Logout } from "./Logout";
 
-export default function Header({ userName, role }: HeaderProps) {
+export default function Header() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  const displayName = useSelector((state: RootState) => state.auth.displayName);
+  const supabase = createClient();
+  const dispatch = useDispatch();
+  const router = useRouter();
+  const links = [{ href: "/home", label: "Home" }];
+  const [hasMounted, setHasMounted] = useState(false);
 
-  const links = [
-    { href: "/home", label: "Home" },
-    ...(role === "admin" ? [{ href: "/admin", label: "Admin" }] : []),
-  ];
+  useEffect(() => {
+    setHasMounted(true);
+  }, []);
+
+  const handleLogout = async () => {
+    await supabase.auth.signOut();
+    dispatch(clearAuth());
+    router.push("/login");
+  };
 
   return (
-    <header className="flex items-center justify-between w-full px-6 py-4 border-b bg-background shadow-sm">
-      <div className="flex items-center gap-4">
-        {/* Mobile Menu Button */}
-        <Sheet open={open} onOpenChange={setOpen}>
-          <SheetTrigger asChild className="sm:hidden">
-            <Button variant="ghost" size="icon" aria-label="Menu">
-              <Menu className="w-5 h-5" />
-            </Button>
-          </SheetTrigger>
-          <SheetContent side="left" className="space-y-6 p-6">
-            <SheetHeader>
-              <SheetTitle>Menu</SheetTitle>
-            </SheetHeader>
+    <div className="fixed top-0 left-0 right-0 z-50">
+      <header className="flex items-center justify-between w-full px-12 py-4 bg-card border-b border-border">
+        <div className="flex items-center gap-4">
+          {/* Mobile Menu Button */}
+          <Sheet open={open} onOpenChange={setOpen}>
+            <SheetTrigger asChild className="sm:hidden">
+              <Button variant="ghost" size="icon" aria-label="Menu">
+                <Menu className="w-5 h-5" />
+              </Button>
+            </SheetTrigger>
+            <SheetContent side="left" className="space-y-6 p-6 bg-background">
+              <SheetHeader>
+                <SheetTitle>Menu</SheetTitle>
+              </SheetHeader>
 
-            <div className="space-y-2">
-              {links.map(({ href, label }) => (
-                <Link
-                  key={href}
-                  href={href}
-                  onClick={() => setOpen(false)}
-                  className={`block text-sm font-medium ${
-                    pathname === href ? "text-primary" : "text-muted-foreground"
-                  }`}
-                >
-                  {label}
-                </Link>
-              ))}
-            </div>
+              <div className="space-y-2">
+                {links.map(({ href, label }) => (
+                  <Link
+                    key={href}
+                    href={href}
+                    onClick={() => setOpen(false)}
+                    className={`block text-sm font-medium ${
+                      pathname === href
+                        ? "text-primary"
+                        : "text-muted-foreground"
+                    }`}
+                  >
+                    {label}
+                  </Link>
+                ))}
+              </div>
 
-            <form method="POST" action="/api/auth/logout">
-              <Button variant="destructive" className="w-full" type="submit">
+              <Button
+                variant="destructive"
+                className="w-full"
+                onClick={handleLogout}
+              >
                 Logout
               </Button>
-            </form>
-          </SheetContent>
-        </Sheet>
+            </SheetContent>
+          </Sheet>
 
-        {/* Brand */}
-        <Link
-          href="/home"
-          className="text-lg font-heading font-semibold uppercase"
-        >
-          NEXTJS Starter Template
-        </Link>
-      </div>
-
-      {/* Desktop Nav */}
-      <div className="hidden sm:flex items-center space-x-6">
-        {links.map(({ href, label }) => (
-          <Link
-            key={href}
-            href={href}
-            className={`text-sm font-medium hover:underline ${
-              pathname === href ? "text-primary" : "text-muted-foreground"
-            }`}
-          >
-            {label}
+          {/* Brand */}
+          <Link href="/home" className="text-lg font-semibold uppercase">
+            <div className="flex justify-center items-end">
+              <Image
+                src="/logo-250-29.png"
+                alt="MyDynastyHub Logo"
+                width={250}
+                height={29}
+                priority
+              />
+              <span className="text-[#3ecf8e] uppercase text-xs ml-2 mb-[1px]">
+                beta
+              </span>
+            </div>
           </Link>
-        ))}
-        <ThemeToggle />
-        <span className="text-sm text-muted-foreground">{userName}</span>
-        <form method="POST" action="/api/auth/logout">
-          <Button
-            variant="ghost"
-            className="text-red-600 hover:underline p-0 h-auto"
-            type="submit"
-          >
-            Logout
-          </Button>
-        </form>
-      </div>
-    </header>
+        </div>
+
+        {/* Desktop Nav */}
+        <div className="hidden sm:flex items-center space-x-6">
+          {/* {links.map(({ href, label }) => (
+            <Link
+              key={href}
+              href={href}
+              className={`text-sm font-medium hover:underline ${
+                pathname === href ? "text-primary" : "text-muted-foreground"
+              }`}
+            >
+              {label}
+            </Link>
+          ))} */}
+          {/* <ThemeToggle /> */}
+          {hasMounted && displayName && (
+            <Logout displayName={displayName} logout={handleLogout} />
+          )}
+        </div>
+      </header>
+    </div>
   );
 }

@@ -2,7 +2,6 @@
 
 import { zodResolver } from "@hookform/resolvers/zod";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
@@ -11,11 +10,12 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { useToast } from "@/hooks/use-toast";
+import { createClient } from "@/utils/supabase/client";
 
 const signupSchema = z
   .object({
     email: z.string().email({ message: "Enter a valid email" }),
-    username: z.string().min(2, { message: "Username is required" }),
+    displayName: z.string().min(2, { message: "Display Name is required" }),
     password: z
       .string()
       .min(6, { message: "Password must be at least 6 characters" }),
@@ -28,11 +28,10 @@ const signupSchema = z
 
 type SignupValues = z.infer<typeof signupSchema>;
 
-export default function SignupPage() {
-  const router = useRouter();
+export default function RegisterForm() {
   const { toast } = useToast();
   const [loading, setLoading] = useState(false);
-
+  const supabase = createClient();
   const {
     register,
     handleSubmit,
@@ -43,25 +42,36 @@ export default function SignupPage() {
 
   const onSubmit = async (data: SignupValues) => {
     setLoading(true);
-    const res = await fetch("/api/auth/signup", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(data),
-    });
+    const { email, password, displayName } = data;
 
-    const result = await res.json();
-    setLoading(false);
+    const { data: signUpData, error: signUpError } = await supabase.auth.signUp(
+      {
+        email,
+        password,
+        options: {
+          data: {
+            displayName,
+          },
+        },
+      },
+    );
 
-    if (res.ok) {
-      toast({ title: "Account created!" });
-      router.push("/home");
-    } else {
+    if (signUpError) {
       toast({
         title: "Signup failed",
-        description: result.error,
+        description: signUpError.message,
         variant: "destructive",
       });
+      setLoading(false);
+      return;
     }
+
+    toast({
+      title: "Success",
+      description: "Check your email to confirm your account.",
+    });
+
+    setLoading(false);
   };
 
   return (
@@ -78,9 +88,9 @@ export default function SignupPage() {
             <p className="text-sm text-red-500">{errors.email.message}</p>
           )}
 
-          <Input placeholder="Username" {...register("username")} />
-          {errors.username && (
-            <p className="text-sm text-red-500">{errors.username.message}</p>
+          <Input placeholder="Display Name" {...register("displayName")} />
+          {errors.displayName && (
+            <p className="text-sm text-red-500">{errors.displayName.message}</p>
           )}
 
           <Input
@@ -103,14 +113,18 @@ export default function SignupPage() {
             </p>
           )}
 
-          <Button type="submit" className="w-full" disabled={loading}>
+          <Button
+            type="submit"
+            className="bg-gradient-to-br from-[#3ecf8e] to-[#006239] w-full text-white font-semibold px-6 py-3 rounded hover:brightness-90 transition"
+            disabled={loading}
+          >
             {loading ? "Creating..." : "Sign Up"}
           </Button>
         </form>
 
         <p className="mt-4 text-center text-sm text-muted-foreground">
           Already have an account?{" "}
-          <Link href="/login" className="text-primary hover:underline">
+          <Link href="/login" className="hover:underline text-[#3ecf8e]">
             Log in
           </Link>
         </p>

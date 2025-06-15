@@ -2,40 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background: url("/main-bg.webp") no-repeat center center fixed;
+  background-size: cover;
+}
+
 @layer base {
   :root {
-    --background: #ffffff;
-    --foreground: #121933;
-    --card: #f8fafc;
-    --card-foreground: #475569;
-    --popover: #f8fafc;
-    --popover-foreground: #475569;
-    --primary: #0063ea;
-    --primary-foreground: #ffffff;
-    --secondary: #ffcd00;
-    --secondary-foreground: #121933;
-    --muted: #f1f5f9;
-    --muted-foreground: #475569;
-    --border: #cbd5e1;
-    --input: #ffffff;
-    --ring: #0063ea;
+    --background: #121212;
+    --foreground: #FAFAFA;
+    --card: #171717;
+    --card-foreground: #FAFAFA;
+    --popover: #242424;
+    --popover-foreground: #FAFAFA;
+    --primary: #3ecf8e;
+    --primary-foreground: #FAFAFA;
+    --primary-gradient: #006239;
+    --secondary: #296EB4;
+    --secondary-foreground: #FAFAFA;
+    --muted: #898989;
+    --border: #2e2e2e;
+    --input: #2e2e2e;
+    --icon: #B4B4B4;
+    --destructive: #C3423F;
   }
   .dark {
-    --background: #121933;
-    --foreground: #ffffff;
-    --card: #1e2c4b;
-    --card-foreground: #5a6372;
-    --popover: #1e2c4b;
-    --popover-foreground: #5a6372;
-    --primary: #0063ea;
-    --primary-foreground: #ffffff;
-    --secondary: #ffcd00;
-    --secondary-foreground: #121933;
-    --muted: #1e2c4b;
-    --muted-foreground: #5a6372;
-    --border: #5a6372;
-    --input: #1e2c4b;
-    --ring: #0063ea;
+    --background: #121212;
+    --foreground: #FAFAFA;
+    --card: #171717;
+    --card-foreground: #FAFAFA;
+    --popover: #242424;
+    --popover-foreground: #FAFAFA;
+    --primary: #3ecf8e;
+    --primary-foreground: #FAFAFA;
+    --primary-gradient: #006239;
+    --secondary: #296EB4;
+    --secondary-foreground: #FAFAFA;
+    --muted: #898989;
+    --border: #2e2e2e;
+    --input: #2e2e2e;
+    --icon: #B4B4B4;
+    --destructive: #C3423F;
   }
 }
 
@@ -45,6 +52,6 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply text-foreground;
   }
 }
