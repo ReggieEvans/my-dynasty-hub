@@ -1,6 +1,6 @@
 export type JWTPayload = {
   id: string;
   email: string;
-  username: string;
+  displayName: string;
   role: "user" | "admin";
 };

@@ -5,7 +5,7 @@ export default function LandingPage() {
     <main className="min-h-screen text-foreground flex flex-col items-center justify-center p-6">
       <div className="flex justify-center py-4">
         <Image
-          src="/logo-400-47-green.png"
+          src="/logo-389-47.png"
           alt="Next.js Logo"
           width={400}
           height={47}
@@ -31,7 +31,7 @@ export default function LandingPage() {
         />
         <button
           type="submit"
-          className="bg-gradient-to-br from-[#3ecf8e] to-[#006239] w-full text-white font-semibold px-6 py-3 rounded hover:brightness-90 transition"
+          className="bg-gradient-to-br from-primary to-primary-gradient w-full text-foreground font-semibold px-6 py-3 rounded hover:brightness-90 transition"
         >
           Notify Me
         </button>
