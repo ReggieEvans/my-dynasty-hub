@@ -1,6 +1,8 @@
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
 
 import { baseApi } from "./api/baseApi";
+import { baseTeamsApi } from "./api/baseTeamsApi";
+import { dynastyApi } from "./api/dynastyApi";
 import { profileApi } from "./api/profileApi";
 import { authSlice } from "./slices/authSlice";
 
@@ -8,6 +10,8 @@ const rootReducer = combineReducers({
   auth: authSlice.reducer,
   [profileApi.reducerPath]: profileApi.reducer,
   [baseApi.reducerPath]: baseApi.reducer,
+  [baseTeamsApi.reducerPath]: baseTeamsApi.reducer,
+  [dynastyApi.reducerPath]: dynastyApi.reducer,
 });
 
 export const loadState = () => {
@@ -32,7 +36,12 @@ export const saveState = (state: RootState) => {
 export const store = configureStore({
   reducer: rootReducer,
   middleware: (getDefaultMiddleware) =>
-    getDefaultMiddleware().concat(profileApi.middleware, baseApi.middleware),
+    getDefaultMiddleware().concat(
+      profileApi.middleware,
+      baseApi.middleware,
+      baseTeamsApi.middleware,
+      dynastyApi.middleware,
+    ),
   preloadedState: typeof window !== "undefined" ? loadState() : undefined,
   devTools: process.env.NODE_ENV !== "production",
 });

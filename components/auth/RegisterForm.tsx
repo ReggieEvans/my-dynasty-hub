@@ -51,6 +51,7 @@ export default function RegisterForm() {
         options: {
           data: {
             displayName,
+            avatar_url: null,
           },
         },
       },

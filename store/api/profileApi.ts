@@ -7,16 +7,33 @@ export const profileApi = createApi({
   baseQuery: fakeBaseQuery(),
   endpoints: (builder) => ({
     getUserProfile: builder.query({
-      async queryFn(userId: string) {
-        console.log("userId", userId);
+      queryFn: async () => {
         const supabase = createClient();
-        const { data, error } = await supabase
-          .from("profiles")
-          .select("*")
-          .eq("id", userId)
-          .single();
+        const {
+          data: { session },
+          error: sessionError,
+        } = await supabase.auth.getSession();
 
-        if (error) return { error };
+        if (!session?.access_token) {
+          return { error: { message: "No access token" } };
+        }
+
+        // Make a direct fetch with the token manually added
+        const res = await fetch(
+          `${process.env.NEXT_PUBLIC_SUPABASE_URL}/rest/v1/profiles?select=*&id=eq.${session.user.id}`,
+          {
+            headers: {
+              Authorization: `Bearer ${session.access_token}`,
+              apikey: process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+            },
+          },
+        );
+
+        if (!res.ok) {
+          return { error: { message: `Request failed: ${res.statusText}` } };
+        }
+
+        const [data] = await res.json();
         return { data };
       },
     }),

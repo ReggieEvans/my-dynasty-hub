@@ -85,10 +85,10 @@ export default function Header() {
           </Sheet>
 
           {/* Brand */}
-          <Link href="/home" className="text-lg font-semibold uppercase">
+          <Link href="/" className="text-lg font-semibold uppercase">
             <div className="flex justify-center items-end">
               <Image
-                src="/logo-250-29.png"
+                src="/logo-250-30.png"
                 alt="MyDynastyHub Logo"
                 width={250}
                 height={29}

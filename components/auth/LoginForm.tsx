@@ -71,17 +71,33 @@ export default function LoginForm() {
       return;
     }
 
+    const { data: profile, error: profileError } = await supabase
+      .from("profiles")
+      .select("*")
+      .eq("id", user.id)
+      .single();
+
+    if (profileError) {
+      toast({
+        title: "Profile fetch error",
+        description: profileError.message,
+        variant: "destructive",
+      });
+    }
+
     dispatch(
       setAuth({
         id: user.id,
         email: user.email ?? null,
-        displayName: user.user_metadata?.displayName ?? null,
+        displayName: profile.display_name ?? null,
+        role: profile.role ?? null,
+        hasCreatedDynasty: profile.has_created_dynasty ?? null,
       }),
     );
 
     toast({
       title: "Welcome",
-      description: `Logged in as ${user.user_metadata?.displayName ?? user.email}`,
+      description: `Logged in as ${profile?.display_name ?? user.email}`,
     });
 
     router.push("/dashboard");

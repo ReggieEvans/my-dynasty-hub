@@ -1,33 +1,56 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import { Card, CardContent } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import CreateDynastyWizard from './CreateDynastyWizard';
+import { useState } from "react";
 
-export default function SetupDynastyModal() {
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+
+import CreateDynastyWizard from "./CreateDynastyWizard";
+
+export default function SetupDynastyModal({
+  has_created_dynasty,
+}: {
+  has_created_dynasty: boolean;
+}) {
   const [wizardOpen, setWizardOpen] = useState(false);
 
   return (
     <>
-      <div className='fixed inset-0 flex items-center justify-center bg-black/50 z-50'>
-        <Card className='w-full max-w-lg text-foreground'>
-          <CardContent className='p-6 space-y-4'>
-            <h2 className='text-2xl font-black border-b border-border pb-2'>
-              Welcome to MyDynastyHub!
+      <div className="h-screen flex flex-col items-center justify-center">
+        {!has_created_dynasty ? (
+          <Card className="w-full max-w-lg text-foreground shadow-xl">
+            <CardContent className="p-6 space-y-4">
+              <h2 className="text-2xl font-black border-b border-border pb-2">
+                Welcome to MyDynastyHub!
+              </h2>
+              <p className="py-2">
+                Looks like you don&apos;t have a dynasty setup yet. Let&apos;s
+                fix that!
+              </p>
+              <Button
+                onClick={() => setWizardOpen(true)}
+                className="btn-primary py-4 text-md"
+              >
+                Create a dynasty
+              </Button>
+            </CardContent>
+          </Card>
+        ) : (
+          <div className="flex flex-col items-center justify-center">
+            <h2 className="text-xl font-bold mb-2">
+              You have no active dynasties
             </h2>
-            <p className='py-2'>
-              Looks like you don&apos;t have a dynasty setup yet. Let&apos;s fix
-              that!
+            <p className="text-muted mb-4">
+              Start a new dynasty to start tracking.
             </p>
             <Button
               onClick={() => setWizardOpen(true)}
-              className='btn-primary py-4 text-md'
+              className="btn-primary py-4 text-md"
             >
-              Create My DynastyHub
+              Create a dynasty
             </Button>
-          </CardContent>
-        </Card>
+          </div>
+        )}
       </div>
       <CreateDynastyWizard
         open={wizardOpen}

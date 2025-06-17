@@ -4,12 +4,16 @@ interface AuthState {
   id: string | null;
   email: string | null;
   displayName: string | null;
+  role: string | null;
+  hasCreatedDynasty: boolean;
 }
 
 const initialState: AuthState = {
   id: null,
   email: null,
   displayName: "",
+  role: null,
+  hasCreatedDynasty: false,
 };
 
 export const authSlice = createSlice({

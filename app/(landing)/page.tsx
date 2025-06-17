@@ -5,7 +5,7 @@ export default function LandingPage() {
     <main className="min-h-screen text-foreground flex flex-col items-center justify-center p-6">
       <div className="flex justify-center py-4">
         <Image
-          src="/logo-400-47.png"
+          src="/logo-389-47.png"
           alt="Next.js Logo"
           width={400}
           height={47}
