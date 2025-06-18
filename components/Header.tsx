@@ -43,7 +43,7 @@ export default function Header() {
 
   return (
     <div className="fixed top-0 left-0 right-0 z-50">
-      <header className="flex items-center justify-between w-full px-12 py-4 bg-card border-b border-border">
+      <header className="flex items-center justify-between w-full px-12 py-4 h-[68px] bg-card border-b border-border">
         <div className="flex items-center gap-4">
           {/* Mobile Menu Button */}
           <Sheet open={open} onOpenChange={setOpen}>

@@ -1,6 +1,8 @@
 import { redirect } from "next/navigation";
 
+import { AppSidebar } from "@/components/AppSidebar";
 import Header from "@/components/Header";
+import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import { createServerSupabaseClient } from "@/utils/supabase/server";
 
 export default async function ProtectedLayout({
@@ -17,9 +19,13 @@ export default async function ProtectedLayout({
   }
 
   return (
-    <>
+    <SidebarProvider>
       <Header />
-      <main>{children}</main>
-    </>
+      <AppSidebar />
+      <main className="mt-[68px]">
+        <SidebarTrigger />
+        {children}
+      </main>
+    </SidebarProvider>
   );
 }
