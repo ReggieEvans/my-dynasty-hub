@@ -28,7 +28,6 @@ export default function Header() {
   const supabase = createClient();
   const dispatch = useDispatch();
   const router = useRouter();
-  const links = [{ href: "/home", label: "Home" }];
   const [hasMounted, setHasMounted] = useState(false);
 
   useEffect(() => {
@@ -43,47 +42,8 @@ export default function Header() {
 
   return (
     <div className="fixed top-0 left-0 right-0 z-50">
-      <header className="flex items-center justify-between w-full px-12 py-4 bg-card border-b border-border">
+      <header className="flex items-center justify-between w-full px-12 py-4 h-[68px] bg-card border-b border-border">
         <div className="flex items-center gap-4">
-          {/* Mobile Menu Button */}
-          <Sheet open={open} onOpenChange={setOpen}>
-            <SheetTrigger asChild className="sm:hidden">
-              <Button variant="ghost" size="icon" aria-label="Menu">
-                <Menu className="w-5 h-5" />
-              </Button>
-            </SheetTrigger>
-            <SheetContent side="left" className="space-y-6 p-6 bg-background">
-              <SheetHeader>
-                <SheetTitle>Menu</SheetTitle>
-              </SheetHeader>
-
-              <div className="space-y-2">
-                {links.map(({ href, label }) => (
-                  <Link
-                    key={href}
-                    href={href}
-                    onClick={() => setOpen(false)}
-                    className={`block text-sm font-medium ${
-                      pathname === href
-                        ? "text-primary"
-                        : "text-muted-foreground"
-                    }`}
-                  >
-                    {label}
-                  </Link>
-                ))}
-              </div>
-
-              <Button
-                variant="destructive"
-                className="w-full"
-                onClick={handleLogout}
-              >
-                Logout
-              </Button>
-            </SheetContent>
-          </Sheet>
-
           {/* Brand */}
           <Link href="/" className="text-lg font-semibold uppercase">
             <div className="flex justify-center items-end">
@@ -103,18 +63,6 @@ export default function Header() {
 
         {/* Desktop Nav */}
         <div className="hidden sm:flex items-center space-x-6">
-          {/* {links.map(({ href, label }) => (
-            <Link
-              key={href}
-              href={href}
-              className={`text-sm font-medium hover:underline ${
-                pathname === href ? "text-primary" : "text-muted-foreground"
-              }`}
-            >
-              {label}
-            </Link>
-          ))} */}
-          {/* <ThemeToggle /> */}
           {hasMounted && displayName && (
             <Logout displayName={displayName} logout={handleLogout} />
           )}

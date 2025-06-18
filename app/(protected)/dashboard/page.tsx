@@ -1,8 +1,10 @@
 "use client";
 
+import Image from "next/image";
 import { useSelector } from "react-redux";
 
 import Loading from "@/components/Loading";
+import Prestige from "@/components/Prestige";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { RootState } from "@/store";
 import {
@@ -38,24 +40,70 @@ export default function DashboardPage() {
     return <SetupDynastyPrompt has_created_dynasty={user.hasCreatedDynasty} />;
   }
 
+  console.log(dynastyTeam);
+
   return (
-    <div className="min-h-screen flex items-center justify-center px-4 py-20">
-      <Card className="max-w-xl w-full text-center bg-card border border-border">
-        <CardHeader>
-          <CardTitle className="text-2xl text-foreground font-black uppercase">
-            Welcome to MyDynastyHub!
-          </CardTitle>
-        </CardHeader>
-        <CardContent className="space-y-4">
-          <p className="text-foreground">
-            You&apos;re now logged in. This is your home page.
-          </p>
-          <p className="text-sm text-muted">
-            You can start customizing your dashboard, connect APIs, or build new
-            features.
-          </p>
-        </CardContent>
-      </Card>
+    <div className="w-full">
+      <div
+        style={{
+          borderColor: dynastyTeam?.primary_color || "transparent",
+        }}
+        className="flex justify-between items-center w-full rounded-t-lg py-4 px-6 bg-card border-b-4"
+      >
+        <div className="flex items-center gap-6">
+          <div
+            style={{
+              backgroundColor: dynastyTeam?.primary_color || "transparent",
+            }}
+            className="rounded py-2 px-6 flex flex-col "
+          >
+            <div className="text-xs font-bold uppercase">Overall</div>
+            <div className="text-8xl font-black leading-[80px]">
+              {dynastyTeam?.team_overall}
+            </div>
+            <div className="py-1">
+              <Prestige value={dynastyTeam?.program_prestige} size="lg" />
+            </div>
+          </div>
+          <div className="flex flex-col gap-2">
+            <div className="flex flex-col">
+              <div
+                style={{
+                  color: dynastyTeam?.primary_color || "text-foreground",
+                }}
+                className="text-xl font-black uppercase"
+              >
+                {dynastyTeam?.school_name}
+              </div>
+              <div className="text-5xl font-black uppercase leading-[32px]">
+                {dynastyTeam?.nickname}
+              </div>
+            </div>
+            <div className="flex gap-8 mt-4 uppercase">
+              <div className="flex flex-col">
+                <div className="text-xs font-bold text-muted">Coach</div>
+                <div className="font-black">{user.displayName}</div>
+              </div>
+              <div className="flex flex-col">
+                <div className="text-xs font-bold text-muted">Conference</div>
+                <div className="font-black">{dynastyTeam?.conference}</div>
+              </div>
+              <div className="flex flex-col">
+                <div className="text-xs font-bold text-muted">Season</div>
+                <div className="font-black">1</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <Image
+            src={dynastyTeam?.logo}
+            alt="Team Logo"
+            width={100}
+            height={100}
+          />
+        </div>
+      </div>
     </div>
   );
 }

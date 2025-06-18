@@ -16,7 +16,7 @@ export default function SetupDynastyModal({
 
   return (
     <>
-      <div className="h-screen flex flex-col items-center justify-center">
+      <div className="min-h-[calc(100vh-132px)] flex flex-col items-center justify-center">
         {!has_created_dynasty ? (
           <Card className="w-full max-w-lg text-foreground shadow-xl">
             <CardContent className="p-6 space-y-4">

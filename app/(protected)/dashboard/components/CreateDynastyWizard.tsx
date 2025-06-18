@@ -1,14 +1,8 @@
-// /components/dashboard/CreateDynastyWizard.tsx
 "use client";
 
+import { Layers, Layers2, Search, SquareCheck } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
-import {
-  FaCube,
-  FaCubes,
-  FaMagnifyingGlass,
-  FaSquareCheck,
-} from "react-icons/fa6";
 import { useSelector } from "react-redux";
 import ScaleLoader from "react-spinners/ScaleLoader";
 
@@ -49,14 +43,14 @@ const modes: Mode[] = [
     name: "Immersive Mode",
     description:
       "The immersive mode is setup for the user that likes to track everything. If your the type of user that likes to keep a spreadsheet for every detail of your dynasty, this is the mode for you.",
-    icon: <FaCubes />,
+    icon: <Layers />,
   },
   {
     id: 2,
     name: "Essentials Mode",
     description:
       "The essentials mode is geared towards those that just want to track outcomes and keep a history of their dynasty. This mode is great for tracking online dynasties with your friends.",
-    icon: <FaCube />,
+    icon: <Layers2 />,
   },
 ];
 
@@ -182,7 +176,7 @@ export default function CreateDynastyWizard({
                 team
               </p>
               <div className="flex items-center gap-2 w-1/2">
-                <FaMagnifyingGlass className="text-icon" />
+                <Search className="text-icon" />
                 <Input
                   placeholder="Search by school or conference..."
                   value={searchTerm}
@@ -396,9 +390,12 @@ function ExperienceSelector({
                 selectedMode?.id === mode.id ? "bg-primary" : "bg-card",
               )}
             >
-              <FaSquareCheck
+              <SquareCheck
+                size={18}
+                strokeWidth={2.5}
+                color="#121212"
                 className={cn(
-                  "text-lg",
+                  "text-sm",
                   selectedMode?.id === mode.id
                     ? "text-primary-gradient"
                     : "text-background-secondary",
@@ -474,9 +471,12 @@ function TeamSelector({
                   : "bg-background-secondary",
               )}
             >
-              <FaSquareCheck
+              <SquareCheck
+                size={16}
+                strokeWidth={2.5}
+                color="#121212"
                 className={cn(
-                  "text-lg",
+                  "text-sm",
                   selectedTeam?.id === team.id
                     ? "text-primary-gradient"
                     : "text-background",
