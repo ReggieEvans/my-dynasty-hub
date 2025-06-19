@@ -3,7 +3,13 @@
 import 'react-grid-layout/css/styles.css';
 import 'react-resizable/css/styles.css';
 
-import { SquareArrowRight, Trash2 } from 'lucide-react';
+import {
+  Puzzle,
+  Save,
+  SquareArrowRight,
+  Trash2,
+  LayoutDashboard,
+} from 'lucide-react';
 import Link from 'next/link';
 import React, { useEffect, useMemo, useState } from 'react';
 import { Responsive, WidthProvider } from 'react-grid-layout';
@@ -25,9 +31,13 @@ const rowHeight = 30;
 
 type DashboardLayoutProps = {
   mode: DashboardMode;
+  teamColor: string;
 };
 
-export default function DashboardLayout({ mode }: DashboardLayoutProps) {
+export default function DashboardLayout({
+  mode,
+  teamColor,
+}: DashboardLayoutProps) {
   const [customizeMode, setCustomizeMode] = useState(false);
   const [currentBreakpoint, setCurrentBreakpoint] = useState<string>('lg');
   const [mounted, setMounted] = useState(false);
@@ -100,12 +110,15 @@ export default function DashboardLayout({ mode }: DashboardLayoutProps) {
   return (
     <div className='p-4'>
       <div className='flex justify-between items-center mb-2 px-4'>
-        <h2 className='text-2xl font-bold capitalize'>{mode} Dashboard</h2>
+        <h2 className='flex items-center gap-2 text-xl font-black uppercase'>
+          <LayoutDashboard size={16} /> Dashboard
+        </h2>
         <button
           onClick={toggleCustomize}
-          className='px-4 py-2 bg-red-800 text-white rounded'
+          style={{ backgroundColor: teamColor }}
+          className='px-4 py-2 text-white rounded'
         >
-          {customizeMode ? 'Done Customizing' : 'Customize'}
+          {customizeMode ? <Save size={16} /> : <Puzzle size={16} />}
         </button>
       </div>
 
@@ -152,7 +165,10 @@ export default function DashboardLayout({ mode }: DashboardLayoutProps) {
               )}
             >
               <div className='flex justify-between items-center'>
-                <div className='flex items-center justify-between w-full pr-2 bg-red-800 rounded-t'>
+                <div
+                  style={{ backgroundColor: teamColor + '80' }}
+                  className='flex items-center justify-between w-full pr-2 rounded-t'
+                >
                   <div className='drag-handle p-2 w-full'>
                     <h3 className='text-sm uppercase font-bold'>{mod.name}</h3>
                   </div>

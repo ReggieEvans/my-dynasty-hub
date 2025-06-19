@@ -1,12 +1,12 @@
-import { QuickActions } from "./QuickActions";
-import { RecentAwards } from "./RecentAwards";
-import { RecentTrophies } from "./RecentTrophies";
-import { Standings } from "./Standings";
-import { TeamOverview } from "./TeamOverview";
-import { TopPlayers } from "./TopPlayers";
-import { TopRecruits } from "./TopRecruits";
+import { QuickActions } from './QuickActions';
+import { RecentAwards } from './RecentAwards';
+import { RecentTrophies } from './RecentTrophies';
+import { Standings } from './Standings';
+import { TeamOverview } from './TeamOverview';
+import { TopPlayers } from './TopPlayers';
+import { TopRecruits } from './TopRecruits';
 
-export type DashboardMode = "immersive" | "essentials";
+export type DashboardMode = 'immersive' | 'essentials';
 
 export type DashboardModule = {
   id: string;
@@ -22,59 +22,59 @@ export type DashboardModule = {
 export const dashboardModules: Record<DashboardMode, DashboardModule[]> = {
   immersive: [
     {
-      id: "quickActions",
-      name: "Quick Actions",
+      id: 'quickActions',
+      name: 'Quick Actions',
       component: QuickActions,
       removable: false,
       draggable: false,
-      defaultHeight: 6,
-      defaultWidth: 3,
+      defaultHeight: 12,
+      defaultWidth: 2,
     },
     {
-      id: "teamOverview",
-      name: "Team Overview",
+      id: 'teamOverview',
+      name: 'Team Overview',
       component: TeamOverview,
       removable: false,
       draggable: false,
+      defaultHeight: 12,
+      defaultWidth: 4,
+    },
+    {
+      id: 'standings',
+      name: 'Standings',
+      component: Standings,
+      removable: true,
+      draggable: true,
       defaultHeight: 6,
       defaultWidth: 3,
     },
     {
-      id: "topRecruits",
-      name: "Top Recruits",
+      id: 'topRecruits',
+      name: 'Top Recruits',
       component: TopRecruits,
       removable: true,
       draggable: true,
-      defaultHeight: 4,
+      defaultHeight: 6,
       defaultWidth: 3,
-      navLink: "/dashboard/recruits",
+      navLink: '/dashboard/recruits',
     },
     {
-      id: "topPlayers",
-      name: "Top Players",
+      id: 'topPlayers',
+      name: 'Top Players',
       component: TopPlayers,
       removable: true,
       draggable: true,
-      defaultHeight: 4,
+      defaultHeight: 6,
       defaultWidth: 3,
-      navLink: "/dashboard/roster",
+      navLink: '/dashboard/roster',
     },
     {
-      id: "standings",
-      name: "Standings",
-      component: Standings,
-      removable: true,
-      draggable: true,
-      defaultHeight: 4,
-      defaultWidth: 3,
-    },
-    {
-      id: "recentAwards",
-      name: "Recent Awards",
+      id: 'recentAwards',
+      name: 'Recent Awards',
       component: RecentAwards,
       removable: true,
       draggable: true,
-      defaultHeight: 4,
+      defaultHeight: 6,
       defaultWidth: 3,
     },
 
@@ -82,8 +82,8 @@ export const dashboardModules: Record<DashboardMode, DashboardModule[]> = {
   ],
   essentials: [
     {
-      id: "quickActions",
-      name: "Quick Actions",
+      id: 'quickActions',
+      name: 'Quick Actions',
       component: QuickActions,
       removable: false,
       draggable: false,
@@ -91,8 +91,8 @@ export const dashboardModules: Record<DashboardMode, DashboardModule[]> = {
       defaultWidth: 4,
     },
     {
-      id: "standings",
-      name: "Standings",
+      id: 'standings',
+      name: 'Standings',
       component: Standings,
       removable: false,
       draggable: true,
@@ -100,8 +100,8 @@ export const dashboardModules: Record<DashboardMode, DashboardModule[]> = {
       defaultWidth: 4,
     },
     {
-      id: "recentTrophies",
-      name: "Recent Trophies",
+      id: 'recentTrophies',
+      name: 'Recent Trophies',
       component: RecentTrophies,
       removable: true,
       draggable: true,
