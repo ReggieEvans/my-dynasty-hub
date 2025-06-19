@@ -27,7 +27,7 @@ export const dashboardModules: Record<DashboardMode, DashboardModule[]> = {
       component: QuickActions,
       removable: false,
       draggable: false,
-      defaultHeight: 13,
+      defaultHeight: 15,
       defaultWidth: 2,
     },
     {
@@ -36,7 +36,7 @@ export const dashboardModules: Record<DashboardMode, DashboardModule[]> = {
       component: TeamOverview,
       removable: false,
       draggable: false,
-      defaultHeight: 13,
+      defaultHeight: 15,
       defaultWidth: 4,
     },
     {

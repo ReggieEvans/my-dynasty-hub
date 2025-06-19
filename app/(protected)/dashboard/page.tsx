@@ -40,8 +40,6 @@ export default function DashboardPage() {
     return <SetupDynastyPrompt has_created_dynasty={user.hasCreatedDynasty} />;
   }
 
-  console.log(dynastyTeam);
-
   return (
     <div className="w-full">
       <div
@@ -104,7 +102,12 @@ export default function DashboardPage() {
           />
         </div>
       </div>
-      <DashboardGrid mode="immersive" teamColor={dynastyTeam?.primary_color} />
+      <DashboardGrid
+        mode="immersive"
+        teamColor={dynastyTeam?.primary_color}
+        activeDynasty={activeDynasty}
+        teamId={dynastyTeam.id}
+      />
     </div>
   );
 }

@@ -4,6 +4,7 @@ import { baseApi } from "./api/baseApi";
 import { baseTeamsApi } from "./api/baseTeamsApi";
 import { dynastyApi } from "./api/dynastyApi";
 import { profileApi } from "./api/profileApi";
+import { teamOverviewApi } from "./api/teamOverviewApi";
 import { authSlice } from "./slices/authSlice";
 
 const rootReducer = combineReducers({
@@ -12,6 +13,7 @@ const rootReducer = combineReducers({
   [baseApi.reducerPath]: baseApi.reducer,
   [baseTeamsApi.reducerPath]: baseTeamsApi.reducer,
   [dynastyApi.reducerPath]: dynastyApi.reducer,
+  [teamOverviewApi.reducerPath]: teamOverviewApi.reducer,
 });
 
 export const loadState = () => {
@@ -41,6 +43,7 @@ export const store = configureStore({
       baseApi.middleware,
       baseTeamsApi.middleware,
       dynastyApi.middleware,
+      teamOverviewApi.middleware,
     ),
   preloadedState: typeof window !== "undefined" ? loadState() : undefined,
   devTools: process.env.NODE_ENV !== "production",

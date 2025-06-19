@@ -32,11 +32,15 @@ const rowHeight = 30;
 type DashboardLayoutProps = {
   mode: DashboardMode;
   teamColor: string;
+  activeDynasty: any;
+  teamId: string;
 };
 
 export default function DashboardLayout({
   mode,
   teamColor,
+  activeDynasty,
+  teamId,
 }: DashboardLayoutProps) {
   const [customizeMode, setCustomizeMode] = useState(false);
   const [currentBreakpoint, setCurrentBreakpoint] = useState<string>("lg");
@@ -59,7 +63,6 @@ export default function DashboardLayout({
   };
 
   const removeModule = (id: string) => {
-    console.log("removeModule", id);
     setVisibleModules((prev) => prev.filter((m) => m !== id));
   };
 
@@ -190,7 +193,11 @@ export default function DashboardLayout({
                 </div>
               </div>
               <div className="drag-handle min-h-[calc(100%-38px)]">
-                <Component teamColor={teamColor} />
+                <Component
+                  teamColor={teamColor}
+                  activeDynasty={activeDynasty}
+                  teamId={teamId}
+                />
               </div>
             </div>
           );
