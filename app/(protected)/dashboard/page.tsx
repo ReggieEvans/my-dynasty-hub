@@ -5,13 +5,13 @@ import { useSelector } from "react-redux";
 
 import Loading from "@/components/Loading";
 import Prestige from "@/components/Prestige";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { RootState } from "@/store";
 import {
   useGetActiveDynastyQuery,
   useGetUserTeamByDynastyIdQuery,
 } from "@/store/api/dynastyApi";
 
+import DashboardGrid from "./components/DashboardGrid";
 import SetupDynastyPrompt from "./components/SetupDynastyPrompt";
 
 export default function DashboardPage() {
@@ -104,6 +104,7 @@ export default function DashboardPage() {
           />
         </div>
       </div>
+      <DashboardGrid mode="immersive" />
     </div>
   );
 }
