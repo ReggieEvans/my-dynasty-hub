@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import {
   Award,
@@ -10,7 +10,7 @@ import {
   Settings,
   Trophy,
   User,
-} from 'lucide-react';
+} from "lucide-react";
 
 import {
   Sidebar,
@@ -20,59 +20,59 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
   useSidebar,
-} from '@/components/ui/sidebar';
+} from "@/components/ui/sidebar";
 
 const data = {
   user: {
-    name: 'shadcn',
-    email: 'm@example.com',
-    avatar: '/avatars/shadcn.jpg',
+    name: "shadcn",
+    email: "m@example.com",
+    avatar: "/avatars/shadcn.jpg",
   },
   navMain: [
     {
-      title: 'Dashboard',
-      url: '#',
+      title: "Dashboard",
+      url: "#",
       icon: LayoutDashboard,
       isActive: true,
     },
     {
-      title: 'Roster',
-      url: '#',
+      title: "Roster",
+      url: "#",
       icon: User,
     },
     {
-      title: 'Recruiting',
-      url: '#',
+      title: "Recruiting",
+      url: "#",
       icon: Clipboard,
     },
     {
-      title: 'Trophy Case',
-      url: '#',
+      title: "Trophy Case",
+      url: "#",
       icon: Trophy,
     },
     {
-      title: 'Awards',
-      url: '#',
+      title: "Awards",
+      url: "#",
       icon: Award,
     },
     {
-      title: 'Record Book',
-      url: '#',
+      title: "Record Book",
+      url: "#",
       icon: BookOpen,
     },
     {
-      title: 'Alumni',
-      url: '#',
+      title: "Alumni",
+      url: "#",
       icon: GraduationCap,
     },
     {
-      title: 'History',
-      url: '#',
+      title: "History",
+      url: "#",
       icon: FolderCheck,
     },
     {
-      title: 'Settings',
-      url: '#',
+      title: "Settings",
+      url: "#",
       icon: Settings,
     },
   ],
@@ -80,14 +80,14 @@ const data = {
 
 export function AppSidebar() {
   return (
-    <Sidebar collapsible='icon' className='mt-[68px] h-[calc(100vh-68px)]'>
-      <SidebarContent className='bg-card p-2'>
+    <Sidebar collapsible="icon" className="mt-[68px] h-[calc(100vh-68px)]">
+      <SidebarContent className="bg-card p-2">
         <SidebarMenu>
           {data.navMain.map((item) => (
-            <SidebarMenuItem key={item.title} className='py-1'>
+            <SidebarMenuItem key={item.title} className="py-1">
               <SidebarMenuButton tooltip={item.title}>
-                {item.icon && <item.icon />}
-                <span className='ml-1'>{item.title}</span>
+                {item.icon && <item.icon className="text-muted" />}
+                <span className="ml-1">{item.title}</span>
               </SidebarMenuButton>
             </SidebarMenuItem>
           ))}

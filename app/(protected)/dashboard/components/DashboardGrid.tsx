@@ -1,27 +1,27 @@
-'use client';
+"use client";
 
-import 'react-grid-layout/css/styles.css';
-import 'react-resizable/css/styles.css';
+import "react-grid-layout/css/styles.css";
+import "react-resizable/css/styles.css";
 
 import {
+  LayoutDashboard,
   Puzzle,
   Save,
   SquareArrowRight,
   Trash2,
-  LayoutDashboard,
-} from 'lucide-react';
-import Link from 'next/link';
-import React, { useEffect, useMemo, useState } from 'react';
-import { Responsive, WidthProvider } from 'react-grid-layout';
+} from "lucide-react";
+import Link from "next/link";
+import React, { useEffect, useMemo, useState } from "react";
+import { Responsive, WidthProvider } from "react-grid-layout";
 
-import { cn } from '@/lib/utils';
+import { cn } from "@/lib/utils";
 
 import {
   type DashboardMode,
   dashboardModules,
-} from '../modules/dashboardModules';
-import { getAllModules } from '../modules/getAllModules';
-import ModulePicker from './ModulePicker';
+} from "../modules/dashboardModules";
+import { getAllModules } from "../modules/getAllModules";
+import ModulePicker from "./ModulePicker";
 
 const ResponsiveGridLayout = WidthProvider(Responsive);
 
@@ -39,13 +39,13 @@ export default function DashboardLayout({
   teamColor,
 }: DashboardLayoutProps) {
   const [customizeMode, setCustomizeMode] = useState(false);
-  const [currentBreakpoint, setCurrentBreakpoint] = useState<string>('lg');
+  const [currentBreakpoint, setCurrentBreakpoint] = useState<string>("lg");
   const [mounted, setMounted] = useState(false);
   const [toolbox, setToolbox] = useState<{ [index: string]: any[] }>({
     lg: [],
   });
   const [visibleModules, setVisibleModules] = useState<string[]>(
-    dashboardModules[mode].map((m) => m.id)
+    dashboardModules[mode].map((m) => m.id),
   );
 
   useEffect(() => {
@@ -59,7 +59,7 @@ export default function DashboardLayout({
   };
 
   const removeModule = (id: string) => {
-    console.log('removeModule', id);
+    console.log("removeModule", id);
     setVisibleModules((prev) => prev.filter((m) => m !== id));
   };
 
@@ -108,22 +108,22 @@ export default function DashboardLayout({
   }, [visibleModules, allModules]);
 
   return (
-    <div className='p-4'>
-      <div className='flex justify-between items-center mb-2 px-4'>
-        <h2 className='flex items-center gap-2 text-xl font-black uppercase'>
+    <div className="p-4">
+      <div className="flex justify-between items-center mb-2 px-4">
+        <h2 className="flex items-center gap-2 text-xl font-black uppercase">
           <LayoutDashboard size={16} /> Dashboard
         </h2>
         <button
           onClick={toggleCustomize}
           style={{ backgroundColor: teamColor }}
-          className='px-4 py-2 text-white rounded'
+          className="px-4 py-2 text-white rounded"
         >
           {customizeMode ? <Save size={16} /> : <Puzzle size={16} />}
         </button>
       </div>
 
       {customizeMode && (
-        <div className='px-2'>
+        <div className="px-2">
           <ModulePicker
             visibleModules={visibleModules}
             onAdd={(id) => {
@@ -136,7 +136,7 @@ export default function DashboardLayout({
       )}
 
       <ResponsiveGridLayout
-        className='layout'
+        className="layout"
         breakpoints={breakpoints}
         cols={cols}
         measureBeforeMount={false}
@@ -145,7 +145,7 @@ export default function DashboardLayout({
         isDraggable={customizeMode}
         isResizable={false}
         onBreakpointChange={onBreakpointChange}
-        draggableHandle='.drag-handle'
+        draggableHandle=".drag-handle"
       >
         {layoutItems.map(({ i, ...dataGrid }) => {
           const mod = allModules.find((m) => m.id === i);
@@ -157,40 +157,40 @@ export default function DashboardLayout({
               key={i}
               data-grid={dataGrid}
               className={cn(
-                'bg-card border rounded shadow',
-                'border-border',
+                "bg-card border rounded shadow",
+                "border-border",
                 customizeMode &&
                   mod.removable &&
-                  'border-primary-gradient border-2 border-dashed hover:border-primary'
+                  "border-primary-gradient border-2 border-dashed hover:border-primary",
               )}
             >
-              <div className='flex justify-between items-center'>
+              <div className="flex justify-between items-center">
                 <div
-                  style={{ backgroundColor: teamColor + '80' }}
-                  className='flex items-center justify-between w-full pr-2 rounded-t'
+                  // style={{ backgroundColor: teamColor }}
+                  className="flex items-center justify-between w-full pr-2 rounded-t bg-background-secondary"
                 >
-                  <div className='drag-handle p-2 w-full'>
-                    <h3 className='text-sm uppercase font-bold'>{mod.name}</h3>
+                  <div className="drag-handle p-2 w-full">
+                    <h3 className="text-xs uppercase font-bold">{mod.name}</h3>
                   </div>
 
                   {customizeMode && mod.removable ? (
                     <button
                       onClick={() => removeModule(i)}
-                      className='text-sm rounded-md p-1'
+                      className="text-sm rounded-md p-1"
                     >
                       <Trash2 size={16} />
                     </button>
                   ) : (
                     mod.navLink && (
                       <Link href={mod.navLink}>
-                        <SquareArrowRight className='w-4 h-4' />
+                        <SquareArrowRight className="w-4 h-4" />
                       </Link>
                     )
                   )}
                 </div>
               </div>
-              <div className='drag-handle min-h-[calc(100%-38px)]'>
-                <Component />
+              <div className="drag-handle min-h-[calc(100%-38px)]">
+                <Component teamColor={teamColor} />
               </div>
             </div>
           );
