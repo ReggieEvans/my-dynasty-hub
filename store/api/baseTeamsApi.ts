@@ -1,10 +1,8 @@
-import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-
 import { BaseTeam } from "@/types";
 
-export const baseTeamsApi = createApi({
-  reducerPath: "baseTeamsApi",
-  baseQuery: fetchBaseQuery({ baseUrl: "/api" }),
+import { baseApi } from "./baseApi";
+
+export const baseTeamsApi = baseApi.injectEndpoints({
   endpoints: (builder) => ({
     getBaseTeams: builder.query<BaseTeam[], void>({
       query: () => "base-teams",

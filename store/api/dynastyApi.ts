@@ -1,19 +1,28 @@
-import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-
+import { ActiveDynasty } from "@/types/activeDynasty";
+import { DynastyTeam } from "@/types/dynastyTeam";
 import { createClient } from "@/utils/supabase/client";
 
-// import { Dynasty } from "@/types";
+import { setActiveDynasty, setUserDynastyTeam } from "../slices/dynastySlice";
+import { baseApi } from "./baseApi";
 
-export const dynastyApi = createApi({
-  reducerPath: "dynastyApi",
-  baseQuery: fetchBaseQuery({ baseUrl: "/api" }),
-  tagTypes: ["Dynasty"],
+export const dynastyApi = baseApi.injectEndpoints({
   endpoints: (builder) => ({
-    getActiveDynasty: builder.query<any | null, void>({
+    getActiveDynasty: builder.query<ActiveDynasty | null, void>({
       query: () => "dynasty/active",
       providesTags: [{ type: "Dynasty", id: "LIST" }],
+
+      async onQueryStarted(_, { dispatch, queryFulfilled }) {
+        try {
+          const { data } = await queryFulfilled;
+          if (data) {
+            dispatch(setActiveDynasty(data));
+          }
+        } catch (err) {
+          console.error("Failed to load active dynasty", err);
+        }
+      },
     }),
-    getUserTeamByDynastyId: builder.query<any, string>({
+    getUserTeamByDynastyId: builder.query<DynastyTeam, string>({
       queryFn: async (dynastyId) => {
         const supabase = createClient();
         const { data, error } = await supabase
@@ -27,6 +36,16 @@ export const dynastyApi = createApi({
         return { data };
       },
       providesTags: [{ type: "Dynasty", id: "LIST" }],
+      async onQueryStarted(dynastyId, { dispatch, queryFulfilled }) {
+        try {
+          const { data } = await queryFulfilled;
+          if (data) {
+            dispatch(setUserDynastyTeam(data));
+          }
+        } catch (err) {
+          console.error("Failed to load user team", err);
+        }
+      },
     }),
     createDynasty: builder.mutation<
       string,

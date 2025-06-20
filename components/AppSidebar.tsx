@@ -86,7 +86,7 @@ export function AppSidebar() {
           {data.navMain.map((item) => (
             <SidebarMenuItem key={item.title} className="py-1">
               <SidebarMenuButton tooltip={item.title}>
-                {item.icon && <item.icon />}
+                {item.icon && <item.icon className="text-muted" />}
                 <span className="ml-1">{item.title}</span>
               </SidebarMenuButton>
             </SidebarMenuItem>

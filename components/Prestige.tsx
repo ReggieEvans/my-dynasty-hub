@@ -41,12 +41,23 @@ export default function Prestige({
   // Half star
   if (hasHalfStar) {
     stars.push(
-      <StarHalf
+      <span
         key="half"
-        size={iconSize}
-        fill="#ffd700"
-        className="text-[#ffd700]"
-      />,
+        className="relative inline-block"
+        style={{ width: iconSize, height: iconSize }}
+      >
+        {/* Empty star (background) */}
+        <Star size={iconSize} className="text-[#ffd700]" fill="none" />
+        {/* Right half-filled star (foreground) */}
+        <Star
+          size={iconSize}
+          className="text-[#ffd700] absolute top-0 left-0"
+          fill="#ffd700"
+          style={{
+            clipPath: "inset(0 50% 0 0)", // Show only right half
+          }}
+        />
+      </span>,
     );
   }
 

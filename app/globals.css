@@ -76,6 +76,10 @@ body {
   .btn-primary {
     @apply bg-gradient-to-br from-primary to-primary-gradient w-full text-foreground font-semibold p-6 rounded hover:brightness-90 transition-all duration-300;
   }
+
+  .btn-action {
+    @apply flex items-center gap-4 w-full hover:bg-background-secondary rounded-md p-2 transition-all duration-300
+  }
 }
 
 

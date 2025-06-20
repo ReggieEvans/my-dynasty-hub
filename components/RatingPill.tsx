@@ -36,7 +36,7 @@ export function RatingPill({
         variant === "pill" && "text-white",
       )}
     >
-      {value ?? "--"}
+      {value ? value.toFixed(0) : "--"}
     </span>
   );
 }
