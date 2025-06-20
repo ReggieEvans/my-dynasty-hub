@@ -1,4 +1,4 @@
-import { TeamOverviewRow } from "@/types/TeamOverview";
+import { TeamOverviewRow } from "@/types/teamOverview";
 
 export function sumRows(rows: TeamOverviewRow[]): TeamOverviewRow {
   return {

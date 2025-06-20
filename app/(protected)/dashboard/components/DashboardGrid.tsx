@@ -13,8 +13,10 @@ import {
 import Link from "next/link";
 import React, { useEffect, useMemo, useState } from "react";
 import { Responsive, WidthProvider } from "react-grid-layout";
+import { useSelector } from "react-redux";
 
 import { cn } from "@/lib/utils";
+import { RootState } from "@/store";
 
 import {
   type DashboardMode,
@@ -31,17 +33,9 @@ const rowHeight = 30;
 
 type DashboardLayoutProps = {
   mode: DashboardMode;
-  teamColor: string;
-  activeDynasty: any;
-  teamId: string;
 };
 
-export default function DashboardLayout({
-  mode,
-  teamColor,
-  activeDynasty,
-  teamId,
-}: DashboardLayoutProps) {
+export default function DashboardLayout({ mode }: DashboardLayoutProps) {
   const [customizeMode, setCustomizeMode] = useState(false);
   const [currentBreakpoint, setCurrentBreakpoint] = useState<string>("lg");
   const [mounted, setMounted] = useState(false);
@@ -51,7 +45,9 @@ export default function DashboardLayout({
   const [visibleModules, setVisibleModules] = useState<string[]>(
     dashboardModules[mode].map((m) => m.id),
   );
-
+  const userDynastyTeam = useSelector(
+    (state: RootState) => state.dynasty.userDynastyTeam,
+  );
   useEffect(() => {
     setMounted(true);
   }, []);
@@ -118,7 +114,7 @@ export default function DashboardLayout({
         </h2>
         <button
           onClick={toggleCustomize}
-          style={{ backgroundColor: teamColor }}
+          style={{ backgroundColor: userDynastyTeam?.primary_color }}
           className="px-4 py-2 text-white rounded"
         >
           {customizeMode ? <Save size={16} /> : <Puzzle size={16} />}
@@ -193,11 +189,7 @@ export default function DashboardLayout({
                 </div>
               </div>
               <div className="drag-handle min-h-[calc(100%-38px)]">
-                <Component
-                  teamColor={teamColor}
-                  activeDynasty={activeDynasty}
-                  teamId={teamId}
-                />
+                <Component />
               </div>
             </div>
           );

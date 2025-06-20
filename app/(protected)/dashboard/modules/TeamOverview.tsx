@@ -2,36 +2,43 @@
 
 import clsx from "clsx";
 import { useState } from "react";
+import { useSelector } from "react-redux";
 
 import Loading from "@/components/Loading";
+import { RatingPill } from "@/components/RatingPill";
+import { RootState } from "@/store";
 import { useGetTeamOverviewQuery } from "@/store/api/teamOverviewApi";
-import { TeamOverviewRow } from "@/types/TeamOverview";
+import { TeamOverviewRow } from "@/types/teamOverview";
 
-import { sumRows } from "./TeamOverviewUtils";
+import { sumRows } from "./teamOverviewUtils";
 
-export const TeamOverview = ({
-  teamColor,
-  activeDynasty,
-  teamId,
-}: {
-  teamColor: string;
-  activeDynasty: any;
-  teamId: string;
-}) => {
+export const TeamOverview = () => {
   const [selectedSide, setSelectedSide] = useState<"offense" | "defense">(
     "offense",
+  );
+
+  const activeDynasty = useSelector(
+    (state: RootState) => state.dynasty.activeDynasty,
+  );
+  const userDynastyTeam = useSelector(
+    (state: RootState) => state.dynasty.userDynastyTeam,
   );
 
   const {
     data: rosterSummary,
     isLoading,
     error,
-  } = useGetTeamOverviewQuery({
-    teamId: teamId,
-    dynastyId: activeDynasty.id,
-    startYear: activeDynasty.start_year, // TODO: get current season year
-    includeRecruiting: true,
-  });
+  } = useGetTeamOverviewQuery(
+    {
+      teamId: userDynastyTeam?.id || "",
+      dynastyId: activeDynasty?.id || "",
+      startYear: activeDynasty?.start_year || 0, // TODO: get current season year
+      includeRecruiting: true,
+    },
+    {
+      skip: !userDynastyTeam || !activeDynasty,
+    },
+  );
 
   if (isLoading) return <Loading text="Loading roster..." />;
   if (error)
@@ -53,9 +60,9 @@ export const TeamOverview = ({
   const displayedRows = [...activeRows, topSummary, totalSummary];
 
   return (
-    <div className="overflow-x-auto border rounded-lg">
+    <div className="overflow-x-auto border rounded p-2">
       <table className="min-w-full text-sm text-left">
-        <thead className="bg-muted">
+        <thead className="bg-background font-bold uppercase text-xs border-b border-border">
           <tr>
             <th className="px-4 py-2">Position</th>
             <th className="px-2 py-2 text-center">FR</th>
@@ -83,6 +90,7 @@ export const TeamOverview = ({
               <tr
                 key={`${row.position_code}-${idx}`}
                 className={clsx(
+                  "even:bg-background border-b border-border",
                   isTopSummary && "bg-muted/70 font-semibold",
                   isBottomSummary &&
                     "bg-accent font-bold text-accent-foreground border-t",
@@ -102,8 +110,8 @@ export const TeamOverview = ({
                 <td className="px-2 text-center">{row.total}</td>
                 <td className="px-2 text-center">
                   {row.total > 0 ? (
-                    <span className="inline-flex items-center px-2 py-1 rounded-md text-xs font-medium bg-muted text-muted-foreground">
-                      {row.avg_rating.toFixed(1)}
+                    <span className="inline-flex items-center rounded text-xs font-medium text-foreground">
+                      <RatingPill value={row.avg_rating} />
                     </span>
                   ) : (
                     "-"

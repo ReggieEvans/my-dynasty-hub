@@ -11,7 +11,7 @@ export type DashboardMode = "immersive" | "essentials";
 export type DashboardModule = {
   id: string;
   name: string;
-  component: React.ComponentType<{ teamColor: string }>;
+  component: React.ComponentType;
   removable: boolean;
   draggable: boolean;
   defaultWidth?: number;

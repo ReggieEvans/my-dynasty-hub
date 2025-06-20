@@ -20,7 +20,7 @@ export function SidebarLayout({ children }: { children: React.ReactNode }) {
     <SidebarProvider open={open} onOpenChange={setOpen}>
       <AppSidebar />
       <div className="flex flex-col mt-[68px] w-full px-4 pb-8">
-        <div className="flex items-center mt-1">
+        <div className="flex items-center my-1">
           <SidebarTrigger />
           <Separator
             orientation="vertical"

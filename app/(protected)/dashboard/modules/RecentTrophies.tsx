@@ -1,3 +1,3 @@
-export const RecentTrophies = ({ teamColor }: { teamColor: string }) => {
+export const RecentTrophies = () => {
   return <div>Recent Trophies</div>;
 };

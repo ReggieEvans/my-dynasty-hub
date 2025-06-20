@@ -1,3 +1,3 @@
-export const TopPlayers = ({ teamColor }: { teamColor: string }) => {
+export const TopPlayers = () => {
   return <div>Top Players</div>;
 };

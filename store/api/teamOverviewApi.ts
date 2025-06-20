@@ -1,19 +1,16 @@
-import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-
-import { TeamOverviewRow } from "@/types/TeamOverview";
+import { TeamOverviewRow } from "@/types/teamOverview";
 import { createClient } from "@/utils/supabase/client";
 
-export const teamOverviewApi = createApi({
-  reducerPath: "teamOverviewApi",
-  baseQuery: fetchBaseQuery({ baseUrl: "/api" }),
-  tagTypes: ["TeamOverview"],
+import { baseApi } from "./baseApi";
+
+export const teamOverviewApi = baseApi.injectEndpoints({
   endpoints: (builder) => ({
     getTeamOverview: builder.query<
       TeamOverviewRow[],
       {
         teamId: string;
-        dynastyId: number;
-        startYear: string;
+        dynastyId: string;
+        startYear: number;
         includeRecruiting: boolean;
       }
     >({
