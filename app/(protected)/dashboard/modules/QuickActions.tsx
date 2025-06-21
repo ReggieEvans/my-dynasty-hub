@@ -1,7 +1,6 @@
 import {
   Award,
   BookOpenCheck,
-  Calendar,
   NotebookPen,
   Trophy,
   UserPlus,
@@ -71,18 +70,6 @@ export const QuickActions = () => {
           <BookOpenCheck size={16} className="text-foreground" />
         </span>
         <span className="text-sm font-medium">Break Record</span>
-      </button>
-      <div className="flex flex-col">
-        <div className="w-full h-[1px] my-2 bg-border" />
-      </div>
-      <button className="btn-action">
-        <span
-          style={{ backgroundColor: userDynastyTeam?.primary_color }}
-          className="bg-background-secondary rounded-md p-2 border border-border"
-        >
-          <Calendar size={16} className="text-foreground" />
-        </span>
-        <span className="text-sm font-medium">Advance Season</span>
       </button>
     </div>
   );

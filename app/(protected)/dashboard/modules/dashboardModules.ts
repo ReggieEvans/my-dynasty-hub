@@ -1,3 +1,4 @@
+import { AdvanceSeason } from "./AdvanceSeason";
 import { QuickActions } from "./QuickActions";
 import { RecentAwards } from "./RecentAwards";
 import { RecentTrophies } from "./RecentTrophies";
@@ -27,17 +28,8 @@ export const dashboardModules: Record<DashboardMode, DashboardModule[]> = {
       component: QuickActions,
       removable: false,
       draggable: false,
-      defaultHeight: 15,
+      defaultHeight: 12,
       defaultWidth: 2,
-    },
-    {
-      id: "teamOverview",
-      name: "Team Overview",
-      component: TeamOverview,
-      removable: false,
-      draggable: false,
-      defaultHeight: 15,
-      defaultWidth: 4,
     },
     {
       id: "topPlayers",
@@ -45,7 +37,7 @@ export const dashboardModules: Record<DashboardMode, DashboardModule[]> = {
       component: TopPlayers,
       removable: true,
       draggable: true,
-      defaultHeight: 6,
+      defaultHeight: 9,
       defaultWidth: 3,
       navLink: "/dashboard/roster",
     },
@@ -55,9 +47,27 @@ export const dashboardModules: Record<DashboardMode, DashboardModule[]> = {
       component: TopRecruits,
       removable: true,
       draggable: true,
-      defaultHeight: 6,
+      defaultHeight: 9,
       defaultWidth: 3,
       navLink: "/dashboard/recruits",
+    },
+    {
+      id: "teamOverview",
+      name: "Team Overview",
+      component: TeamOverview,
+      removable: false,
+      draggable: true,
+      defaultHeight: 15,
+      defaultWidth: 4,
+    },
+    {
+      id: "advanceSeason",
+      name: "Advance Season",
+      component: AdvanceSeason,
+      removable: false,
+      draggable: true,
+      defaultHeight: 3,
+      defaultWidth: 2,
     },
     {
       id: "recentTrophies",

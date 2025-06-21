@@ -16,6 +16,7 @@ import { Responsive, WidthProvider } from "react-grid-layout";
 import { useSelector } from "react-redux";
 
 import { cn } from "@/lib/utils";
+import { hexToRgba } from "@/lib/utils/hexToRgba";
 import { RootState } from "@/store";
 
 import {
@@ -51,6 +52,15 @@ export default function DashboardLayout({ mode }: DashboardLayoutProps) {
   useEffect(() => {
     setMounted(true);
   }, []);
+
+  const backgroundStyle = userDynastyTeam?.primary_color
+    ? {
+        backgroundColor: hexToRgba(userDynastyTeam.primary_color, 0.3),
+        backdropFilter: "blur(8px)",
+        WebkitBackdropFilter: "blur(8px)",
+        borderColor: userDynastyTeam.secondary_color || "transparent",
+      }
+    : {};
 
   const allModules = getAllModules();
 
@@ -165,11 +175,13 @@ export default function DashboardLayout({ mode }: DashboardLayoutProps) {
             >
               <div className="flex justify-between items-center">
                 <div
-                  // style={{ backgroundColor: teamColor }}
+                  style={backgroundStyle}
                   className="flex items-center justify-between w-full pr-2 rounded-t bg-background-secondary"
                 >
                   <div className="drag-handle p-2 w-full">
-                    <h3 className="text-xs uppercase font-bold">{mod.name}</h3>
+                    <h3 className="text-xs uppercase font-black text-foreground">
+                      {mod.name}
+                    </h3>
                   </div>
 
                   {customizeMode && mod.removable ? (
