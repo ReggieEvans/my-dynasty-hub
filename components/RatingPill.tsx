@@ -43,7 +43,7 @@ export function RatingPill({
 
 // Static, purge-safe Tailwind class mappings
 function getColor(value: number | undefined, variant: "pill" | "text") {
-  if (value === undefined || value < 60)
+  if (value === undefined || value < 65)
     return variant === "pill" ? "bg-red-600" : "text-red-600";
   if (value < 70)
     return variant === "pill" ? "bg-orange-500" : "text-orange-500";
