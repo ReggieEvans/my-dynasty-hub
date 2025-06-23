@@ -1,6 +1,7 @@
 import { redirect } from "next/navigation";
 
 import Header from "@/components/Header";
+import { SidebarLayout } from "@/components/SidebarLayout";
 import { createServerSupabaseClient } from "@/utils/supabase/server";
 
 export default async function ProtectedLayout({
@@ -12,7 +13,6 @@ export default async function ProtectedLayout({
   const {
     data: { user },
   } = await supabase.auth.getUser();
-
   if (!user) {
     redirect("/login");
   }
@@ -20,7 +20,9 @@ export default async function ProtectedLayout({
   return (
     <>
       <Header />
-      <main>{children}</main>
+      <SidebarLayout>
+        <main>{children}</main>
+      </SidebarLayout>
     </>
   );
 }

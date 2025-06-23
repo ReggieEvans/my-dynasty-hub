@@ -3,11 +3,13 @@ import { combineReducers, configureStore } from "@reduxjs/toolkit";
 import { baseApi } from "./api/baseApi";
 import { profileApi } from "./api/profileApi";
 import { authSlice } from "./slices/authSlice";
+import { dynastySlice } from "./slices/dynastySlice";
 
 const rootReducer = combineReducers({
   auth: authSlice.reducer,
   [profileApi.reducerPath]: profileApi.reducer,
   [baseApi.reducerPath]: baseApi.reducer,
+  dynasty: dynastySlice.reducer,
 });
 
 export const loadState = () => {
@@ -15,7 +17,7 @@ export const loadState = () => {
     const serializedState = localStorage.getItem("authState");
     if (serializedState === null) return undefined;
     return JSON.parse(serializedState);
-  } catch (err) {
+  } catch {
     return undefined;
   }
 };
@@ -32,7 +34,7 @@ export const saveState = (state: RootState) => {
 export const store = configureStore({
   reducer: rootReducer,
   middleware: (getDefaultMiddleware) =>
-    getDefaultMiddleware().concat(profileApi.middleware, baseApi.middleware),
+    getDefaultMiddleware().concat(baseApi.middleware),
   preloadedState: typeof window !== "undefined" ? loadState() : undefined,
   devTools: process.env.NODE_ENV !== "production",
 });

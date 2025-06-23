@@ -1,17 +1,48 @@
 import "./globals.css";
 
 import type { Metadata } from "next";
-import { Roboto } from "next/font/google";
+import localFont from "next/font/local";
 
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import { Toaster } from "@/components/ui/toaster";
 
 import { AppProvider } from "./provider";
 
-const roboto = Roboto({
-  subsets: ["latin"],
-  variable: "--font-sans",
-  weight: ["400", "500", "700", "900"],
+const roboto = localFont({
+  src: [
+    {
+      path: "./fonts/roboto-light.ttf",
+      weight: "300",
+      style: "normal",
+    },
+    {
+      path: "./fonts/roboto-regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "./fonts/roboto-medium.ttf",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "./fonts/roboto-semibold.ttf",
+      weight: "600",
+      style: "bold",
+    },
+    {
+      path: "./fonts/roboto-bold.ttf",
+      weight: "700",
+      style: "bold",
+    },
+    {
+      path: "./fonts/roboto-black.ttf",
+      weight: "900",
+      style: "bold",
+    },
+  ],
+  variable: "--font-roboto",
+  display: "swap",
 });
 
 export const metadata: Metadata = {

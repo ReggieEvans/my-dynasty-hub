@@ -3,46 +3,64 @@
 @tailwind utilities;
 
 body {
-  background: url("/main-bg.webp") no-repeat center center fixed;
+  background: url('/main-bg.webp') no-repeat center center fixed;
   background-size: cover;
 }
 
 @layer base {
   :root {
     --background: #121212;
-    --foreground: #FAFAFA;
+    --background-secondary: #242424;
+    --foreground: #fafafa;
     --card: #171717;
-    --card-foreground: #FAFAFA;
+    --card-foreground: #fafafa;
     --popover: #242424;
-    --popover-foreground: #FAFAFA;
+    --popover-foreground: #fafafa;
     --primary: #3ecf8e;
-    --primary-foreground: #FAFAFA;
+    --primary-foreground: #fafafa;
     --primary-gradient: #006239;
-    --secondary: #296EB4;
-    --secondary-foreground: #FAFAFA;
+    --secondary: #296eb4;
+    --secondary-foreground: #fafafa;
     --muted: #898989;
     --border: #2e2e2e;
     --input: #2e2e2e;
-    --icon: #B4B4B4;
-    --destructive: #C3423F;
+    --icon: #b4b4b4;
+    --destructive: #c3423f;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
   }
   .dark {
     --background: #121212;
-    --foreground: #FAFAFA;
+    --background-secondary: #242424;
+    --foreground: #fafafa;
     --card: #171717;
-    --card-foreground: #FAFAFA;
+    --card-foreground: #fafafa;
     --popover: #242424;
-    --popover-foreground: #FAFAFA;
+    --popover-foreground: #fafafa;
     --primary: #3ecf8e;
-    --primary-foreground: #FAFAFA;
+    --primary-foreground: #fafafa;
     --primary-gradient: #006239;
-    --secondary: #296EB4;
-    --secondary-foreground: #FAFAFA;
+    --secondary: #296eb4;
+    --secondary-foreground: #fafafa;
     --muted: #898989;
     --border: #2e2e2e;
     --input: #2e2e2e;
-    --icon: #B4B4B4;
-    --destructive: #C3423F;
+    --icon: #b4b4b4;
+    --destructive: #c3423f;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
   }
 }
 
@@ -53,5 +71,24 @@ body {
   }
   body {
     @apply text-foreground;
+  }
+
+  .btn-primary {
+    @apply bg-gradient-to-br from-primary to-primary-gradient w-full text-foreground font-semibold p-6 rounded hover:brightness-90 transition-all duration-300;
+  }
+
+  .btn-action {
+    @apply flex items-center gap-4 w-full hover:bg-background-secondary rounded-md p-2 transition-all duration-300
+  }
+}
+
+
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
   }
 }
