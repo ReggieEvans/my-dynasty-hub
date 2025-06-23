@@ -11,32 +11,32 @@ import { AppProvider } from "./provider";
 const roboto = localFont({
   src: [
     {
-      path: "./fonts/Roboto-Light.ttf",
+      path: "./fonts/roboto-light.ttf",
       weight: "300",
       style: "normal",
     },
     {
-      path: "./fonts/Roboto-Regular.ttf",
+      path: "./fonts/roboto-regular.ttf",
       weight: "400",
       style: "normal",
     },
     {
-      path: "./fonts/Roboto-Medium.ttf",
+      path: "./fonts/roboto-medium.ttf",
       weight: "500",
       style: "normal",
     },
     {
-      path: "./fonts/Roboto-Semibold.ttf",
+      path: "./fonts/roboto-semibold.ttf",
       weight: "600",
       style: "bold",
     },
     {
-      path: "./fonts/Roboto-Bold.ttf",
+      path: "./fonts/roboto-bold.ttf",
       weight: "700",
       style: "bold",
     },
     {
-      path: "./fonts/Roboto-Black.ttf",
+      path: "./fonts/roboto-black.ttf",
       weight: "900",
       style: "bold",
     },

@@ -44,18 +44,16 @@ export default function RegisterForm() {
     setLoading(true);
     const { email, password, displayName } = data;
 
-    const { data: signUpData, error: signUpError } = await supabase.auth.signUp(
-      {
-        email,
-        password,
-        options: {
-          data: {
-            displayName,
-            avatar_url: null,
-          },
+    const { error: signUpError } = await supabase.auth.signUp({
+      email,
+      password,
+      options: {
+        data: {
+          displayName,
+          avatar_url: null,
         },
       },
-    );
+    });
 
     if (signUpError) {
       toast({

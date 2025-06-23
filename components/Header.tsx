@@ -1,20 +1,11 @@
 "use client";
 
-import { Menu } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { usePathname, useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
-import { Button } from "@/components/ui/button";
-import {
-  Sheet,
-  SheetContent,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from "@/components/ui/sheet";
 import { RootState } from "@/store";
 import { clearAuth } from "@/store/slices/authSlice";
 import { createClient } from "@/utils/supabase/client";
@@ -22,8 +13,6 @@ import { createClient } from "@/utils/supabase/client";
 import { Logout } from "./Logout";
 
 export default function Header() {
-  const pathname = usePathname();
-  const [open, setOpen] = useState(false);
   const displayName = useSelector((state: RootState) => state.auth.displayName);
   const supabase = createClient();
   const dispatch = useDispatch();

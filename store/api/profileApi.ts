@@ -11,7 +11,6 @@ export const profileApi = createApi({
         const supabase = createClient();
         const {
           data: { session },
-          error: sessionError,
         } = await supabase.auth.getSession();
 
         if (!session?.access_token) {

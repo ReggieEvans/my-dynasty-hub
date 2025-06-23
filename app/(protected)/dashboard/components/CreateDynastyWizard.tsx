@@ -90,6 +90,7 @@ export default function CreateDynastyWizard({
         title: "Dynasty created",
         description: "Dynasty created successfully! 🔥",
       });
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } catch (err: any) {
       toast({
         title: "Dynasty creation failed",
