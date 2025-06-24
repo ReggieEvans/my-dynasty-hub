@@ -1,9 +1,10 @@
-import { TeamOverviewRow } from "@/types/teamOverview";
+import { TeamOverviewRow } from "@/types/TeamOverview";
+import { TopPlayer } from "@/types/topPlayer";
 import { createClient } from "@/utils/supabase/client";
 
 import { baseApi } from "./baseApi";
 
-export const teamOverviewApi = baseApi.injectEndpoints({
+export const dashboardApi = baseApi.injectEndpoints({
   endpoints: (builder) => ({
     getTeamOverview: builder.query<
       TeamOverviewRow[],
@@ -30,7 +31,28 @@ export const teamOverviewApi = baseApi.injectEndpoints({
         return { data };
       },
     }),
+    getTopPlayers: builder.query<
+      TopPlayer[],
+      {
+        teamId: string;
+        dynastyId: string;
+      }
+    >({
+      queryFn: async ({ teamId, dynastyId }) => {
+        const supabase = createClient();
+        const { data, error } = await supabase.rpc("get_top_roster_players", {
+          p_team_id: teamId,
+          p_dynasty_id: dynastyId,
+        });
+
+        if (error) {
+          return { error: { status: 500, data: error.message } };
+        }
+
+        return { data };
+      },
+    }),
   }),
 });
 
-export const { useGetTeamOverviewQuery } = teamOverviewApi;
+export const { useGetTeamOverviewQuery, useGetTopPlayersQuery } = dashboardApi;

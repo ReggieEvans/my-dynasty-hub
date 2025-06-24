@@ -8,8 +8,8 @@ import Loading from "@/components/Loading";
 import { RatingPill } from "@/components/RatingPill";
 import { Switch } from "@/components/ui/switch";
 import { RootState } from "@/store";
-import { useGetTeamOverviewQuery } from "@/store/api/teamOverviewApi";
-import { TeamOverviewRow } from "@/types/teamOverview";
+import { useGetTeamOverviewQuery } from "@/store/api/dashboardApi";
+import { TeamOverviewRow } from "@/types/TeamOverview";
 
 import { sumRows } from "./teamOverviewUtils";
 
@@ -44,8 +44,6 @@ export const TeamOverview = () => {
   if (isLoading) return <Loading text="Loading roster..." />;
   if (error)
     return <div className="text-destructive">Failed to load roster</div>;
-
-  console.log(rosterSummary);
 
   const normalized = (rosterSummary?.map((r) => ({
     ...r,
@@ -136,7 +134,7 @@ export const TeamOverview = () => {
                 <td className="px-2 text-center">
                   {row.total > 0 ? (
                     <span className="inline-flex items-center rounded text-xs font-medium text-foreground">
-                      <RatingPill value={row.avg_rating} />
+                      <RatingPill value={row.avg_rating} size="sm" />
                     </span>
                   ) : (
                     "-"
