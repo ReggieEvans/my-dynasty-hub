@@ -4,9 +4,11 @@
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
 
-import FilterSidebar from '@/components/FilterSidebar'
 import teams from '@/data/cfb26-teams-7.20.25.json'
 import { TeamPickerTeam } from '@/types/teamPickerTeam'
+import CountUp from 'react-countup'
+import TeamDetails from '@/components/team-picker/TeamDetails'
+import FilterSidebar from '@/components/team-picker/FilterSidebar'
 
 const keyPathMap: Record<string, string> = {
   conference: 'conference.name',
@@ -115,7 +117,7 @@ export default function LandingPage() {
 
   return (
     <div className="min-h-screen text-foreground">
-      <div className="flex p-12">
+      <div className="flex gap-4 p-12">
         <section className="w-full lg:w-full flex flex-col justify-start items-center">
           {isSpinning && spinnerTeam && (
             <div className="flex justify-center items-center">
@@ -185,7 +187,7 @@ export default function LandingPage() {
                     filteredTeams.length === 0 ? 'text-red-600 animate-[pulse_2.5s_ease-in-out_infinite]' : ''
                   }`}
                 >
-                  {filteredTeams.length}
+                  <CountUp end={filteredTeams.length} duration={0.5} />
                 </span>
               </p>
             </div>
@@ -193,19 +195,16 @@ export default function LandingPage() {
 
           {team && !isSpinning && filteredTeams.length === 0 && (
             <div className="mt-2 text-center">
-              <p className='text-red-600 opacity-90'>
+              <p className="text-red-600 opacity-90">
                 No possible teams. Please adjust your filters or reset to find a team.
               </p>
             </div>
           )}
 
           {team && !isSpinning && (
-            <div className="mt-8 text-center">
-              <h4 className="text-lg font-semibold mb-2">Team Details</h4>
-              <p className="text-sm text-muted-foreground">Conference: {team.conference.name}</p>
-              <p className="text-sm text-muted-foreground">State: {team.state}</p>
-              <p className="text-sm text-muted-foreground">Enrollment: {team.enrollment}</p>
-              <p className="text-sm text-muted-foreground">Prestige: {team.teamData[0].prestige}</p>
+            <div className="w-full py-12">
+              <h3 className="uppercase font-black mb-2 ml-8 text-primary">Team Details</h3>
+              <TeamDetails team={team} />
             </div>
           )}
         </section>

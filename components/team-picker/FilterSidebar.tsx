@@ -1,11 +1,10 @@
-
 import { FilterCategory, filterConfig, FilterOption, gradeToValueMap } from '@/lib/filterConfig'
 import { presetFilters } from '@/lib/presetFilters'
 
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from './ui/accordion'
-import { Label } from './ui/label'
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select'
-import { Separator } from './ui/separator'
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '../ui/accordion'
+import { Label } from '../ui/label'
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../ui/select'
+import { Separator } from '../ui/separator'
 
 interface RangeFilterValue {
   min?: number
@@ -19,8 +18,8 @@ type Filters = {
 interface FilterSidebarProps {
   filters: Filters
   setFilters: (filters: Filters) => void
-  selectedPreset: string;
-  setSelectedPreset: (preset: string) => void;
+  selectedPreset: string
+  setSelectedPreset: (preset: string) => void
 }
 
 const FilterSidebar: React.FC<FilterSidebarProps> = ({ filters, setFilters, selectedPreset, setSelectedPreset }) => {
@@ -60,7 +59,9 @@ const FilterSidebar: React.FC<FilterSidebarProps> = ({ filters, setFilters, sele
   return (
     <aside className="w-full py-4 px-6 bg-card shadow-lg border border-border">
       <div className="flex flex-col mb-4">
-        <h2 className="text-xl font-semibold text-primary">Preset Filters <span className='text-gray-500 font-bold uppercase text-xs'>(Optional)</span></h2>
+        <h2 className="text-xl font-semibold text-primary">
+          Preset Filters <span className="text-gray-500 font-bold uppercase text-xs">(Optional)</span>
+        </h2>
         <Select
           value={selectedPreset}
           onValueChange={presetName => {
@@ -107,7 +108,7 @@ const FilterSidebar: React.FC<FilterSidebarProps> = ({ filters, setFilters, sele
 
                   return (
                     <div key={filter.key} className="mb-4 space-y-1">
-                      <Label className='text-muted uppercase text-xs font-bold'>{filter.label}</Label>
+                      <Label className="text-muted uppercase text-xs font-bold">{filter.label}</Label>
                       {isNumber ? (
                         <div className="flex items-center space-x-2">
                           <Select
