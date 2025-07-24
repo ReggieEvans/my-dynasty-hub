@@ -1329,7 +1329,7 @@
     "name": "Delaware",
     "mascot": "Fightin' Blue Hens",
     "city": "Newark",
-    "state": "Delaware",
+    "state": "DE",
     "colors": [
       "#00539F",
       "#FFD200"
@@ -3561,7 +3561,7 @@
     "name": "Missouri State",
     "mascot": "Bears",
     "city": "Springfield",
-    "state": "Missouri",
+    "state": "MO",
     "colors": [
       "#5E0009",
       "white"

@@ -3,7 +3,7 @@
 
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
-import ConfettiExplosion from "react-confetti-explosion";
+import ConfettiExplosion from 'react-confetti-explosion'
 import CountUp from 'react-countup'
 
 import FilterSidebar from '@/components/team-picker/FilterSidebar'
@@ -188,9 +188,18 @@ export default function LandingPage() {
               {/* Footer */}
               <div className="sticky bottom-0 z-10 bg-background border-t p-4">
                 <DialogClose asChild>
-                  <button className="w-full text-center font-bold bg-muted text-foreground py-2 rounded hover:bg-muted/80 transition">
+                  <div className='flex justify-between gap-4'>
+                  <button
+                    onClick={handleFindTeam}
+                    className="btn-primary w-full font-bold disabled:opacity-50 disabled:cursor-not-allowed"
+                    disabled={filteredTeams.length === 0 || isSpinning}
+                  >
+                    Spin
+                  </button>
+                  <button className="w-full text-center font-bold bg-muted text-foreground p-2 rounded hover:bg-muted/80 transition">
                     Close
                   </button>
+                  </div>
                 </DialogClose>
               </div>
             </DialogContent>
@@ -202,8 +211,8 @@ export default function LandingPage() {
             {isSpinning && spinnerTeam && (
               <div className="flex justify-center items-center">
                 <Image
-                  src='/spinner-wheel.webp'
-                  alt='spinner-wheel'
+                  src="/spinner-wheel.webp"
+                  alt="spinner-wheel"
                   width={480}
                   height={480}
                   className="transition ease-in-out animate-spin"
@@ -239,7 +248,7 @@ export default function LandingPage() {
                   )}
                 </div>
 
-                 {teamPicked && <ConfettiExplosion />}
+                {teamPicked && <ConfettiExplosion />}
 
                 <div className="text-center">
                   <h3 className="font-header text-3xl sm:text-5xl uppercase">{team?.name}</h3>
@@ -256,7 +265,7 @@ export default function LandingPage() {
                     className="btn-primary w-40 font-bold disabled:opacity-50 disabled:cursor-not-allowed"
                     disabled={filteredTeams.length === 0 || isSpinning}
                   >
-                    Reroll
+                    Respin
                   </button>
                 </div>
                 <div>
