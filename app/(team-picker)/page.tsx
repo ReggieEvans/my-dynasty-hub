@@ -207,6 +207,7 @@ export default function LandingPage() {
                   width={480}
                   height={480}
                   className="transition ease-in-out animate-spin"
+                  priority
                 />
               </div>
             )}
@@ -233,9 +234,12 @@ export default function LandingPage() {
                       width={240}
                       height={240}
                       className="mx-auto rounded"
+                      unoptimized
                     />
                   )}
                 </div>
+
+                 {teamPicked && <ConfettiExplosion />}
 
                 <div className="text-center">
                   <h3 className="font-header text-3xl sm:text-5xl uppercase">{team?.name}</h3>
@@ -265,8 +269,6 @@ export default function LandingPage() {
                 </div>
               </div>
             ) : null}
-
-            {teamPicked && <ConfettiExplosion />}
 
             {!isSpinning && (
               <div className="mt-8 uppercase font-black text-2xl text-muted">

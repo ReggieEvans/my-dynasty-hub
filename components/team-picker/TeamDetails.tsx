@@ -50,6 +50,7 @@ export default function TeamDetails({ team }: { team: TeamPickerTeam }) {
                     className="min-w-[60px]"
                     width={60}
                     height={60}
+                    unoptimized
                   />
                 )}
               </div>
