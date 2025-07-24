@@ -30,22 +30,18 @@ export default function Header() {
   };
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-50">
-      <header className="flex items-center justify-between w-full px-12 py-4 h-[68px] bg-card border-b border-border">
+      <header className="flex items-center justify-center md:justify-between w-full px-12 py-4 bg-card border-b border-border">
         <div className="flex items-center gap-4">
           {/* Brand */}
           <Link href="/" className="text-lg font-semibold uppercase">
             <div className="flex justify-center items-end">
               <Image
-                src="/logo-250-30.png"
+                src="/logo-250-31.png"
                 alt="MyDynastyHub Logo"
                 width={250}
-                height={29}
+                height={31}
                 priority
               />
-              <span className="text-[#3ecf8e] uppercase text-xs ml-2 mb-[1px]">
-                beta
-              </span>
             </div>
           </Link>
         </div>
@@ -57,6 +53,5 @@ export default function Header() {
           )}
         </div>
       </header>
-    </div>
   );
 }

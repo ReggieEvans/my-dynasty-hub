@@ -1,0 +1,7222 @@
+[
+  {
+    "id": 623,
+    "name": "Air Force",
+    "mascot": "Falcons",
+    "city": "USAF Academy",
+    "state": "CO",
+    "colors": [
+      "#003594",
+      "#B2B4B2"
+    ],
+    "conference": {
+      "name": "Mountain West"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 69,
+        "defenseOVR": 70,
+        "specialTeamsOVR": 77,
+        "teamOVR": 74,
+        "prestige": 3,
+        "dynastyOffenseOVR": 74,
+        "dynastyDefenseOVR": 66,
+        "dynastyTeamOVR": 70,
+        "roadToCFPTier": 4,
+        "academicPrestige": 11,
+        "athleticFacilities": 2,
+        "brandExposure": 4,
+        "campusLifestyle": 4,
+        "championshipContender": 1,
+        "coachPrestige": 8,
+        "coachStability": 12,
+        "conferencePrestige": 6,
+        "programTradition": 2,
+        "stadiumAtmosphere": 2,
+        "offensiveScheme": "Option",
+        "defensiveScheme": "3-4 Multiple"
+      }
+    ],
+    "enrollment": 4181,
+    "stadium": {
+      "id": 39,
+      "stadium_id": "falcon-stadium-air-force",
+      "school": 1,
+      "name": "Falcon Stadium",
+      "elevation": "2024.88",
+      "capacity": 46692,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1962,
+      "nickname": null
+    },
+    "image": "/team-logos/air-force.webp"
+  },
+  {
+    "id": 624,
+    "name": "Akron",
+    "mascot": "Zips",
+    "city": "Akron",
+    "state": "OH",
+    "colors": [
+      "#041E42",
+      "#A89968"
+    ],
+    "conference": {
+      "name": "MAC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 67,
+        "defenseOVR": 60,
+        "specialTeamsOVR": 70,
+        "teamOVR": 69,
+        "prestige": 1,
+        "dynastyOffenseOVR": 61,
+        "dynastyDefenseOVR": 61,
+        "dynastyTeamOVR": 61,
+        "roadToCFPTier": 5,
+        "academicPrestige": 0,
+        "athleticFacilities": 0,
+        "brandExposure": 2,
+        "campusLifestyle": 4,
+        "championshipContender": 0,
+        "coachPrestige": 6,
+        "coachStability": 4,
+        "conferencePrestige": 3,
+        "programTradition": 0,
+        "stadiumAtmosphere": 2,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 14516,
+    "stadium": {
+      "id": 118,
+      "stadium_id": "summa-field-at-infocision-stadium-akron",
+      "school": 2,
+      "name": "Summa Field at InfoCision Stadium",
+      "elevation": "321.29",
+      "capacity": 30000,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 2009,
+      "nickname": null
+    },
+    "image": "/team-logos/akron.webp"
+  },
+  {
+    "id": 625,
+    "name": "Alabama",
+    "mascot": "Crimson Tide",
+    "city": "Tuscaloosa",
+    "state": "AL",
+    "colors": [
+      "#B30838",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "SEC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 89,
+        "defenseOVR": 96,
+        "specialTeamsOVR": 78,
+        "teamOVR": 89,
+        "prestige": 10,
+        "dynastyOffenseOVR": 94,
+        "dynastyDefenseOVR": 94,
+        "dynastyTeamOVR": 94,
+        "roadToCFPTier": 1,
+        "academicPrestige": 3,
+        "athleticFacilities": 12,
+        "brandExposure": 12,
+        "campusLifestyle": 10,
+        "championshipContender": 11,
+        "coachPrestige": 12,
+        "coachStability": 6,
+        "conferencePrestige": 12,
+        "programTradition": 12,
+        "stadiumAtmosphere": 12,
+        "offensiveScheme": "Multiple Offense",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 38316,
+    "stadium": {
+      "id": 24,
+      "stadium_id": "bryant-denny-stadium-alabama",
+      "school": 3,
+      "name": "Bryant Denny Stadium",
+      "elevation": "70.05",
+      "capacity": 101821,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1929,
+      "nickname": null
+    },
+    "image": "/team-logos/alabama.webp"
+  },
+  {
+    "id": 626,
+    "name": "Appalachian State",
+    "mascot": "Mountaineers",
+    "city": "Boone",
+    "state": "NC",
+    "colors": [
+      "#222222",
+      "#FFCC00"
+    ],
+    "conference": {
+      "name": "Sun Belt"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 69,
+        "defenseOVR": 68,
+        "specialTeamsOVR": 77,
+        "teamOVR": 72,
+        "prestige": 6,
+        "dynastyOffenseOVR": 71,
+        "dynastyDefenseOVR": 71,
+        "dynastyTeamOVR": 71,
+        "roadToCFPTier": 5,
+        "academicPrestige": 2,
+        "athleticFacilities": 2,
+        "brandExposure": 3,
+        "campusLifestyle": 7,
+        "championshipContender": 0,
+        "coachPrestige": 3,
+        "coachStability": 3,
+        "conferencePrestige": 5,
+        "programTradition": 4,
+        "stadiumAtmosphere": 4,
+        "offensiveScheme": "Multiple Offense",
+        "defensiveScheme": "Base 3-4"
+      }
+    ],
+    "enrollment": 20641,
+    "stadium": {
+      "id": 68,
+      "stadium_id": "kidd-brewer-stadium-appalachian-state",
+      "school": 4,
+      "name": "Kidd Brewer Stadium",
+      "elevation": "991.34",
+      "capacity": 30000,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1962,
+      "nickname": null
+    },
+    "image": "/team-logos/appalachian-state.webp"
+  },
+  {
+    "id": 627,
+    "name": "Arizona",
+    "mascot": "Wildcats",
+    "city": "Tucson",
+    "state": "AZ",
+    "colors": [
+      "#AB0520",
+      "#0C234B"
+    ],
+    "conference": {
+      "name": "Big 12"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 83,
+        "defenseOVR": 76,
+        "specialTeamsOVR": 77,
+        "teamOVR": 80,
+        "prestige": 6,
+        "dynastyOffenseOVR": 79,
+        "dynastyDefenseOVR": 76,
+        "dynastyTeamOVR": 77,
+        "roadToCFPTier": 3,
+        "academicPrestige": 5,
+        "athleticFacilities": 7,
+        "brandExposure": 5,
+        "campusLifestyle": 7,
+        "championshipContender": 5,
+        "coachPrestige": 8,
+        "coachStability": 0,
+        "conferencePrestige": 10,
+        "programTradition": 3,
+        "stadiumAtmosphere": 4,
+        "offensiveScheme": "Multiple Offense",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 49471,
+    "stadium": {
+      "id": 9,
+      "stadium_id": "arizona-stadium-arizona",
+      "school": 5,
+      "name": "Arizona Stadium",
+      "elevation": "742.15",
+      "capacity": 50782,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1928,
+      "nickname": null
+    },
+    "image": "/team-logos/arizona.webp"
+  },
+  {
+    "id": 628,
+    "name": "Arizona State",
+    "mascot": "Sun Devils",
+    "city": "Tempe",
+    "state": "AZ",
+    "colors": [
+      "#7D2248",
+      "#FFC72C"
+    ],
+    "conference": {
+      "name": "Big 12"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 91,
+        "defenseOVR": 84,
+        "specialTeamsOVR": 86,
+        "teamOVR": 85,
+        "prestige": 7,
+        "dynastyOffenseOVR": 84,
+        "dynastyDefenseOVR": 86,
+        "dynastyTeamOVR": 84,
+        "roadToCFPTier": 3,
+        "academicPrestige": 5,
+        "athleticFacilities": 8,
+        "brandExposure": 6,
+        "campusLifestyle": 12,
+        "championshipContender": 8,
+        "coachPrestige": 9,
+        "coachStability": 10,
+        "conferencePrestige": 10,
+        "programTradition": 8,
+        "stadiumAtmosphere": 7,
+        "offensiveScheme": "Multiple Offense",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 77881,
+    "stadium": {
+      "id": 120,
+      "stadium_id": "sun-devil-stadium-arizona-state",
+      "school": 6,
+      "name": "Sun Devil Stadium",
+      "elevation": "360.16",
+      "capacity": 53599,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1958,
+      "nickname": null
+    },
+    "image": "/team-logos/arizona-state.webp"
+  },
+  {
+    "id": 629,
+    "name": "Arkansas",
+    "mascot": "Razorbacks",
+    "city": "Fayetteville",
+    "state": "AR",
+    "colors": [
+      "#A41F35",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "SEC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 83,
+        "defenseOVR": 82,
+        "specialTeamsOVR": 78,
+        "teamOVR": 81,
+        "prestige": 7,
+        "dynastyOffenseOVR": 84,
+        "dynastyDefenseOVR": 84,
+        "dynastyTeamOVR": 84,
+        "roadToCFPTier": 3,
+        "academicPrestige": 3,
+        "athleticFacilities": 9,
+        "brandExposure": 9,
+        "campusLifestyle": 8,
+        "championshipContender": 6,
+        "coachPrestige": 9,
+        "coachStability": 1,
+        "conferencePrestige": 12,
+        "programTradition": 8,
+        "stadiumAtmosphere": 9,
+        "offensiveScheme": "Multiple Offense",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 29068,
+    "stadium": {
+      "id": 36,
+      "stadium_id": "donald-w-reynolds-razorback-stadium-frank-broyles-field-arkansas",
+      "school": 7,
+      "name": "Donald W. Reynolds Razorback Stadium Frank Broyles Field",
+      "elevation": "403.80",
+      "capacity": 80000,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1938,
+      "nickname": null
+    },
+    "image": "/team-logos/arkansas.webp"
+  },
+  {
+    "id": 630,
+    "name": "Arkansas State",
+    "mascot": "Red Wolves",
+    "city": "Jonesboro",
+    "state": "AR",
+    "colors": [
+      "#CC092F",
+      "#000000"
+    ],
+    "conference": {
+      "name": "Sun Belt"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 75,
+        "defenseOVR": 70,
+        "specialTeamsOVR": 85,
+        "teamOVR": 73,
+        "prestige": 2,
+        "dynastyOffenseOVR": 69,
+        "dynastyDefenseOVR": 69,
+        "dynastyTeamOVR": 69,
+        "roadToCFPTier": 5,
+        "academicPrestige": 0,
+        "athleticFacilities": 1,
+        "brandExposure": 3,
+        "campusLifestyle": 4,
+        "championshipContender": 2,
+        "coachPrestige": 7,
+        "coachStability": 6,
+        "conferencePrestige": 5,
+        "programTradition": 2,
+        "stadiumAtmosphere": 3,
+        "offensiveScheme": "Power Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 12863,
+    "stadium": {
+      "id": 30,
+      "stadium_id": "centennial-bank-stadium-arkansas-state",
+      "school": 8,
+      "name": "Centennial Bank Stadium",
+      "elevation": "89.53",
+      "capacity": 30382,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1974,
+      "nickname": null
+    },
+    "image": "/team-logos/arkansas-state.webp"
+  },
+  {
+    "id": 631,
+    "name": "Army",
+    "mascot": "Black Knights",
+    "city": "West Point",
+    "state": "NY",
+    "colors": [
+      "#2C2A29",
+      "#D3BC8D",
+      "#B1B3B3"
+    ],
+    "conference": {
+      "name": "American"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 69,
+        "defenseOVR": 76,
+        "specialTeamsOVR": 68,
+        "teamOVR": 74,
+        "prestige": 4,
+        "dynastyOffenseOVR": 71,
+        "dynastyDefenseOVR": 69,
+        "dynastyTeamOVR": 70,
+        "roadToCFPTier": 4,
+        "academicPrestige": 12,
+        "athleticFacilities": 3,
+        "brandExposure": 3,
+        "campusLifestyle": 4,
+        "championshipContender": 5,
+        "coachPrestige": 9,
+        "coachStability": 12,
+        "conferencePrestige": 7,
+        "programTradition": 8,
+        "stadiumAtmosphere": 3,
+        "offensiveScheme": "Option",
+        "defensiveScheme": "3-3-5 Tite"
+      }
+    ],
+    "enrollment": 4594,
+    "stadium": {
+      "id": 16,
+      "stadium_id": "blaik-field-at-michie-stadium-army",
+      "school": 9,
+      "name": "Blaik Field at Michie Stadium",
+      "elevation": "99.21",
+      "capacity": 38000,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1924,
+      "nickname": null
+    },
+    "image": "/team-logos/army.webp"
+  },
+  {
+    "id": 632,
+    "name": "Auburn",
+    "mascot": "Tigers",
+    "city": "Auburn",
+    "state": "AL",
+    "colors": [
+      "#F26522",
+      "#03244d"
+    ],
+    "conference": {
+      "name": "SEC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 85,
+        "defenseOVR": 84,
+        "specialTeamsOVR": 85,
+        "teamOVR": 84,
+        "prestige": 7,
+        "dynastyOffenseOVR": 86,
+        "dynastyDefenseOVR": 89,
+        "dynastyTeamOVR": 87,
+        "roadToCFPTier": 3,
+        "academicPrestige": 6,
+        "athleticFacilities": 10,
+        "brandExposure": 10,
+        "campusLifestyle": 10,
+        "championshipContender": 9,
+        "coachPrestige": 11,
+        "coachStability": 7,
+        "conferencePrestige": 12,
+        "programTradition": 10,
+        "stadiumAtmosphere": 9,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "3-3-5 Tite"
+      }
+    ],
+    "enrollment": 31526,
+    "stadium": {
+      "id": 64,
+      "stadium_id": "jordan-hare-stadium-auburn",
+      "school": 10,
+      "name": "Jordan-Hare Stadium",
+      "elevation": "201.17",
+      "capacity": 88043,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1939,
+      "nickname": null
+    },
+    "image": "/team-logos/auburn.webp"
+  },
+  {
+    "id": 633,
+    "name": "Ball State",
+    "mascot": "Cardinals",
+    "city": "Muncie",
+    "state": "IN",
+    "colors": [
+      "#BA0C2F",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "MAC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 67,
+        "defenseOVR": 60,
+        "specialTeamsOVR": 75,
+        "teamOVR": 68,
+        "prestige": 2,
+        "dynastyOffenseOVR": 64,
+        "dynastyDefenseOVR": 61,
+        "dynastyTeamOVR": 62,
+        "roadToCFPTier": 5,
+        "academicPrestige": 2,
+        "athleticFacilities": 1,
+        "brandExposure": 1,
+        "campusLifestyle": 4,
+        "championshipContender": 0,
+        "coachPrestige": 4,
+        "coachStability": 3,
+        "conferencePrestige": 3,
+        "programTradition": 2,
+        "stadiumAtmosphere": 0,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "Base 3-4"
+      }
+    ],
+    "enrollment": 19337,
+    "stadium": {
+      "id": 110,
+      "stadium_id": "scheumann-stadium-ball-state",
+      "school": 11,
+      "name": "Scheumann Stadium",
+      "elevation": "285.48",
+      "capacity": 22500,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1967,
+      "nickname": null
+    },
+    "image": "/team-logos/ball-state.webp"
+  },
+  {
+    "id": 634,
+    "name": "Baylor",
+    "mascot": "Bears",
+    "city": "Waco",
+    "state": "TX",
+    "colors": [
+      "#154734",
+      "#FFB81C"
+    ],
+    "conference": {
+      "name": "Big 12"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 87,
+        "defenseOVR": 84,
+        "specialTeamsOVR": 76,
+        "teamOVR": 82,
+        "prestige": 7,
+        "dynastyOffenseOVR": 84,
+        "dynastyDefenseOVR": 84,
+        "dynastyTeamOVR": 84,
+        "roadToCFPTier": 3,
+        "academicPrestige": 6,
+        "athleticFacilities": 6,
+        "brandExposure": 6,
+        "campusLifestyle": 5,
+        "championshipContender": 8,
+        "coachPrestige": 9,
+        "coachStability": 2,
+        "conferencePrestige": 10,
+        "programTradition": 7,
+        "stadiumAtmosphere": 7,
+        "offensiveScheme": "Air Raid",
+        "defensiveScheme": "3-3-5 Tite"
+      }
+    ],
+    "enrollment": 20626,
+    "stadium": {
+      "id": 84,
+      "stadium_id": "mclane-stadium-baylor",
+      "school": 12,
+      "name": "McLane Stadium",
+      "elevation": "117.05",
+      "capacity": 45140,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 2014,
+      "nickname": null
+    },
+    "image": "/team-logos/baylor.webp"
+  },
+  {
+    "id": 635,
+    "name": "Boise State",
+    "mascot": "Broncos",
+    "city": "Boise",
+    "state": "ID",
+    "colors": [
+      "#0033A0",
+      "#D64309"
+    ],
+    "conference": {
+      "name": "Mountain West"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 85,
+        "defenseOVR": 80,
+        "specialTeamsOVR": 81,
+        "teamOVR": 82,
+        "prestige": 7,
+        "dynastyOffenseOVR": 79,
+        "dynastyDefenseOVR": 79,
+        "dynastyTeamOVR": 79,
+        "roadToCFPTier": 4,
+        "academicPrestige": 1,
+        "athleticFacilities": 5,
+        "brandExposure": 4,
+        "campusLifestyle": 5,
+        "championshipContender": 7,
+        "coachPrestige": 9,
+        "coachStability": 10,
+        "conferencePrestige": 6,
+        "programTradition": 7,
+        "stadiumAtmosphere": 8,
+        "offensiveScheme": "Pro Style",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 25830,
+    "stadium": {
+      "id": 4,
+      "stadium_id": "albertsons-stadium-boise-state",
+      "school": 13,
+      "name": "Albertsons Stadium",
+      "elevation": "823.22",
+      "capacity": 36387,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1970,
+      "nickname": null
+    },
+    "image": "/team-logos/boise-state.webp"
+  },
+  {
+    "id": 636,
+    "name": "Boston College",
+    "mascot": "Eagles",
+    "city": "Chestnut Hill",
+    "state": "MA",
+    "colors": [
+      "#8C2232",
+      "#DBCCA6"
+    ],
+    "conference": {
+      "name": "ACC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 78,
+        "defenseOVR": 80,
+        "specialTeamsOVR": 77,
+        "teamOVR": 78,
+        "prestige": 6,
+        "dynastyOffenseOVR": 79,
+        "dynastyDefenseOVR": 79,
+        "dynastyTeamOVR": 79,
+        "roadToCFPTier": 4,
+        "academicPrestige": 9,
+        "athleticFacilities": 5,
+        "brandExposure": 4,
+        "campusLifestyle": 5,
+        "championshipContender": 5,
+        "coachPrestige": 9,
+        "coachStability": 8,
+        "conferencePrestige": 11,
+        "programTradition": 4,
+        "stadiumAtmosphere": 4,
+        "offensiveScheme": "Multiple Offense",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 15046,
+    "stadium": {
+      "id": 6,
+      "stadium_id": "alumni-stadium-boston-college",
+      "school": 14,
+      "name": "Alumni Stadium",
+      "elevation": "39.83",
+      "capacity": 44500,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1957,
+      "nickname": null
+    },
+    "image": "/team-logos/boston-college.webp"
+  },
+  {
+    "id": 637,
+    "name": "Bowling Green",
+    "mascot": "Falcons",
+    "city": "Bowling Green",
+    "state": "OH",
+    "colors": [
+      "#4F2C1D",
+      "#FF7300"
+    ],
+    "conference": {
+      "name": "MAC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 71,
+        "defenseOVR": 64,
+        "specialTeamsOVR": 72,
+        "teamOVR": 72,
+        "prestige": 3,
+        "dynastyOffenseOVR": 69,
+        "dynastyDefenseOVR": 66,
+        "dynastyTeamOVR": 67,
+        "roadToCFPTier": 5,
+        "academicPrestige": 1,
+        "athleticFacilities": 0,
+        "brandExposure": 1,
+        "campusLifestyle": 5,
+        "championshipContender": 1,
+        "coachPrestige": 3,
+        "coachStability": 3,
+        "conferencePrestige": 3,
+        "programTradition": 3,
+        "stadiumAtmosphere": 1,
+        "offensiveScheme": "Multiple Offense",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 17645,
+    "stadium": {
+      "id": 38,
+      "stadium_id": "doyt-perry-stadium-bowling-green",
+      "school": 15,
+      "name": "Doyt Perry Stadium",
+      "elevation": "205.91",
+      "capacity": 24000,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1966,
+      "nickname": null
+    },
+    "image": "/team-logos/bowling-green.webp"
+  },
+  {
+    "id": 638,
+    "name": "Buffalo",
+    "mascot": "Bulls",
+    "city": "Buffalo",
+    "state": "NY",
+    "colors": [
+      "#005BBB",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "MAC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 75,
+        "defenseOVR": 78,
+        "specialTeamsOVR": 77,
+        "teamOVR": 77,
+        "prestige": 2,
+        "dynastyOffenseOVR": 69,
+        "dynastyDefenseOVR": 71,
+        "dynastyTeamOVR": 69,
+        "roadToCFPTier": 5,
+        "academicPrestige": 7,
+        "athleticFacilities": 2,
+        "brandExposure": 1,
+        "campusLifestyle": 4,
+        "championshipContender": 2,
+        "coachPrestige": 8,
+        "coachStability": 6,
+        "conferencePrestige": 3,
+        "programTradition": 1,
+        "stadiumAtmosphere": 1,
+        "offensiveScheme": "Power Spread",
+        "defensiveScheme": "Base 4-3"
+      }
+    ],
+    "enrollment": 32332,
+    "stadium": {
+      "id": 122,
+      "stadium_id": "ub-stadium-buffalo",
+      "school": 16,
+      "name": "UB Stadium",
+      "elevation": "181.58",
+      "capacity": 30270,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1993,
+      "nickname": null
+    },
+    "image": "/team-logos/buffalo.webp"
+  },
+  {
+    "id": 639,
+    "name": "BYU",
+    "mascot": "Cougars",
+    "city": "Provo",
+    "state": "UT",
+    "colors": [
+      "#003DA5",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "Big 12"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 87,
+        "defenseOVR": 84,
+        "specialTeamsOVR": 82,
+        "teamOVR": 81,
+        "prestige": 6,
+        "dynastyOffenseOVR": 79,
+        "dynastyDefenseOVR": 81,
+        "dynastyTeamOVR": 79,
+        "roadToCFPTier": 3,
+        "academicPrestige": 5,
+        "athleticFacilities": 6,
+        "brandExposure": 8,
+        "campusLifestyle": 5,
+        "championshipContender": 9,
+        "coachPrestige": 9,
+        "coachStability": 11,
+        "conferencePrestige": 10,
+        "programTradition": 7,
+        "stadiumAtmosphere": 8,
+        "offensiveScheme": "Power Spread",
+        "defensiveScheme": "4-3 Multiple"
+      }
+    ],
+    "enrollment": 34802,
+    "stadium": {
+      "id": 73,
+      "stadium_id": "lavell-edwards-stadium-byu",
+      "school": 17,
+      "name": "LaVell Edwards Stadium",
+      "elevation": "1412.10",
+      "capacity": 63470,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1964,
+      "nickname": null
+    },
+    "image": "/team-logos/byu.webp"
+  },
+  {
+    "id": 640,
+    "name": "California",
+    "mascot": "Golden Bears",
+    "city": "Berkeley",
+    "state": "CA",
+    "colors": [
+      "#041E42",
+      "#FFC72C"
+    ],
+    "conference": {
+      "name": "ACC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 75,
+        "defenseOVR": 82,
+        "specialTeamsOVR": 80,
+        "teamOVR": 78,
+        "prestige": 6,
+        "dynastyOffenseOVR": 79,
+        "dynastyDefenseOVR": 81,
+        "dynastyTeamOVR": 79,
+        "roadToCFPTier": 3,
+        "academicPrestige": 11,
+        "athleticFacilities": 6,
+        "brandExposure": 8,
+        "campusLifestyle": 7,
+        "championshipContender": 6,
+        "coachPrestige": 7,
+        "coachStability": 4,
+        "conferencePrestige": 11,
+        "programTradition": 6,
+        "stadiumAtmosphere": 6,
+        "offensiveScheme": "Multiple Offense",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 45000,
+    "stadium": {
+      "id": 95,
+      "stadium_id": "california-memorial-stadium",
+      "school": 95,
+      "name": "California Memorial Stadium",
+      "elevation": "NA",
+      "capacity": 63186,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1923,
+      "nickname": null
+    },
+    "image": "/team-logos/california.webp"
+  },
+  {
+    "id": 641,
+    "name": "Central Michigan",
+    "mascot": "Chippewas",
+    "city": "Mount Pleasant",
+    "state": "MI",
+    "colors": [
+      "#6A0032",
+      "#FFC82E"
+    ],
+    "conference": {
+      "name": "MAC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 66,
+        "defenseOVR": 76,
+        "specialTeamsOVR": 73,
+        "teamOVR": 72,
+        "prestige": 3,
+        "dynastyOffenseOVR": 66,
+        "dynastyDefenseOVR": 66,
+        "dynastyTeamOVR": 66,
+        "roadToCFPTier": 5,
+        "academicPrestige": 1,
+        "athleticFacilities": 2,
+        "brandExposure": 2,
+        "campusLifestyle": 5,
+        "championshipContender": 2,
+        "coachPrestige": 3,
+        "coachStability": 3,
+        "conferencePrestige": 3,
+        "programTradition": 3,
+        "stadiumAtmosphere": 0,
+        "offensiveScheme": "Option",
+        "defensiveScheme": "Base 3-4"
+      }
+    ],
+    "enrollment": 15465,
+    "stadium": {
+      "id": 66,
+      "stadium_id": "kellyshorts-stadium-central-michigan",
+      "school": 19,
+      "name": "Kelly/Shorts Stadium",
+      "elevation": "240.90",
+      "capacity": 30255,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1972,
+      "nickname": null
+    },
+    "image": "/team-logos/central-michigan.webp"
+  },
+  {
+    "id": 642,
+    "name": "Charlotte",
+    "mascot": "49ers",
+    "city": "Charlotte",
+    "state": "NC",
+    "colors": [],
+    "conference": {
+      "name": "American"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 69,
+        "defenseOVR": 68,
+        "specialTeamsOVR": 73,
+        "teamOVR": 72,
+        "prestige": 2,
+        "dynastyOffenseOVR": 69,
+        "dynastyDefenseOVR": 71,
+        "dynastyTeamOVR": 69,
+        "roadToCFPTier": 5,
+        "academicPrestige": 3,
+        "athleticFacilities": 2,
+        "brandExposure": 1,
+        "campusLifestyle": 5,
+        "championshipContender": 0,
+        "coachPrestige": 6,
+        "coachStability": 5,
+        "conferencePrestige": 7,
+        "programTradition": 0,
+        "stadiumAtmosphere": 1,
+        "offensiveScheme": "Pistol",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 30448,
+    "stadium": {
+      "id": 56,
+      "stadium_id": "jerry-richardson-stadium-charlotte",
+      "school": 20,
+      "name": "Jerry Richardson Stadium",
+      "elevation": "190.37",
+      "capacity": 15300,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 2013,
+      "nickname": null
+    },
+    "image": "/team-logos/charlotte.webp"
+  },
+  {
+    "id": 643,
+    "name": "Cincinnati",
+    "mascot": "Bearcats",
+    "city": "Cincinnati",
+    "state": "OH",
+    "colors": [
+      "#E00122",
+      "#000000"
+    ],
+    "conference": {
+      "name": "Big 12"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 82,
+        "defenseOVR": 80,
+        "specialTeamsOVR": 82,
+        "teamOVR": 80,
+        "prestige": 6,
+        "dynastyOffenseOVR": 79,
+        "dynastyDefenseOVR": 79,
+        "dynastyTeamOVR": 79,
+        "roadToCFPTier": 4,
+        "academicPrestige": 3,
+        "athleticFacilities": 3,
+        "brandExposure": 4,
+        "campusLifestyle": 7,
+        "championshipContender": 5,
+        "coachPrestige": 7,
+        "coachStability": 0,
+        "conferencePrestige": 10,
+        "programTradition": 5,
+        "stadiumAtmosphere": 7,
+        "offensiveScheme": "Pistol",
+        "defensiveScheme": "3-3-5"
+      }
+    ],
+    "enrollment": 40281,
+    "stadium": {
+      "id": 94,
+      "stadium_id": "nippert-stadium-cincinnati",
+      "school": 21,
+      "name": "Nippert Stadium",
+      "elevation": "230.07",
+      "capacity": 40000,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1915,
+      "nickname": null
+    },
+    "image": "/team-logos/cincinnati.webp"
+  },
+  {
+    "id": 644,
+    "name": "Clemson",
+    "mascot": "Tigers",
+    "city": "Clemson",
+    "state": "SC",
+    "colors": [
+      "#F56600",
+      "#522D80"
+    ],
+    "conference": {
+      "name": "ACC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 89,
+        "defenseOVR": 90,
+        "specialTeamsOVR": 83,
+        "teamOVR": 88,
+        "prestige": 9,
+        "dynastyOffenseOVR": 89,
+        "dynastyDefenseOVR": 94,
+        "dynastyTeamOVR": 91,
+        "roadToCFPTier": 1,
+        "academicPrestige": 7,
+        "athleticFacilities": 10,
+        "brandExposure": 11,
+        "campusLifestyle": 10,
+        "championshipContender": 10,
+        "coachPrestige": 12,
+        "coachStability": 12,
+        "conferencePrestige": 11,
+        "programTradition": 10,
+        "stadiumAtmosphere": 12,
+        "offensiveScheme": "Air Raid",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 27341,
+    "stadium": {
+      "id": 85,
+      "stadium_id": "memorial-stadium-clemson",
+      "school": 22,
+      "name": "Memorial Stadium",
+      "elevation": "205.65",
+      "capacity": 81500,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1942,
+      "nickname": null
+    },
+    "image": "/team-logos/clemson.webp"
+  },
+  {
+    "id": 645,
+    "name": "Coastal Carolina",
+    "mascot": "Chanticleers",
+    "city": "Conway",
+    "state": "SC",
+    "colors": [
+      "#006F71",
+      "#A27752",
+      "#111111"
+    ],
+    "conference": {
+      "name": "Sun Belt"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 71,
+        "defenseOVR": 64,
+        "specialTeamsOVR": 68,
+        "teamOVR": 73,
+        "prestige": 3,
+        "dynastyOffenseOVR": 71,
+        "dynastyDefenseOVR": 66,
+        "dynastyTeamOVR": 69,
+        "roadToCFPTier": 5,
+        "academicPrestige": 0,
+        "athleticFacilities": 2,
+        "brandExposure": 2,
+        "campusLifestyle": 5,
+        "championshipContender": 3,
+        "coachPrestige": 3,
+        "coachStability": 2,
+        "conferencePrestige": 5,
+        "programTradition": 2,
+        "stadiumAtmosphere": 4,
+        "offensiveScheme": "Power Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 10473,
+    "stadium": {
+      "id": 23,
+      "stadium_id": "brooks-stadium-coastal-carolina",
+      "school": 23,
+      "name": "Brooks Stadium",
+      "elevation": "13.75",
+      "capacity": 21000,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 2003,
+      "nickname": null
+    },
+    "image": "/team-logos/coastal-carolina.webp"
+  },
+  {
+    "id": 646,
+    "name": "Colorado",
+    "mascot": "Buffaloes",
+    "city": "Boulder",
+    "state": "CO",
+    "colors": [
+      "#A2A4A3",
+      "#000000",
+      "#CFB87C"
+    ],
+    "conference": {
+      "name": "Big 12"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 83,
+        "defenseOVR": 82,
+        "specialTeamsOVR": 77,
+        "teamOVR": 82,
+        "prestige": 7,
+        "dynastyOffenseOVR": 86,
+        "dynastyDefenseOVR": 86,
+        "dynastyTeamOVR": 86,
+        "roadToCFPTier": 3,
+        "academicPrestige": 6,
+        "athleticFacilities": 7,
+        "brandExposure": 6,
+        "campusLifestyle": 10,
+        "championshipContender": 10,
+        "coachPrestige": 12,
+        "coachStability": 3,
+        "conferencePrestige": 10,
+        "programTradition": 9,
+        "stadiumAtmosphere": 5,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 37956,
+    "stadium": {
+      "id": 45,
+      "stadium_id": "folsom-field-colorado",
+      "school": 24,
+      "name": "Folsom Field",
+      "elevation": "1634.04",
+      "capacity": 50183,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1924,
+      "nickname": null
+    },
+    "image": "/team-logos/colorado.webp"
+  },
+  {
+    "id": 647,
+    "name": "Colorado State",
+    "mascot": "Rams",
+    "city": "Fort Collins",
+    "state": "CO",
+    "colors": [
+      "#1E4D2B",
+      "#C8C372"
+    ],
+    "conference": {
+      "name": "Mountain West"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 75,
+        "defenseOVR": 68,
+        "specialTeamsOVR": 71,
+        "teamOVR": 74,
+        "prestige": 3,
+        "dynastyOffenseOVR": 71,
+        "dynastyDefenseOVR": 71,
+        "dynastyTeamOVR": 71,
+        "roadToCFPTier": 4,
+        "academicPrestige": 4,
+        "athleticFacilities": 3,
+        "brandExposure": 3,
+        "campusLifestyle": 5,
+        "championshipContender": 3,
+        "coachPrestige": 6,
+        "coachStability": 6,
+        "conferencePrestige": 6,
+        "programTradition": 3,
+        "stadiumAtmosphere": 3,
+        "offensiveScheme": "Air Raid",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 32777,
+    "stadium": {
+      "id": 28,
+      "stadium_id": "canvas-stadium-colorado-state",
+      "school": 25,
+      "name": "Canvas Stadium",
+      "elevation": "1528.40",
+      "capacity": 36500,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 2017,
+      "nickname": null
+    },
+    "image": "/team-logos/colorado-state.webp"
+  },
+  {
+    "id": 26,
+    "name": "Delaware",
+    "mascot": "Fightin' Blue Hens",
+    "city": "Newark",
+    "state": "Delaware",
+    "colors": [
+      "#00539F",
+      "#FFD200"
+    ],
+    "conference": {
+      "name": "CUSA"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 67,
+        "defenseOVR": 64,
+        "specialTeamsOVR": 77,
+        "teamOVR": 70,
+        "prestige": 2,
+        "dynastyOffenseOVR": 69,
+        "dynastyDefenseOVR": 66,
+        "dynastyTeamOVR": 67,
+        "roadToCFPTier": 5,
+        "academicPrestige": 7,
+        "athleticFacilities": 0,
+        "brandExposure": 0,
+        "campusLifestyle": 4,
+        "championshipContender": 0,
+        "coachPrestige": 1,
+        "coachStability": 2,
+        "conferencePrestige": 4,
+        "programTradition": 0,
+        "stadiumAtmosphere": 0,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "3-3-5"
+      }
+    ],
+    "enrollment": 24221,
+    "stadium": {
+      "id": 94,
+      "stadium_id": "delaware-stadium",
+      "school": 94,
+      "name": "Delaware Stadium",
+      "elevation": "NA",
+      "capacity": 18500,
+      "field_type": "FieldTurf",
+      "roof_type": "Open",
+      "built_in": 1952,
+      "nickname": null
+    },
+    "image": "/team-logos/delaware.webp"
+  },
+  {
+    "id": 648,
+    "name": "Duke",
+    "mascot": "Blue Devils",
+    "city": "Durham",
+    "state": "NC",
+    "colors": [
+      "#013088",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "ACC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 83,
+        "defenseOVR": 88,
+        "specialTeamsOVR": 78,
+        "teamOVR": 84,
+        "prestige": 4,
+        "dynastyOffenseOVR": 79,
+        "dynastyDefenseOVR": 79,
+        "dynastyTeamOVR": 79,
+        "roadToCFPTier": 3,
+        "academicPrestige": 12,
+        "athleticFacilities": 4,
+        "brandExposure": 5,
+        "campusLifestyle": 6,
+        "championshipContender": 8,
+        "coachPrestige": 11,
+        "coachStability": 7,
+        "conferencePrestige": 11,
+        "programTradition": 6,
+        "stadiumAtmosphere": 3,
+        "offensiveScheme": "Veer and Shoot",
+        "defensiveScheme": "4-3 Multiple"
+      }
+    ],
+    "enrollment": 17620,
+    "stadium": {
+      "id": 129,
+      "stadium_id": "wallace-wade-stadium-duke",
+      "school": 26,
+      "name": "Wallace Wade Stadium",
+      "elevation": "103.00",
+      "capacity": 40004,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1929,
+      "nickname": null
+    },
+    "image": "/team-logos/duke.webp"
+  },
+  {
+    "id": 649,
+    "name": "East Carolina",
+    "mascot": "Pirates",
+    "city": "Greenville",
+    "state": "NC",
+    "colors": [
+      "#582C83",
+      "#FFC72C"
+    ],
+    "conference": {
+      "name": "American"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 75,
+        "defenseOVR": 70,
+        "specialTeamsOVR": 81,
+        "teamOVR": 73,
+        "prestige": 3,
+        "dynastyOffenseOVR": 71,
+        "dynastyDefenseOVR": 71,
+        "dynastyTeamOVR": 71,
+        "roadToCFPTier": 4,
+        "academicPrestige": 3,
+        "athleticFacilities": 3,
+        "brandExposure": 1,
+        "campusLifestyle": 5,
+        "championshipContender": 1,
+        "coachPrestige": 2,
+        "coachStability": 1,
+        "conferencePrestige": 7,
+        "programTradition": 3,
+        "stadiumAtmosphere": 5,
+        "offensiveScheme": "Veer and Shoot",
+        "defensiveScheme": "Base 3-4"
+      }
+    ],
+    "enrollment": 28021,
+    "stadium": {
+      "id": 37,
+      "stadium_id": "dowdy-ficklen-stadium-east-carolina",
+      "school": 27,
+      "name": "Dowdy-Ficklen Stadium",
+      "elevation": "19.06",
+      "capacity": 50000,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1963,
+      "nickname": null
+    },
+    "image": "/team-logos/east-carolina.webp"
+  },
+  {
+    "id": 650,
+    "name": "Eastern Michigan",
+    "mascot": "Eagles",
+    "city": "Ypsilanti",
+    "state": "MI",
+    "colors": [
+      "#046A38",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "MAC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 71,
+        "defenseOVR": 64,
+        "specialTeamsOVR": 70,
+        "teamOVR": 72,
+        "prestige": 3,
+        "dynastyOffenseOVR": 69,
+        "dynastyDefenseOVR": 66,
+        "dynastyTeamOVR": 67,
+        "roadToCFPTier": 5,
+        "academicPrestige": 0,
+        "athleticFacilities": 1,
+        "brandExposure": 2,
+        "campusLifestyle": 4,
+        "championshipContender": 1,
+        "coachPrestige": 6,
+        "coachStability": 10,
+        "conferencePrestige": 3,
+        "programTradition": 2,
+        "stadiumAtmosphere": 0,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 15370,
+    "stadium": {
+      "id": 108,
+      "stadium_id": "rynearson-stadium-eastern-michigan",
+      "school": 28,
+      "name": "Rynearson Stadium",
+      "elevation": "241.25",
+      "capacity": 30200,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1969,
+      "nickname": null
+    },
+    "image": "/team-logos/eastern-michigan.webp"
+  },
+  {
+    "id": 652,
+    "name": "FIU",
+    "mascot": "Panthers",
+    "city": "Miami",
+    "state": "FL",
+    "colors": [
+      "#081E3F",
+      "#B6862C"
+    ],
+    "conference": {
+      "name": "CUSA"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 73,
+        "defenseOVR": 68,
+        "specialTeamsOVR": 73,
+        "teamOVR": 74,
+        "prestige": 2,
+        "dynastyOffenseOVR": 69,
+        "dynastyDefenseOVR": 69,
+        "dynastyTeamOVR": 69,
+        "roadToCFPTier": 5,
+        "academicPrestige": 6,
+        "athleticFacilities": 3,
+        "brandExposure": 0,
+        "campusLifestyle": 11,
+        "championshipContender": 1,
+        "coachPrestige": 2,
+        "coachStability": 3,
+        "conferencePrestige": 4,
+        "programTradition": 0,
+        "stadiumAtmosphere": 0,
+        "offensiveScheme": "Power Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 56000,
+    "stadium": {
+      "id": 999,
+      "stadium_id": "pitbull-stadium",
+      "school": 99,
+      "name": "Pitbull Stadium",
+      "elevation": "NA",
+      "capacity": 20000,
+      "field_type": "FieldTurf",
+      "roof_type": "Open",
+      "built_in": 1995,
+      "nickname": null
+    },
+    "image": "/team-logos/fiu.webp"
+  },
+  {
+    "id": 653,
+    "name": "Florida",
+    "mascot": "Gators",
+    "city": "Gainesville",
+    "state": "FL",
+    "colors": [
+      "#FA4616",
+      "#003087"
+    ],
+    "conference": {
+      "name": "SEC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 89,
+        "defenseOVR": 84,
+        "specialTeamsOVR": 86,
+        "teamOVR": 86,
+        "prestige": 8,
+        "dynastyOffenseOVR": 89,
+        "dynastyDefenseOVR": 91,
+        "dynastyTeamOVR": 89,
+        "roadToCFPTier": 2,
+        "academicPrestige": 9,
+        "athleticFacilities": 11,
+        "brandExposure": 9,
+        "campusLifestyle": 11,
+        "championshipContender": 11,
+        "coachPrestige": 11,
+        "coachStability": 1,
+        "conferencePrestige": 12,
+        "programTradition": 10,
+        "stadiumAtmosphere": 10,
+        "offensiveScheme": "Power Spread",
+        "defensiveScheme": "3-3-5 Tite"
+      }
+    ],
+    "enrollment": 55781,
+    "stadium": {
+      "id": 13,
+      "stadium_id": "ben-hill-griffin-stadium-florida",
+      "school": 29,
+      "name": "Ben Hill Griffin Stadium",
+      "elevation": "44.97",
+      "capacity": 88548,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1930,
+      "nickname": "The Swamp"
+    },
+    "image": "/team-logos/florida.webp"
+  },
+  {
+    "id": 651,
+    "name": "Florida Atlantic",
+    "mascot": "Owls",
+    "city": "Boca Raton",
+    "state": "FL",
+    "colors": [
+      "#003366",
+      "#CC0000"
+    ],
+    "conference": {
+      "name": "American"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 73,
+        "defenseOVR": 66,
+        "specialTeamsOVR": 76,
+        "teamOVR": 72,
+        "prestige": 3,
+        "dynastyOffenseOVR": 69,
+        "dynastyDefenseOVR": 71,
+        "dynastyTeamOVR": 69,
+        "roadToCFPTier": 4,
+        "academicPrestige": 2,
+        "athleticFacilities": 1,
+        "brandExposure": 2,
+        "campusLifestyle": 11,
+        "championshipContender": 1,
+        "coachPrestige": 1,
+        "coachStability": 3,
+        "conferencePrestige": 7,
+        "programTradition": 1,
+        "stadiumAtmosphere": 1,
+        "offensiveScheme": "Air Raid",
+        "defensiveScheme": "3-3-5 Tite"
+      }
+    ],
+    "enrollment": 30155,
+    "stadium": {
+      "id": 40,
+      "stadium_id": "fau-stadium-florida-atlantic",
+      "school": 30,
+      "name": "FAU Stadium",
+      "elevation": "3.61",
+      "capacity": 29419,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 2011,
+      "nickname": null
+    },
+    "image": "/team-logos/florida-atlantic.webp"
+  },
+  {
+    "id": 654,
+    "name": "Florida State",
+    "mascot": "Seminoles",
+    "city": "Tallahassee",
+    "state": "FL",
+    "colors": [
+      "#782F40",
+      "#CEB888"
+    ],
+    "conference": {
+      "name": "ACC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 82,
+        "defenseOVR": 82,
+        "specialTeamsOVR": 77,
+        "teamOVR": 82,
+        "prestige": 8,
+        "dynastyOffenseOVR": 86,
+        "dynastyDefenseOVR": 84,
+        "dynastyTeamOVR": 85,
+        "roadToCFPTier": 3,
+        "academicPrestige": 8,
+        "athleticFacilities": 9,
+        "brandExposure": 8,
+        "campusLifestyle": 11,
+        "championshipContender": 8,
+        "coachPrestige": 11,
+        "coachStability": 8,
+        "conferencePrestige": 11,
+        "programTradition": 11,
+        "stadiumAtmosphere": 10,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "3-3-5 Tite"
+      }
+    ],
+    "enrollment": 45130,
+    "stadium": {
+      "id": 17,
+      "stadium_id": "bobby-bowden-field-at-doak-campbell-stadium-florida-state",
+      "school": 32,
+      "name": "Bobby Bowden Field at Doak Campbell Stadium",
+      "elevation": "19.56",
+      "capacity": 79560,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1950,
+      "nickname": null
+    },
+    "image": "/team-logos/florida-state.webp"
+  },
+  {
+    "id": 655,
+    "name": "Fresno State",
+    "mascot": "Bulldogs",
+    "city": "Fresno",
+    "state": "CA",
+    "colors": [
+      "#C41230",
+      "#13284C"
+    ],
+    "conference": {
+      "name": "Mountain West"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 73,
+        "defenseOVR": 74,
+        "specialTeamsOVR": 76,
+        "teamOVR": 76,
+        "prestige": 4,
+        "dynastyOffenseOVR": 74,
+        "dynastyDefenseOVR": 74,
+        "dynastyTeamOVR": 74,
+        "roadToCFPTier": 4,
+        "academicPrestige": 3,
+        "athleticFacilities": 3,
+        "brandExposure": 3,
+        "campusLifestyle": 5,
+        "championshipContender": 1,
+        "coachPrestige": 6,
+        "coachStability": 3,
+        "conferencePrestige": 6,
+        "programTradition": 7,
+        "stadiumAtmosphere": 4,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 24585,
+    "stadium": {
+      "id": 124,
+      "stadium_id": "valley-childrens-stadium-fresno-state",
+      "school": 33,
+      "name": "Valley Children's Stadium",
+      "elevation": "102.56",
+      "capacity": 41031,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1980,
+      "nickname": null
+    },
+    "image": "/team-logos/fresno-state.webp"
+  },
+  {
+    "id": 656,
+    "name": "Georgia",
+    "mascot": "Bulldogs",
+    "city": "Athens",
+    "state": "GA",
+    "colors": [
+      "#BA0C2F",
+      "#2C2A29"
+    ],
+    "conference": {
+      "name": "SEC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 87,
+        "defenseOVR": 92,
+        "specialTeamsOVR": 87,
+        "teamOVR": 88,
+        "prestige": 10,
+        "dynastyOffenseOVR": 94,
+        "dynastyDefenseOVR": 96,
+        "dynastyTeamOVR": 94,
+        "roadToCFPTier": 1,
+        "academicPrestige": 9,
+        "athleticFacilities": 12,
+        "brandExposure": 12,
+        "campusLifestyle": 11,
+        "championshipContender": 12,
+        "coachPrestige": 12,
+        "coachStability": 12,
+        "conferencePrestige": 12,
+        "programTradition": 11,
+        "stadiumAtmosphere": 12,
+        "offensiveScheme": "Multiple Offense",
+        "defensiveScheme": "3-3-5 Tite"
+      }
+    ],
+    "enrollment": 40118,
+    "stadium": {
+      "id": 109,
+      "stadium_id": "sanford-stadium-georgia",
+      "school": 34,
+      "name": "Sanford Stadium",
+      "elevation": "186.11",
+      "capacity": 92746,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1929,
+      "nickname": null
+    },
+    "image": "/team-logos/georgia.webp"
+  },
+  {
+    "id": 657,
+    "name": "Georgia Southern",
+    "mascot": "Eagles",
+    "city": "Statesboro",
+    "state": "GA",
+    "colors": [
+      "#041E42",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "Sun Belt"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 76,
+        "defenseOVR": 70,
+        "specialTeamsOVR": 73,
+        "teamOVR": 77,
+        "prestige": 2,
+        "dynastyOffenseOVR": 74,
+        "dynastyDefenseOVR": 71,
+        "dynastyTeamOVR": 72,
+        "roadToCFPTier": 4,
+        "academicPrestige": 0,
+        "athleticFacilities": 2,
+        "brandExposure": 2,
+        "campusLifestyle": 5,
+        "championshipContender": 0,
+        "coachPrestige": 8,
+        "coachStability": 6,
+        "conferencePrestige": 5,
+        "programTradition": 2,
+        "stadiumAtmosphere": 1,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 27091,
+    "stadium": {
+      "id": 97,
+      "stadium_id": "paulson-stadium-georgia-southern",
+      "school": 35,
+      "name": "Paulson Stadium",
+      "elevation": "61.25",
+      "capacity": 25000,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1984,
+      "nickname": null
+    },
+    "image": "/team-logos/georgia-southern.webp"
+  },
+  {
+    "id": 658,
+    "name": "Georgia State",
+    "mascot": "Panthers",
+    "city": "Atlanta",
+    "state": "GA",
+    "colors": [
+      "#0039A6",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "Sun Belt"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 71,
+        "defenseOVR": 68,
+        "specialTeamsOVR": 75,
+        "teamOVR": 72,
+        "prestige": 2,
+        "dynastyOffenseOVR": 66,
+        "dynastyDefenseOVR": 66,
+        "dynastyTeamOVR": 65,
+        "roadToCFPTier": 4,
+        "academicPrestige": 2,
+        "athleticFacilities": 0,
+        "brandExposure": 1,
+        "campusLifestyle": 7,
+        "championshipContender": 0,
+        "coachPrestige": 2,
+        "coachStability": 2,
+        "conferencePrestige": 5,
+        "programTradition": 0,
+        "stadiumAtmosphere": 0,
+        "offensiveScheme": "Multiple Offense",
+        "defensiveScheme": "Base 3-4"
+      }
+    ],
+    "enrollment": 55466,
+    "stadium": {
+      "id": 47,
+      "stadium_id": "georgia-state-stadium-georgia-state",
+      "school": 36,
+      "name": "Georgia State Stadium",
+      "elevation": "287.00",
+      "capacity": 25000,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 2017,
+      "nickname": null
+    },
+    "image": "/team-logos/georgia-state.webp"
+  },
+  {
+    "id": 659,
+    "name": "Georgia Tech",
+    "mascot": "Yellow Jackets",
+    "city": "Atlanta",
+    "state": "GA",
+    "colors": [
+      "#B3A369",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "ACC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 85,
+        "defenseOVR": 76,
+        "specialTeamsOVR": 83,
+        "teamOVR": 81,
+        "prestige": 6,
+        "dynastyOffenseOVR": 79,
+        "dynastyDefenseOVR": 79,
+        "dynastyTeamOVR": 79,
+        "roadToCFPTier": 3,
+        "academicPrestige": 9,
+        "athleticFacilities": 6,
+        "brandExposure": 6,
+        "campusLifestyle": 7,
+        "championshipContender": 8,
+        "coachPrestige": 9,
+        "coachStability": 8,
+        "conferencePrestige": 11,
+        "programTradition": 9,
+        "stadiumAtmosphere": 7,
+        "offensiveScheme": "Power Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 43844,
+    "stadium": {
+      "id": 18,
+      "stadium_id": "bobby-dodd-stadium-at-historic-grant-field-georgia-tech",
+      "school": 37,
+      "name": "Bobby Dodd Stadium at Historic Grant Field",
+      "elevation": "279.30",
+      "capacity": 55000,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1913,
+      "nickname": null
+    },
+    "image": "/team-logos/georgia-tech.webp"
+  },
+  {
+    "id": 660,
+    "name": "Hawaii",
+    "mascot": "Rainbow Warriors",
+    "city": "Honolulu",
+    "state": "HI",
+    "colors": [
+      "#005838",
+      "#231F20",
+      "#BCBEC0",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "Mountain West"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 69,
+        "defenseOVR": 78,
+        "specialTeamsOVR": 80,
+        "teamOVR": 74,
+        "prestige": 2,
+        "dynastyOffenseOVR": 66,
+        "dynastyDefenseOVR": 71,
+        "dynastyTeamOVR": 68,
+        "roadToCFPTier": 4,
+        "academicPrestige": 3,
+        "athleticFacilities": 3,
+        "brandExposure": 1,
+        "campusLifestyle": 12,
+        "championshipContender": 0,
+        "coachPrestige": 4,
+        "coachStability": 4,
+        "conferencePrestige": 6,
+        "programTradition": 1,
+        "stadiumAtmosphere": 4,
+        "offensiveScheme": "Run And Shoot",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 19097,
+    "stadium": {
+      "id": 31,
+      "stadium_id": "clarence-tc-ching-athletics-complex-hawaii",
+      "school": 38,
+      "name": "Clarence T.C. Ching Athletics Complex",
+      "elevation": "20.00",
+      "capacity": 9000,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": null,
+      "nickname": null
+    },
+    "image": "/team-logos/hawaii.webp"
+  },
+  {
+    "id": 661,
+    "name": "Houston",
+    "mascot": "Cougars",
+    "city": "Houston",
+    "state": "TX",
+    "colors": [
+      "#C92A39",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "Big 12"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 82,
+        "defenseOVR": 82,
+        "specialTeamsOVR": 77,
+        "teamOVR": 80,
+        "prestige": 6,
+        "dynastyOffenseOVR": 76,
+        "dynastyDefenseOVR": 79,
+        "dynastyTeamOVR": 77,
+        "roadToCFPTier": 3,
+        "academicPrestige": 4,
+        "athleticFacilities": 4,
+        "brandExposure": 7,
+        "campusLifestyle": 5,
+        "championshipContender": 4,
+        "coachPrestige": 8,
+        "coachStability": 0,
+        "conferencePrestige": 10,
+        "programTradition": 6,
+        "stadiumAtmosphere": 5,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "3-3-5 Tite"
+      }
+    ],
+    "enrollment": 47031,
+    "stadium": {
+      "id": 61,
+      "stadium_id": "john-oquinn-field-at-tdecu-stadium-houston",
+      "school": 39,
+      "name": "John O'Quinn Field at TDECU Stadium",
+      "elevation": "9.57",
+      "capacity": 40000,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 2014,
+      "nickname": null
+    },
+    "image": "/team-logos/houston.webp"
+  },
+  {
+    "id": 662,
+    "name": "Illinois",
+    "mascot": "Fighting Illini",
+    "city": "Urbana\u2013Champaign",
+    "state": "IL",
+    "colors": [
+      "#FF5F05",
+      "#13294B"
+    ],
+    "conference": {
+      "name": "Big Ten"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 85,
+        "defenseOVR": 86,
+        "specialTeamsOVR": 83,
+        "teamOVR": 82,
+        "prestige": 7,
+        "dynastyOffenseOVR": 81,
+        "dynastyDefenseOVR": 84,
+        "dynastyTeamOVR": 82,
+        "roadToCFPTier": 3,
+        "academicPrestige": 9,
+        "athleticFacilities": 7,
+        "brandExposure": 8,
+        "campusLifestyle": 6,
+        "championshipContender": 10,
+        "coachPrestige": 10,
+        "coachStability": 9,
+        "conferencePrestige": 12,
+        "programTradition": 7,
+        "stadiumAtmosphere": 6,
+        "offensiveScheme": "Multiple Offense",
+        "defensiveScheme": "Base 3-4"
+      }
+    ],
+    "enrollment": 56607,
+    "stadium": {
+      "id": 86,
+      "stadium_id": "memorial-stadium-illinois",
+      "school": 40,
+      "name": "Memorial Stadium",
+      "elevation": "223.25",
+      "capacity": 60670,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1923,
+      "nickname": null
+    },
+    "image": "/team-logos/illinois.webp"
+  },
+  {
+    "id": 663,
+    "name": "Indiana",
+    "mascot": "Hoosiers",
+    "city": "Bloomington",
+    "state": "IN",
+    "colors": [
+      "#990000",
+      "#EDEBEB"
+    ],
+    "conference": {
+      "name": "Big Ten"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 89,
+        "defenseOVR": 88,
+        "specialTeamsOVR": 83,
+        "teamOVR": 85,
+        "prestige": 7,
+        "dynastyOffenseOVR": 84,
+        "dynastyDefenseOVR": 84,
+        "dynastyTeamOVR": 84,
+        "roadToCFPTier": 3,
+        "academicPrestige": 7,
+        "athleticFacilities": 6,
+        "brandExposure": 6,
+        "campusLifestyle": 5,
+        "championshipContender": 7,
+        "coachPrestige": 11,
+        "coachStability": 9,
+        "conferencePrestige": 12,
+        "programTradition": 1,
+        "stadiumAtmosphere": 6,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "3-4 Multiple"
+      }
+    ],
+    "enrollment": 45328,
+    "stadium": {
+      "id": 87,
+      "stadium_id": "memorial-stadium-indiana",
+      "school": 41,
+      "name": "Memorial Stadium",
+      "elevation": "231.65",
+      "capacity": 52656,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1960,
+      "nickname": null
+    },
+    "image": "/team-logos/indiana.webp"
+  },
+  {
+    "id": 664,
+    "name": "Iowa",
+    "mascot": "Hawkeyes",
+    "city": "Iowa City",
+    "state": "IA",
+    "colors": [
+      "#000000",
+      "#FCD116"
+    ],
+    "conference": {
+      "name": "Big Ten"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 80,
+        "defenseOVR": 84,
+        "specialTeamsOVR": 82,
+        "teamOVR": 82,
+        "prestige": 7,
+        "dynastyOffenseOVR": 81,
+        "dynastyDefenseOVR": 84,
+        "dynastyTeamOVR": 82,
+        "roadToCFPTier": 3,
+        "academicPrestige": 6,
+        "athleticFacilities": 8,
+        "brandExposure": 7,
+        "campusLifestyle": 8,
+        "championshipContender": 6,
+        "coachPrestige": 11,
+        "coachStability": 2,
+        "conferencePrestige": 12,
+        "programTradition": 8,
+        "stadiumAtmosphere": 9,
+        "offensiveScheme": "Pro Style",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 29909,
+    "stadium": {
+      "id": 69,
+      "stadium_id": "kinnick-stadium-iowa",
+      "school": 42,
+      "name": "Kinnick Stadium",
+      "elevation": "220.64",
+      "capacity": 69250,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1929,
+      "nickname": null
+    },
+    "image": "/team-logos/iowa.webp"
+  },
+  {
+    "id": 665,
+    "name": "Iowa State",
+    "mascot": "Cyclones",
+    "city": "Ames",
+    "state": "IA",
+    "colors": [
+      "#822433",
+      "#FDCA2F"
+    ],
+    "conference": {
+      "name": "Big 12"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 85,
+        "defenseOVR": 82,
+        "specialTeamsOVR": 80,
+        "teamOVR": 82,
+        "prestige": 6,
+        "dynastyOffenseOVR": 81,
+        "dynastyDefenseOVR": 79,
+        "dynastyTeamOVR": 80,
+        "roadToCFPTier": 3,
+        "academicPrestige": 5,
+        "athleticFacilities": 7,
+        "brandExposure": 7,
+        "campusLifestyle": 5,
+        "championshipContender": 8,
+        "coachPrestige": 10,
+        "coachStability": 10,
+        "conferencePrestige": 10,
+        "programTradition": 2,
+        "stadiumAtmosphere": 8,
+        "offensiveScheme": "Power Spread",
+        "defensiveScheme": "3-3-5"
+      }
+    ],
+    "enrollment": 30708,
+    "stadium": {
+      "id": 55,
+      "stadium_id": "jack-trice-stadium-iowa-state",
+      "school": 43,
+      "name": "Jack Trice Stadium",
+      "elevation": "274.91",
+      "capacity": 61500,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1975,
+      "nickname": null
+    },
+    "image": "/team-logos/iowa-state.webp"
+  },
+  {
+    "id": 666,
+    "name": "Jacksonville State",
+    "mascot": "Gamecocks",
+    "city": "Jacksonville",
+    "state": "AL",
+    "colors": [
+      "#CA2026",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "CUSA"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 69,
+        "defenseOVR": 66,
+        "specialTeamsOVR": 81,
+        "teamOVR": 70,
+        "prestige": 2,
+        "dynastyOffenseOVR": 69,
+        "dynastyDefenseOVR": 66,
+        "dynastyTeamOVR": 67,
+        "roadToCFPTier": 5,
+        "academicPrestige": 0,
+        "athleticFacilities": 0,
+        "brandExposure": 0,
+        "campusLifestyle": 4,
+        "championshipContender": 0,
+        "coachPrestige": 3,
+        "coachStability": 0,
+        "conferencePrestige": 4,
+        "programTradition": 0,
+        "stadiumAtmosphere": 1,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 9540,
+    "stadium": {
+      "id": 65,
+      "stadium_id": "jsu-stadium-jacksonville-state",
+      "school": 44,
+      "name": "JSU Stadium",
+      "elevation": "198.07",
+      "capacity": 24000,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1947,
+      "nickname": null
+    },
+    "image": "/team-logos/jacksonville-state.webp"
+  },
+  {
+    "id": 667,
+    "name": "James Madison",
+    "mascot": "Dukes",
+    "city": "Harrisonburg",
+    "state": "VA",
+    "colors": [
+      "#450084",
+      "#B3A369"
+    ],
+    "conference": {
+      "name": "Sun Belt"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 75,
+        "defenseOVR": 72,
+        "specialTeamsOVR": 78,
+        "teamOVR": 76,
+        "prestige": 3,
+        "dynastyOffenseOVR": 71,
+        "dynastyDefenseOVR": 69,
+        "dynastyTeamOVR": 70,
+        "roadToCFPTier": 4,
+        "academicPrestige": 4,
+        "athleticFacilities": 1,
+        "brandExposure": 2,
+        "campusLifestyle": 5,
+        "championshipContender": 3,
+        "coachPrestige": 5,
+        "coachStability": 6,
+        "conferencePrestige": 5,
+        "programTradition": 0,
+        "stadiumAtmosphere": 2,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 22224,
+    "stadium": {
+      "id": 21,
+      "stadium_id": "bridgeforth-stadium-james-madison",
+      "school": 45,
+      "name": "Bridgeforth Stadium",
+      "elevation": "399.30",
+      "capacity": 24877,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1975,
+      "nickname": null
+    },
+    "image": "/team-logos/james-madison.webp"
+  },
+  {
+    "id": 668,
+    "name": "Kansas",
+    "mascot": "Jayhawks",
+    "city": "Lawrence",
+    "state": "KS",
+    "colors": [
+      "#E8000D",
+      "#0051BA"
+    ],
+    "conference": {
+      "name": "Big 12"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 82,
+        "defenseOVR": 78,
+        "specialTeamsOVR": 81,
+        "teamOVR": 78,
+        "prestige": 6,
+        "dynastyOffenseOVR": 81,
+        "dynastyDefenseOVR": 79,
+        "dynastyTeamOVR": 80,
+        "roadToCFPTier": 3,
+        "academicPrestige": 4,
+        "athleticFacilities": 7,
+        "brandExposure": 7,
+        "campusLifestyle": 5,
+        "championshipContender": 4,
+        "coachPrestige": 9,
+        "coachStability": 8,
+        "conferencePrestige": 10,
+        "programTradition": 3,
+        "stadiumAtmosphere": 3,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 26780,
+    "stadium": {
+      "id": 88,
+      "stadium_id": "memorial-stadium-kansas",
+      "school": 46,
+      "name": "Memorial Stadium",
+      "elevation": "274.86",
+      "capacity": 47000,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1921,
+      "nickname": null
+    },
+    "image": "/team-logos/kansas.webp"
+  },
+  {
+    "id": 669,
+    "name": "Kansas State",
+    "mascot": "Wildcats",
+    "city": "Manhattan",
+    "state": "KS",
+    "colors": [
+      "#330A57",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "Big 12"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 85,
+        "defenseOVR": 86,
+        "specialTeamsOVR": 75,
+        "teamOVR": 82,
+        "prestige": 7,
+        "dynastyOffenseOVR": 81,
+        "dynastyDefenseOVR": 79,
+        "dynastyTeamOVR": 80,
+        "roadToCFPTier": 3,
+        "academicPrestige": 3,
+        "athleticFacilities": 8,
+        "brandExposure": 5,
+        "campusLifestyle": 5,
+        "championshipContender": 8,
+        "coachPrestige": 10,
+        "coachStability": 7,
+        "conferencePrestige": 10,
+        "programTradition": 6,
+        "stadiumAtmosphere": 7,
+        "offensiveScheme": "Power Spread",
+        "defensiveScheme": "3-3-5"
+      }
+    ],
+    "enrollment": 20229,
+    "stadium": {
+      "id": 15,
+      "stadium_id": "bill-snyder-family-football-stadium-kansas-state",
+      "school": 47,
+      "name": "Bill Snyder Family Football Stadium",
+      "elevation": "328.06",
+      "capacity": 50000,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1968,
+      "nickname": null
+    },
+    "image": "/team-logos/kansas-state.webp"
+  },
+  {
+    "id": 26517,
+    "name": "Kennesaw State",
+    "mascot": "Owls",
+    "city": "Kennesaw",
+    "state": "GA",
+    "colors": [
+      "#B30838",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "CUSA"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 67,
+        "defenseOVR": 70,
+        "specialTeamsOVR": 71,
+        "teamOVR": 72,
+        "prestige": 2,
+        "dynastyOffenseOVR": 66,
+        "dynastyDefenseOVR": 66,
+        "dynastyTeamOVR": 66,
+        "roadToCFPTier": 5,
+        "academicPrestige": 0,
+        "athleticFacilities": 0,
+        "brandExposure": 0,
+        "campusLifestyle": 5,
+        "championshipContender": 1,
+        "coachPrestige": 3,
+        "coachStability": 2,
+        "conferencePrestige": 4,
+        "programTradition": 0,
+        "stadiumAtmosphere": 0,
+        "offensiveScheme": "Veer and Shoot",
+        "defensiveScheme": "Multiple Defense"
+      }
+    ],
+    "enrollment": 35600,
+    "stadium": {
+      "id": 43,
+      "stadium_id": "fifth-third-bank-stadium-kennesaw-state",
+      "school": 48,
+      "name": "Fifth Third Bank Stadium",
+      "elevation": "296.96",
+      "capacity": 8318,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 2010,
+      "nickname": null
+    },
+    "image": "/team-logos/kennesaw-state.webp"
+  },
+  {
+    "id": 670,
+    "name": "Kent State",
+    "mascot": "Golden Flashes",
+    "city": "Kent",
+    "state": "OH",
+    "colors": [
+      "#002664",
+      "#EFAB00"
+    ],
+    "conference": {
+      "name": "MAC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 62,
+        "defenseOVR": 64,
+        "specialTeamsOVR": 76,
+        "teamOVR": 68,
+        "prestige": 1,
+        "dynastyOffenseOVR": 64,
+        "dynastyDefenseOVR": 64,
+        "dynastyTeamOVR": 64,
+        "roadToCFPTier": 5,
+        "academicPrestige": 2,
+        "athleticFacilities": 1,
+        "brandExposure": 0,
+        "campusLifestyle": 4,
+        "championshipContender": 0,
+        "coachPrestige": 0,
+        "coachStability": 0,
+        "conferencePrestige": 3,
+        "programTradition": 0,
+        "stadiumAtmosphere": 0,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "Base 4-3"
+      }
+    ],
+    "enrollment": 26597,
+    "stadium": {
+      "id": 35,
+      "stadium_id": "dix-stadium-kent-state",
+      "school": 49,
+      "name": "Dix Stadium",
+      "elevation": "321.36",
+      "capacity": 25319,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1969,
+      "nickname": null
+    },
+    "image": "/team-logos/kent-state.webp"
+  },
+  {
+    "id": 671,
+    "name": "Kentucky",
+    "mascot": "Wildcats",
+    "city": "Lexington",
+    "state": "KY",
+    "colors": [
+      "#0033A0",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "SEC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 80,
+        "defenseOVR": 78,
+        "specialTeamsOVR": 78,
+        "teamOVR": 80,
+        "prestige": 7,
+        "dynastyOffenseOVR": 84,
+        "dynastyDefenseOVR": 81,
+        "dynastyTeamOVR": 82,
+        "roadToCFPTier": 3,
+        "academicPrestige": 4,
+        "athleticFacilities": 8,
+        "brandExposure": 8,
+        "campusLifestyle": 5,
+        "championshipContender": 4,
+        "coachPrestige": 10,
+        "coachStability": 9,
+        "conferencePrestige": 12,
+        "programTradition": 4,
+        "stadiumAtmosphere": 6,
+        "offensiveScheme": "Multiple Offense",
+        "defensiveScheme": "Base 3-4"
+      }
+    ],
+    "enrollment": 30390,
+    "stadium": {
+      "id": 32,
+      "stadium_id": "kroger-field-kentucky",
+      "school": 50,
+      "name": "Kroger Field",
+      "elevation": "307.42",
+      "capacity": 61000,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1973,
+      "nickname": null
+    },
+    "image": "/team-logos/kentucky.webp"
+  },
+  {
+    "id": 672,
+    "name": "Liberty",
+    "mascot": "Flames",
+    "city": "Lynchburg",
+    "state": "VA",
+    "colors": [
+      "#B72025",
+      "#FFFFFF",
+      "#0A254E"
+    ],
+    "conference": {
+      "name": "CUSA"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 73,
+        "defenseOVR": 74,
+        "specialTeamsOVR": 76,
+        "teamOVR": 77,
+        "prestige": 3,
+        "dynastyOffenseOVR": 74,
+        "dynastyDefenseOVR": 76,
+        "dynastyTeamOVR": 74,
+        "roadToCFPTier": 4,
+        "academicPrestige": 0,
+        "athleticFacilities": 1,
+        "brandExposure": 1,
+        "campusLifestyle": 4,
+        "championshipContender": 3,
+        "coachPrestige": 8,
+        "coachStability": 7,
+        "conferencePrestige": 4,
+        "programTradition": 0,
+        "stadiumAtmosphere": 3,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 95148,
+    "stadium": {
+      "id": 133,
+      "stadium_id": "williams-stadium-liberty",
+      "school": 51,
+      "name": "Williams Stadium",
+      "elevation": "272.92",
+      "capacity": 25000,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1989,
+      "nickname": null
+    },
+    "image": "/team-logos/liberty.webp"
+  },
+  {
+    "id": 673,
+    "name": "Louisiana",
+    "mascot": "Ragin' Cajuns",
+    "city": "Lafayette",
+    "state": "LA",
+    "colors": [
+      "#CE181E",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "Sun Belt"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 73,
+        "defenseOVR": 74,
+        "specialTeamsOVR": 71,
+        "teamOVR": 74,
+        "prestige": 3,
+        "dynastyOffenseOVR": 71,
+        "dynastyDefenseOVR": 69,
+        "dynastyTeamOVR": 70,
+        "roadToCFPTier": 4,
+        "academicPrestige": 0,
+        "athleticFacilities": 1,
+        "brandExposure": 3,
+        "campusLifestyle": 5,
+        "championshipContender": 3,
+        "coachPrestige": 6,
+        "coachStability": 2,
+        "conferencePrestige": 5,
+        "programTradition": 2,
+        "stadiumAtmosphere": 3,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "Base 3-4"
+      }
+    ],
+    "enrollment": 16225,
+    "stadium": {
+      "id": 25,
+      "stadium_id": "cajun-field-louisiana",
+      "school": 52,
+      "name": "Cajun Field",
+      "elevation": "3.56",
+      "capacity": 41426,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1971,
+      "nickname": null
+    },
+    "image": "/team-logos/louisiana.webp"
+  },
+  {
+    "id": 675,
+    "name": "Louisiana Tech",
+    "mascot": "Bulldogs",
+    "city": "Ruston",
+    "state": "LA",
+    "colors": [
+      "#003087",
+      "#CB333B"
+    ],
+    "conference": {
+      "name": "CUSA"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 69,
+        "defenseOVR": 68,
+        "specialTeamsOVR": 76,
+        "teamOVR": 72,
+        "prestige": 3,
+        "dynastyOffenseOVR": 66,
+        "dynastyDefenseOVR": 69,
+        "dynastyTeamOVR": 67,
+        "roadToCFPTier": 5,
+        "academicPrestige": 1,
+        "athleticFacilities": 1,
+        "brandExposure": 0,
+        "campusLifestyle": 4,
+        "championshipContender": 0,
+        "coachPrestige": 2,
+        "coachStability": 1,
+        "conferencePrestige": 4,
+        "programTradition": 5,
+        "stadiumAtmosphere": 2,
+        "offensiveScheme": "Air Raid",
+        "defensiveScheme": "Base 4-3"
+      }
+    ],
+    "enrollment": 11037,
+    "stadium": {
+      "id": 60,
+      "stadium_id": "joe-aillet-stadium-louisiana-tech",
+      "school": 54,
+      "name": "Joe Aillet Stadium",
+      "elevation": "72.88",
+      "capacity": 28019,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1968,
+      "nickname": null
+    },
+    "image": "/team-logos/louisiana-tech.webp"
+  },
+  {
+    "id": 676,
+    "name": "Louisville",
+    "mascot": "Cardinals",
+    "city": "Louisville",
+    "state": "KY",
+    "colors": [
+      "#C9001F",
+      "#000000"
+    ],
+    "conference": {
+      "name": "ACC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 83,
+        "defenseOVR": 82,
+        "specialTeamsOVR": 77,
+        "teamOVR": 82,
+        "prestige": 6,
+        "dynastyOffenseOVR": 81,
+        "dynastyDefenseOVR": 84,
+        "dynastyTeamOVR": 82,
+        "roadToCFPTier": 3,
+        "academicPrestige": 3,
+        "athleticFacilities": 7,
+        "brandExposure": 7,
+        "campusLifestyle": 6,
+        "championshipContender": 10,
+        "coachPrestige": 10,
+        "coachStability": 9,
+        "conferencePrestige": 11,
+        "programTradition": 6,
+        "stadiumAtmosphere": 7,
+        "offensiveScheme": "Multiple Offense",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 22140,
+    "stadium": {
+      "id": 76,
+      "stadium_id": "ln-federal-credit-union-stadium-louisville",
+      "school": 55,
+      "name": "L&N Federal Credit Union Stadium",
+      "elevation": "138.56",
+      "capacity": 60000,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1998,
+      "nickname": null
+    },
+    "image": "/team-logos/louisville.webp"
+  },
+  {
+    "id": 677,
+    "name": "LSU",
+    "mascot": "Tigers",
+    "city": "Baton Rouge",
+    "state": "LA",
+    "colors": [
+      "#461D7C",
+      "#FDD023"
+    ],
+    "conference": {
+      "name": "SEC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 89,
+        "defenseOVR": 92,
+        "specialTeamsOVR": 81,
+        "teamOVR": 86,
+        "prestige": 9,
+        "dynastyOffenseOVR": 89,
+        "dynastyDefenseOVR": 91,
+        "dynastyTeamOVR": 89,
+        "roadToCFPTier": 1,
+        "academicPrestige": 3,
+        "athleticFacilities": 10,
+        "brandExposure": 11,
+        "campusLifestyle": 12,
+        "championshipContender": 12,
+        "coachPrestige": 12,
+        "coachStability": 7,
+        "conferencePrestige": 12,
+        "programTradition": 11,
+        "stadiumAtmosphere": 12,
+        "offensiveScheme": "Power Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 35912,
+    "stadium": {
+      "id": 121,
+      "stadium_id": "tiger-stadium-lsu",
+      "school": 56,
+      "name": "Tiger Stadium",
+      "elevation": "7.64",
+      "capacity": 102321,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1924,
+      "nickname": null
+    },
+    "image": "/team-logos/lsu.webp"
+  },
+  {
+    "id": 678,
+    "name": "Marshall",
+    "mascot": "Thundering Herd",
+    "city": "Huntington",
+    "state": "WV",
+    "colors": [
+      "#00B140",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "Sun Belt"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 69,
+        "defenseOVR": 64,
+        "specialTeamsOVR": 72,
+        "teamOVR": 72,
+        "prestige": 4,
+        "dynastyOffenseOVR": 69,
+        "dynastyDefenseOVR": 69,
+        "dynastyTeamOVR": 69,
+        "roadToCFPTier": 5,
+        "academicPrestige": 0,
+        "athleticFacilities": 3,
+        "brandExposure": 3,
+        "campusLifestyle": 5,
+        "championshipContender": 2,
+        "coachPrestige": 1,
+        "coachStability": 5,
+        "conferencePrestige": 5,
+        "programTradition": 4,
+        "stadiumAtmosphere": 3,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "3-3-5"
+      }
+    ],
+    "enrollment": 11125,
+    "stadium": {
+      "id": 59,
+      "stadium_id": "joan-c-edwards-stadium-marshall",
+      "school": 57,
+      "name": "Joan C. Edwards Stadium",
+      "elevation": "163.73",
+      "capacity": 38016,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1991,
+      "nickname": null
+    },
+    "image": "/team-logos/marshall.webp"
+  },
+  {
+    "id": 679,
+    "name": "Maryland",
+    "mascot": "Terrapins",
+    "city": "College Park",
+    "state": "MD",
+    "colors": [
+      "#E21833",
+      "#FFFFFF",
+      "#FFD200",
+      "#000000"
+    ],
+    "conference": {
+      "name": "Big Ten"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 76,
+        "defenseOVR": 70,
+        "specialTeamsOVR": 72,
+        "teamOVR": 77,
+        "prestige": 6,
+        "dynastyOffenseOVR": 76,
+        "dynastyDefenseOVR": 76,
+        "dynastyTeamOVR": 76,
+        "roadToCFPTier": 4,
+        "academicPrestige": 9,
+        "athleticFacilities": 6,
+        "brandExposure": 6,
+        "campusLifestyle": 5,
+        "championshipContender": 4,
+        "coachPrestige": 5,
+        "coachStability": 1,
+        "conferencePrestige": 12,
+        "programTradition": 6,
+        "stadiumAtmosphere": 5,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "Base 3-4"
+      }
+    ],
+    "enrollment": 41272,
+    "stadium": {
+      "id": 82,
+      "stadium_id": "maryland-stadium-maryland",
+      "school": 58,
+      "name": "Maryland Stadium",
+      "elevation": "32.69",
+      "capacity": 51802,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1950,
+      "nickname": null
+    },
+    "image": "/team-logos/maryland.webp"
+  },
+  {
+    "id": 680,
+    "name": "Memphis",
+    "mascot": "Tigers",
+    "city": "Memphis",
+    "state": "TN",
+    "colors": [
+      "#004991",
+      "#8E908F"
+    ],
+    "conference": {
+      "name": "American"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 76,
+        "defenseOVR": 80,
+        "specialTeamsOVR": 81,
+        "teamOVR": 77,
+        "prestige": 4,
+        "dynastyOffenseOVR": 76,
+        "dynastyDefenseOVR": 79,
+        "dynastyTeamOVR": 77,
+        "roadToCFPTier": 4,
+        "academicPrestige": 1,
+        "athleticFacilities": 4,
+        "brandExposure": 4,
+        "campusLifestyle": 6,
+        "championshipContender": 8,
+        "coachPrestige": 8,
+        "coachStability": 9,
+        "conferencePrestige": 7,
+        "programTradition": 2,
+        "stadiumAtmosphere": 5,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "4-3 Multiple"
+      }
+    ],
+    "enrollment": 21622,
+    "stadium": {
+      "id": 74,
+      "stadium_id": "liberty-bowl-memorial-stadium-memphis",
+      "school": 59,
+      "name": "Liberty Bowl Memorial Stadium",
+      "elevation": "90.62",
+      "capacity": 58325,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1965,
+      "nickname": null
+    },
+    "image": "/team-logos/memphis.webp"
+  },
+  {
+    "id": 681,
+    "name": "Miami (FL)",
+    "mascot": "Hurricanes",
+    "city": "Coral Gables",
+    "state": "FL",
+    "colors": [
+      "#F05A00",
+      "#005030",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "ACC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 89,
+        "defenseOVR": 88,
+        "specialTeamsOVR": 87,
+        "teamOVR": 86,
+        "prestige": 8,
+        "dynastyOffenseOVR": 91,
+        "dynastyDefenseOVR": 91,
+        "dynastyTeamOVR": 91,
+        "roadToCFPTier": 2,
+        "academicPrestige": 7,
+        "athleticFacilities": 7,
+        "brandExposure": 7,
+        "campusLifestyle": 12,
+        "championshipContender": 9,
+        "coachPrestige": 12,
+        "coachStability": 1,
+        "conferencePrestige": 11,
+        "programTradition": 10,
+        "stadiumAtmosphere": 7,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "4-3 Multiple"
+      }
+    ],
+    "enrollment": 19852,
+    "stadium": {
+      "id": 98,
+      "stadium_id": "hard-rock-stadium",
+      "school": 98,
+      "name": "Hard Rock Stadium",
+      "elevation": "NA",
+      "capacity": 65326,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1985,
+      "nickname": null
+    },
+    "image": "/team-logos/miami.webp"
+  },
+  {
+    "id": 682,
+    "name": "Miami (OH)",
+    "mascot": "RedHawks",
+    "city": "Oxford",
+    "state": "OH",
+    "colors": [
+      "#B61E2E",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "MAC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 71,
+        "defenseOVR": 70,
+        "specialTeamsOVR": 78,
+        "teamOVR": 72,
+        "prestige": 4,
+        "dynastyOffenseOVR": 66,
+        "dynastyDefenseOVR": 69,
+        "dynastyTeamOVR": 67,
+        "roadToCFPTier": 5,
+        "academicPrestige": 4,
+        "athleticFacilities": 1,
+        "brandExposure": 0,
+        "campusLifestyle": 4,
+        "championshipContender": 2,
+        "coachPrestige": 7,
+        "coachStability": 11,
+        "conferencePrestige": 3,
+        "programTradition": 5,
+        "stadiumAtmosphere": 1,
+        "offensiveScheme": "Air Raid",
+        "defensiveScheme": "Base 3-4"
+      }
+    ],
+    "enrollment": 19216,
+    "stadium": {
+      "id": 134,
+      "stadium_id": "yager-stadium-miami-oh",
+      "school": 61,
+      "name": "Yager Stadium",
+      "elevation": "242.26",
+      "capacity": 24286,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1983,
+      "nickname": null
+    },
+    "image": "/team-logos/miami-oh.webp"
+  },
+  {
+    "id": 683,
+    "name": "Michigan",
+    "mascot": "Wolverines",
+    "city": "Ann Arbor",
+    "state": "MI",
+    "colors": [
+      "#FFCB05",
+      "#00274C"
+    ],
+    "conference": {
+      "name": "Big Ten"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 82,
+        "defenseOVR": 92,
+        "specialTeamsOVR": 85,
+        "teamOVR": 85,
+        "prestige": 10,
+        "dynastyOffenseOVR": 89,
+        "dynastyDefenseOVR": 91,
+        "dynastyTeamOVR": 89,
+        "roadToCFPTier": 2,
+        "academicPrestige": 10,
+        "athleticFacilities": 12,
+        "brandExposure": 11,
+        "campusLifestyle": 10,
+        "championshipContender": 9,
+        "coachPrestige": 10,
+        "coachStability": 4,
+        "conferencePrestige": 12,
+        "programTradition": 11,
+        "stadiumAtmosphere": 11,
+        "offensiveScheme": "Multiple Offense",
+        "defensiveScheme": "3-4 Multiple"
+      }
+    ],
+    "enrollment": 50278,
+    "stadium": {
+      "id": 90,
+      "stadium_id": "michigan-stadium-michigan",
+      "school": 62,
+      "name": "Michigan Stadium",
+      "elevation": "255.55",
+      "capacity": 107601,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1927,
+      "nickname": "The Big House"
+    },
+    "image": "/team-logos/michigan.webp"
+  },
+  {
+    "id": 684,
+    "name": "Michigan State",
+    "mascot": "Spartans",
+    "city": "East Lansing",
+    "state": "MI",
+    "colors": [
+      "#173F35",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "Big Ten"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 82,
+        "defenseOVR": 80,
+        "specialTeamsOVR": 77,
+        "teamOVR": 81,
+        "prestige": 6,
+        "dynastyOffenseOVR": 84,
+        "dynastyDefenseOVR": 84,
+        "dynastyTeamOVR": 84,
+        "roadToCFPTier": 3,
+        "academicPrestige": 7,
+        "athleticFacilities": 9,
+        "brandExposure": 8,
+        "campusLifestyle": 8,
+        "championshipContender": 7,
+        "coachPrestige": 9,
+        "coachStability": 3,
+        "conferencePrestige": 12,
+        "programTradition": 8,
+        "stadiumAtmosphere": 8,
+        "offensiveScheme": "Pro Style",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 49659,
+    "stadium": {
+      "id": 115,
+      "stadium_id": "spartan-stadium-michigan-state",
+      "school": 63,
+      "name": "Spartan Stadium",
+      "elevation": "254.88",
+      "capacity": 75005,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1923,
+      "nickname": null
+    },
+    "image": "/team-logos/michigan-state.webp"
+  },
+  {
+    "id": 685,
+    "name": "Middle Tennessee",
+    "mascot": "Blue Raiders",
+    "city": "Murfreesboro",
+    "state": "TN",
+    "colors": [
+      "#0066CC",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "CUSA"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 69,
+        "defenseOVR": 68,
+        "specialTeamsOVR": 71,
+        "teamOVR": 72,
+        "prestige": 3,
+        "dynastyOffenseOVR": 69,
+        "dynastyDefenseOVR": 69,
+        "dynastyTeamOVR": 69,
+        "roadToCFPTier": 5,
+        "academicPrestige": 1,
+        "athleticFacilities": 0,
+        "brandExposure": 2,
+        "campusLifestyle": 4,
+        "championshipContender": 1,
+        "coachPrestige": 5,
+        "coachStability": 1,
+        "conferencePrestige": 4,
+        "programTradition": 3,
+        "stadiumAtmosphere": 1,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "Base 3-4"
+      }
+    ],
+    "enrollment": 20857,
+    "stadium": {
+      "id": 62,
+      "stadium_id": "johnny-red-floyd-stadium-middle-tennessee",
+      "school": 64,
+      "name": "Johnny Red\"\" Floyd Stadium\"\"",
+      "elevation": "191.73",
+      "capacity": 30788,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1933,
+      "nickname": null
+    },
+    "image": "/team-logos/middle-tennessee.webp"
+  },
+  {
+    "id": 686,
+    "name": "Minnesota",
+    "mascot": "Golden Gophers",
+    "city": "Minneapolis",
+    "state": "MN",
+    "colors": [
+      "#5B0013",
+      "#FFB71E"
+    ],
+    "conference": {
+      "name": "Big Ten"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 75,
+        "defenseOVR": 78,
+        "specialTeamsOVR": 81,
+        "teamOVR": 78,
+        "prestige": 6,
+        "dynastyOffenseOVR": 79,
+        "dynastyDefenseOVR": 81,
+        "dynastyTeamOVR": 79,
+        "roadToCFPTier": 3,
+        "academicPrestige": 8,
+        "athleticFacilities": 8,
+        "brandExposure": 7,
+        "campusLifestyle": 6,
+        "championshipContender": 7,
+        "coachPrestige": 8,
+        "coachStability": 6,
+        "conferencePrestige": 12,
+        "programTradition": 6,
+        "stadiumAtmosphere": 6,
+        "offensiveScheme": "Multiple Offense",
+        "defensiveScheme": "Base 4-3"
+      }
+    ],
+    "enrollment": 52376,
+    "stadium": {
+      "id": 53,
+      "stadium_id": "huntington-bank-stadium-minnesota",
+      "school": 65,
+      "name": "Huntington Bank Stadium",
+      "elevation": "254.39",
+      "capacity": 50850,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 2009,
+      "nickname": null
+    },
+    "image": "/team-logos/minnesota.webp"
+  },
+  {
+    "id": 687,
+    "name": "Mississippi State",
+    "mascot": "Bulldogs",
+    "city": "Mississippi State",
+    "state": "MS",
+    "colors": [
+      "#5D1725",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "SEC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 78,
+        "defenseOVR": 82,
+        "specialTeamsOVR": 80,
+        "teamOVR": 80,
+        "prestige": 4,
+        "dynastyOffenseOVR": 84,
+        "dynastyDefenseOVR": 84,
+        "dynastyTeamOVR": 84,
+        "roadToCFPTier": 3,
+        "academicPrestige": 2,
+        "athleticFacilities": 8,
+        "brandExposure": 6,
+        "campusLifestyle": 5,
+        "championshipContender": 5,
+        "coachPrestige": 5,
+        "coachStability": 1,
+        "conferencePrestige": 12,
+        "programTradition": 4,
+        "stadiumAtmosphere": 9,
+        "offensiveScheme": "Veer and Shoot",
+        "defensiveScheme": "3-3-5"
+      }
+    ],
+    "enrollment": 23086,
+    "stadium": {
+      "id": 34,
+      "stadium_id": "davis-wade-stadium-mississippi-state",
+      "school": 66,
+      "name": "Davis Wade Stadium",
+      "elevation": "110.27",
+      "capacity": 61337,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1914,
+      "nickname": null
+    },
+    "image": "/team-logos/mississippi-state.webp"
+  },
+  {
+    "id": 688,
+    "name": "Missouri",
+    "mascot": "Tigers",
+    "city": "Columbia",
+    "state": "MO",
+    "colors": [
+      "#F1B82D",
+      "#000000"
+    ],
+    "conference": {
+      "name": "SEC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 83,
+        "defenseOVR": 84,
+        "specialTeamsOVR": 82,
+        "teamOVR": 84,
+        "prestige": 6,
+        "dynastyOffenseOVR": 86,
+        "dynastyDefenseOVR": 86,
+        "dynastyTeamOVR": 86,
+        "roadToCFPTier": 3,
+        "academicPrestige": 5,
+        "athleticFacilities": 5,
+        "brandExposure": 8,
+        "campusLifestyle": 6,
+        "championshipContender": 9,
+        "coachPrestige": 9,
+        "coachStability": 9,
+        "conferencePrestige": 12,
+        "programTradition": 7,
+        "stadiumAtmosphere": 7,
+        "offensiveScheme": "Pistol",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 31412,
+    "stadium": {
+      "id": 41,
+      "stadium_id": "faurot-field-missouri",
+      "school": 67,
+      "name": "Faurot Field",
+      "elevation": "212.69",
+      "capacity": 71168,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1927,
+      "nickname": null
+    },
+    "image": "/team-logos/missouri.webp"
+  },
+  {
+    "id": 62,
+    "name": "Missouri State",
+    "mascot": "Bears",
+    "city": "Springfield",
+    "state": "Missouri",
+    "colors": [
+      "#5E0009",
+      "white"
+    ],
+    "conference": {
+      "name": "CUSA"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 66,
+        "defenseOVR": 64,
+        "specialTeamsOVR": 80,
+        "teamOVR": 69,
+        "prestige": 2,
+        "dynastyOffenseOVR": 66,
+        "dynastyDefenseOVR": 64,
+        "dynastyTeamOVR": 65,
+        "roadToCFPTier": 5,
+        "academicPrestige": 0,
+        "athleticFacilities": 0,
+        "brandExposure": 0,
+        "campusLifestyle": 4,
+        "championshipContender": 0,
+        "coachPrestige": 2,
+        "coachStability": 1,
+        "conferencePrestige": 4,
+        "programTradition": 0,
+        "stadiumAtmosphere": 0,
+        "offensiveScheme": "Power Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 18419,
+    "stadium": {
+      "id": 97,
+      "stadium_id": "robert-w-plaster-stadium",
+      "school": 97,
+      "name": "Robert W. Plaster Stadium",
+      "elevation": "NA",
+      "capacity": 17500,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1941,
+      "nickname": null
+    },
+    "image": "/team-logos/missouri-state.webp"
+  },
+  {
+    "id": 689,
+    "name": "Navy",
+    "mascot": "Midshipmen",
+    "city": "Annapolis",
+    "state": "MD",
+    "colors": [
+      "#00225B",
+      "#B5A67C"
+    ],
+    "conference": {
+      "name": "American"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 80,
+        "defenseOVR": 70,
+        "specialTeamsOVR": 78,
+        "teamOVR": 74,
+        "prestige": 4,
+        "dynastyOffenseOVR": 69,
+        "dynastyDefenseOVR": 69,
+        "dynastyTeamOVR": 69,
+        "roadToCFPTier": 4,
+        "academicPrestige": 12,
+        "athleticFacilities": 3,
+        "brandExposure": 3,
+        "campusLifestyle": 4,
+        "championshipContender": 4,
+        "coachPrestige": 8,
+        "coachStability": 2,
+        "conferencePrestige": 7,
+        "programTradition": 7,
+        "stadiumAtmosphere": 3,
+        "offensiveScheme": "Option",
+        "defensiveScheme": "3-4 Multiple"
+      }
+    ],
+    "enrollment": 4528,
+    "stadium": {
+      "id": 92,
+      "stadium_id": "navy-marine-corps-memorial-stadium-navy",
+      "school": 68,
+      "name": "Navy-Marine Corps Memorial Stadium",
+      "elevation": "10.75",
+      "capacity": 34000,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1959,
+      "nickname": null
+    },
+    "image": "/team-logos/navy.webp"
+  },
+  {
+    "id": 690,
+    "name": "NC State",
+    "mascot": "Wolfpack",
+    "city": "Raleigh",
+    "state": "NC",
+    "colors": [
+      "#CC0000",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "ACC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 78,
+        "defenseOVR": 82,
+        "specialTeamsOVR": 81,
+        "teamOVR": 81,
+        "prestige": 7,
+        "dynastyOffenseOVR": 81,
+        "dynastyDefenseOVR": 84,
+        "dynastyTeamOVR": 82,
+        "roadToCFPTier": 3,
+        "academicPrestige": 8,
+        "athleticFacilities": 7,
+        "brandExposure": 9,
+        "campusLifestyle": 7,
+        "championshipContender": 6,
+        "coachPrestige": 9,
+        "coachStability": 9,
+        "conferencePrestige": 11,
+        "programTradition": 7,
+        "stadiumAtmosphere": 9,
+        "offensiveScheme": "Power Spread",
+        "defensiveScheme": "Base 3-4"
+      }
+    ],
+    "enrollment": 36831,
+    "stadium": {
+      "id": 29,
+      "stadium_id": "carter-finley-stadium-nc-state",
+      "school": 69,
+      "name": "Carter-Finley Stadium",
+      "elevation": "117.01",
+      "capacity": 58000,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1966,
+      "nickname": null
+    },
+    "image": "/team-logos/nc-state.webp"
+  },
+  {
+    "id": 691,
+    "name": "Nebraska",
+    "mascot": "Cornhuskers",
+    "city": "Lincoln",
+    "state": "NE",
+    "colors": [
+      "#D00000",
+      "#F5F1E7"
+    ],
+    "conference": {
+      "name": "Big Ten"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 85,
+        "defenseOVR": 82,
+        "specialTeamsOVR": 81,
+        "teamOVR": 82,
+        "prestige": 6,
+        "dynastyOffenseOVR": 84,
+        "dynastyDefenseOVR": 84,
+        "dynastyTeamOVR": 84,
+        "roadToCFPTier": 3,
+        "academicPrestige": 4,
+        "athleticFacilities": 9,
+        "brandExposure": 9,
+        "campusLifestyle": 7,
+        "championshipContender": 8,
+        "coachPrestige": 11,
+        "coachStability": 9,
+        "conferencePrestige": 12,
+        "programTradition": 12,
+        "stadiumAtmosphere": 8,
+        "offensiveScheme": "Multiple Offense",
+        "defensiveScheme": "3-3-5"
+      }
+    ],
+    "enrollment": 24431,
+    "stadium": {
+      "id": 89,
+      "stadium_id": "memorial-stadium-nebraska",
+      "school": 70,
+      "name": "Memorial Stadium",
+      "elevation": "354.93",
+      "capacity": 85458,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1923,
+      "nickname": null
+    },
+    "image": "/team-logos/nebraska.webp"
+  },
+  {
+    "id": 692,
+    "name": "Nevada",
+    "mascot": "Wolf Pack",
+    "city": "Reno",
+    "state": "NV",
+    "colors": [
+      "#041E42",
+      "#74767B"
+    ],
+    "conference": {
+      "name": "Mountain West"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 67,
+        "defenseOVR": 70,
+        "specialTeamsOVR": 76,
+        "teamOVR": 72,
+        "prestige": 3,
+        "dynastyOffenseOVR": 69,
+        "dynastyDefenseOVR": 69,
+        "dynastyTeamOVR": 69,
+        "roadToCFPTier": 5,
+        "academicPrestige": 2,
+        "athleticFacilities": 2,
+        "brandExposure": 1,
+        "campusLifestyle": 4,
+        "championshipContender": 1,
+        "coachPrestige": 3,
+        "coachStability": 0,
+        "conferencePrestige": 6,
+        "programTradition": 3,
+        "stadiumAtmosphere": 1,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "4-3 Multiple"
+      }
+    ],
+    "enrollment": 21034,
+    "stadium": {
+      "id": 79,
+      "stadium_id": "mackay-stadium-nevada",
+      "school": 71,
+      "name": "Mackay Stadium",
+      "elevation": "1406.58",
+      "capacity": 27000,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1966,
+      "nickname": null
+    },
+    "image": "/team-logos/nevada.webp"
+  },
+  {
+    "id": 693,
+    "name": "New Mexico",
+    "mascot": "Lobos",
+    "city": "Albuquerque",
+    "state": "NM",
+    "colors": [
+      "#BA0C2F",
+      "#A7A8AA"
+    ],
+    "conference": {
+      "name": "Mountain West"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 69,
+        "defenseOVR": 64,
+        "specialTeamsOVR": 75,
+        "teamOVR": 72,
+        "prestige": 2,
+        "dynastyOffenseOVR": 69,
+        "dynastyDefenseOVR": 66,
+        "dynastyTeamOVR": 67,
+        "roadToCFPTier": 5,
+        "academicPrestige": 2,
+        "athleticFacilities": 1,
+        "brandExposure": 0,
+        "campusLifestyle": 4,
+        "championshipContender": 1,
+        "coachPrestige": 1,
+        "coachStability": 0,
+        "conferencePrestige": 6,
+        "programTradition": 1,
+        "stadiumAtmosphere": 1,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 21738,
+    "stadium": {
+      "id": 123,
+      "stadium_id": "university-stadium-new-mexico",
+      "school": 72,
+      "name": "University Stadium",
+      "elevation": "1554.47",
+      "capacity": 39224,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1960,
+      "nickname": null
+    },
+    "image": "/team-logos/new-mexico.webp"
+  },
+  {
+    "id": 694,
+    "name": "New Mexico State",
+    "mascot": "Aggies",
+    "city": "Las Cruces",
+    "state": "NM",
+    "colors": [
+      "#7E141B",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "CUSA"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 67,
+        "defenseOVR": 74,
+        "specialTeamsOVR": 73,
+        "teamOVR": 73,
+        "prestige": 2,
+        "dynastyOffenseOVR": 66,
+        "dynastyDefenseOVR": 69,
+        "dynastyTeamOVR": 67,
+        "roadToCFPTier": 5,
+        "academicPrestige": 1,
+        "athleticFacilities": 0,
+        "brandExposure": 1,
+        "campusLifestyle": 4,
+        "championshipContender": 2,
+        "coachPrestige": 5,
+        "coachStability": 1,
+        "conferencePrestige": 4,
+        "programTradition": 1,
+        "stadiumAtmosphere": 0,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 13904,
+    "stadium": {
+      "id": 2,
+      "stadium_id": "aggie-memorial-stadium-new-mexico-state",
+      "school": 73,
+      "name": "Aggie Memorial Stadium",
+      "elevation": "1208.20",
+      "capacity": 28853,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1978,
+      "nickname": null
+    },
+    "image": "/team-logos/new-mexico-state.webp"
+  },
+  {
+    "id": 695,
+    "name": "North Carolina",
+    "mascot": "Tar Heels",
+    "city": "Chapel Hill",
+    "state": "NC",
+    "colors": [
+      "#7BAFD4",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "ACC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 80,
+        "defenseOVR": 82,
+        "specialTeamsOVR": 80,
+        "teamOVR": 80,
+        "prestige": 7,
+        "dynastyOffenseOVR": 81,
+        "dynastyDefenseOVR": 81,
+        "dynastyTeamOVR": 81,
+        "roadToCFPTier": 3,
+        "academicPrestige": 10,
+        "athleticFacilities": 6,
+        "brandExposure": 8,
+        "campusLifestyle": 9,
+        "championshipContender": 8,
+        "coachPrestige": 9,
+        "coachStability": 1,
+        "conferencePrestige": 11,
+        "programTradition": 5,
+        "stadiumAtmosphere": 7,
+        "offensiveScheme": "Multiple Offense",
+        "defensiveScheme": "3-4 Multiple"
+      }
+    ],
+    "enrollment": 31733,
+    "stadium": {
+      "id": 67,
+      "stadium_id": "kenan-memorial-stadium-north-carolina",
+      "school": 74,
+      "name": "Kenan Memorial Stadium",
+      "elevation": "127.76",
+      "capacity": 50500,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1927,
+      "nickname": null
+    },
+    "image": "/team-logos/north-carolina.webp"
+  },
+  {
+    "id": 697,
+    "name": "Northern Illinois",
+    "mascot": "Huskies",
+    "city": "DeKalb",
+    "state": "IL",
+    "colors": [
+      "#BA0C2F",
+      "#27251F"
+    ],
+    "conference": {
+      "name": "MAC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 64,
+        "defenseOVR": 68,
+        "specialTeamsOVR": 82,
+        "teamOVR": 70,
+        "prestige": 3,
+        "dynastyOffenseOVR": 66,
+        "dynastyDefenseOVR": 69,
+        "dynastyTeamOVR": 67,
+        "roadToCFPTier": 5,
+        "academicPrestige": 1,
+        "athleticFacilities": 1,
+        "brandExposure": 0,
+        "campusLifestyle": 4,
+        "championshipContender": 0,
+        "coachPrestige": 5,
+        "coachStability": 8,
+        "conferencePrestige": 3,
+        "programTradition": 3,
+        "stadiumAtmosphere": 0,
+        "offensiveScheme": "Multiple Offense",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 16234,
+    "stadium": {
+      "id": 22,
+      "stadium_id": "brigham-field-at-huskie-stadium-northern-illinois",
+      "school": 76,
+      "name": "Brigham Field at Huskie Stadium",
+      "elevation": "267.45",
+      "capacity": 23595,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1965,
+      "nickname": null
+    },
+    "image": "/team-logos/northern-illinois.webp"
+  },
+  {
+    "id": 696,
+    "name": "North Texas",
+    "mascot": "Mean Green",
+    "city": "Denton",
+    "state": "TX",
+    "colors": [
+      "#00853E",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "American"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 71,
+        "defenseOVR": 76,
+        "specialTeamsOVR": 77,
+        "teamOVR": 74,
+        "prestige": 4,
+        "dynastyOffenseOVR": 71,
+        "dynastyDefenseOVR": 74,
+        "dynastyTeamOVR": 72,
+        "roadToCFPTier": 4,
+        "academicPrestige": 2,
+        "athleticFacilities": 3,
+        "brandExposure": 2,
+        "campusLifestyle": 4,
+        "championshipContender": 3,
+        "coachPrestige": 4,
+        "coachStability": 2,
+        "conferencePrestige": 7,
+        "programTradition": 4,
+        "stadiumAtmosphere": 2,
+        "offensiveScheme": "Air Raid",
+        "defensiveScheme": "Base 4-3"
+      }
+    ],
+    "enrollment": 46940,
+    "stadium": {
+      "id": 8,
+      "stadium_id": "apogee-stadium-north-texas",
+      "school": 75,
+      "name": "Apogee Stadium",
+      "elevation": "198.69",
+      "capacity": 30850,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 2011,
+      "nickname": null
+    },
+    "image": "/team-logos/north-texas.webp"
+  },
+  {
+    "id": 698,
+    "name": "Northwestern",
+    "mascot": "Wildcats",
+    "city": "Evanston",
+    "state": "IL",
+    "colors": [
+      "#4E2A84",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "Big Ten"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 76,
+        "defenseOVR": 78,
+        "specialTeamsOVR": 82,
+        "teamOVR": 78,
+        "prestige": 4,
+        "dynastyOffenseOVR": 79,
+        "dynastyDefenseOVR": 81,
+        "dynastyTeamOVR": 79,
+        "roadToCFPTier": 4,
+        "academicPrestige": 12,
+        "athleticFacilities": 6,
+        "brandExposure": 9,
+        "campusLifestyle": 7,
+        "championshipContender": 4,
+        "coachPrestige": 6,
+        "coachStability": 4,
+        "conferencePrestige": 12,
+        "programTradition": 3,
+        "stadiumAtmosphere": 6,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "Base 4-3"
+      }
+    ],
+    "enrollment": 22933,
+    "stadium": {
+      "id": 107,
+      "stadium_id": "ryan-field-northwestern",
+      "school": 77,
+      "name": "Ryan Field",
+      "elevation": "181.24",
+      "capacity": 47130,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1926,
+      "nickname": null
+    },
+    "image": "/team-logos/northwestern.webp"
+  },
+  {
+    "id": 699,
+    "name": "Notre Dame",
+    "mascot": "Fighting Irish",
+    "city": "South Bend",
+    "state": "IN",
+    "colors": [
+      "#0C2340",
+      "#C99700"
+    ],
+    "conference": {
+      "name": "Independent"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 89,
+        "defenseOVR": 90,
+        "specialTeamsOVR": 88,
+        "teamOVR": 88,
+        "prestige": 10,
+        "dynastyOffenseOVR": 94,
+        "dynastyDefenseOVR": 91,
+        "dynastyTeamOVR": 92,
+        "roadToCFPTier": 1,
+        "academicPrestige": 11,
+        "athleticFacilities": 12,
+        "brandExposure": 11,
+        "campusLifestyle": 9,
+        "championshipContender": 12,
+        "coachPrestige": 12,
+        "coachStability": 11,
+        "conferencePrestige": 9,
+        "programTradition": 12,
+        "stadiumAtmosphere": 9,
+        "offensiveScheme": "Power Spread",
+        "defensiveScheme": "Multiple Defense"
+      }
+    ],
+    "enrollment": 13139,
+    "stadium": {
+      "id": 95,
+      "stadium_id": "notre-dame-stadium-notre-dame",
+      "school": 78,
+      "name": "Notre Dame Stadium",
+      "elevation": "222.65",
+      "capacity": 80795,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1930,
+      "nickname": null
+    },
+    "image": "/team-logos/notre-dame.webp"
+  },
+  {
+    "id": 700,
+    "name": "Ohio",
+    "mascot": "Bobcats",
+    "city": "Athens",
+    "state": "OH",
+    "colors": [
+      "#154734",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "MAC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 73,
+        "defenseOVR": 64,
+        "specialTeamsOVR": 72,
+        "teamOVR": 72,
+        "prestige": 3,
+        "dynastyOffenseOVR": 69,
+        "dynastyDefenseOVR": 64,
+        "dynastyTeamOVR": 67,
+        "roadToCFPTier": 5,
+        "academicPrestige": 3,
+        "athleticFacilities": 3,
+        "brandExposure": 0,
+        "campusLifestyle": 6,
+        "championshipContender": 3,
+        "coachPrestige": 1,
+        "coachStability": 5,
+        "conferencePrestige": 3,
+        "programTradition": 2,
+        "stadiumAtmosphere": 2,
+        "offensiveScheme": "Pistol",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 24429,
+    "stadium": {
+      "id": 98,
+      "stadium_id": "peden-stadium-ohio",
+      "school": 79,
+      "name": "Peden Stadium",
+      "elevation": "194.23",
+      "capacity": 24000,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1929,
+      "nickname": null
+    },
+    "image": "/team-logos/ohio.webp"
+  },
+  {
+    "id": 701,
+    "name": "Ohio State",
+    "mascot": "Buckeyes",
+    "city": "Columbus",
+    "state": "OH",
+    "colors": [
+      "#CE0F3D",
+      "#B0B7BC"
+    ],
+    "conference": {
+      "name": "Big Ten"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 91,
+        "defenseOVR": 92,
+        "specialTeamsOVR": 78,
+        "teamOVR": 88,
+        "prestige": 10,
+        "dynastyOffenseOVR": 91,
+        "dynastyDefenseOVR": 94,
+        "dynastyTeamOVR": 92,
+        "roadToCFPTier": 1,
+        "academicPrestige": 9,
+        "athleticFacilities": 12,
+        "brandExposure": 12,
+        "campusLifestyle": 11,
+        "championshipContender": 12,
+        "coachPrestige": 12,
+        "coachStability": 9,
+        "conferencePrestige": 12,
+        "programTradition": 12,
+        "stadiumAtmosphere": 12,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 61677,
+    "stadium": {
+      "id": 96,
+      "stadium_id": "ohio-stadium-ohio-state",
+      "school": 80,
+      "name": "Ohio Stadium",
+      "elevation": "216.68",
+      "capacity": 102780,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1922,
+      "nickname": "The Horseshoe"
+    },
+    "image": "/team-logos/ohio-state.webp"
+  },
+  {
+    "id": 702,
+    "name": "Oklahoma",
+    "mascot": "Sooners",
+    "city": "Norman",
+    "state": "OK",
+    "colors": [
+      "#841617",
+      "#DDCBA4"
+    ],
+    "conference": {
+      "name": "SEC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 87,
+        "defenseOVR": 88,
+        "specialTeamsOVR": 77,
+        "teamOVR": 85,
+        "prestige": 9,
+        "dynastyOffenseOVR": 89,
+        "dynastyDefenseOVR": 91,
+        "dynastyTeamOVR": 89,
+        "roadToCFPTier": 2,
+        "academicPrestige": 5,
+        "athleticFacilities": 11,
+        "brandExposure": 10,
+        "campusLifestyle": 9,
+        "championshipContender": 9,
+        "coachPrestige": 9,
+        "coachStability": 2,
+        "conferencePrestige": 12,
+        "programTradition": 12,
+        "stadiumAtmosphere": 11,
+        "offensiveScheme": "Air Raid",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 28042,
+    "stadium": {
+      "id": 46,
+      "stadium_id": "gaylord-family-oklahoma-memorial-stadium-oklahoma",
+      "school": 81,
+      "name": "Gaylord Family Oklahoma Memorial Stadium",
+      "elevation": "355.10",
+      "capacity": 86112,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1925,
+      "nickname": null
+    },
+    "image": "/team-logos/oklahoma.webp"
+  },
+  {
+    "id": 703,
+    "name": "Oklahoma State",
+    "mascot": "Cowboys",
+    "city": "Stillwater",
+    "state": "OK",
+    "colors": [
+      "#FE5C00",
+      "#000000"
+    ],
+    "conference": {
+      "name": "Big 12"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 69,
+        "defenseOVR": 76,
+        "specialTeamsOVR": 75,
+        "teamOVR": 74,
+        "prestige": 7,
+        "dynastyOffenseOVR": 76,
+        "dynastyDefenseOVR": 79,
+        "dynastyTeamOVR": 77,
+        "roadToCFPTier": 4,
+        "academicPrestige": 2,
+        "athleticFacilities": 8,
+        "brandExposure": 10,
+        "campusLifestyle": 5,
+        "championshipContender": 5,
+        "coachPrestige": 11,
+        "coachStability": 12,
+        "conferencePrestige": 10,
+        "programTradition": 8,
+        "stadiumAtmosphere": 9,
+        "offensiveScheme": "Power Spread",
+        "defensiveScheme": "3-4 Multiple"
+      }
+    ],
+    "enrollment": 24660,
+    "stadium": {
+      "id": 19,
+      "stadium_id": "boone-pickens-stadium-oklahoma-state",
+      "school": 82,
+      "name": "Boone Pickens Stadium",
+      "elevation": "276.48",
+      "capacity": 55509,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1919,
+      "nickname": null
+    },
+    "image": "/team-logos/oklahoma-state.webp"
+  },
+  {
+    "id": 704,
+    "name": "Old Dominion",
+    "mascot": "Monarchs",
+    "city": "Norfolk",
+    "state": "VA",
+    "colors": [
+      "#003767",
+      "#95999C",
+      "#A1D0F0"
+    ],
+    "conference": {
+      "name": "Sun Belt"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 71,
+        "defenseOVR": 74,
+        "specialTeamsOVR": 81,
+        "teamOVR": 73,
+        "prestige": 2,
+        "dynastyOffenseOVR": 64,
+        "dynastyDefenseOVR": 64,
+        "dynastyTeamOVR": 64,
+        "roadToCFPTier": 5,
+        "academicPrestige": 1,
+        "athleticFacilities": 0,
+        "brandExposure": 0,
+        "campusLifestyle": 5,
+        "championshipContender": 1,
+        "coachPrestige": 2,
+        "coachStability": 3,
+        "conferencePrestige": 5,
+        "programTradition": 0,
+        "stadiumAtmosphere": 2,
+        "offensiveScheme": "Veer and Shoot",
+        "defensiveScheme": "3-2-6"
+      }
+    ],
+    "enrollment": 23494,
+    "stadium": {
+      "id": 70,
+      "stadium_id": "kornblau-field-at-sb-ballard-stadium-old-dominion",
+      "school": 83,
+      "name": "Kornblau Field at S.B. Ballard Stadium",
+      "elevation": "3.15",
+      "capacity": 20118,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1936,
+      "nickname": null
+    },
+    "image": "/team-logos/old-dominion.webp"
+  },
+  {
+    "id": 705,
+    "name": "Ole Miss",
+    "mascot": "Rebels",
+    "city": "University",
+    "state": "MS",
+    "colors": [
+      "#CE1126",
+      "#14213D"
+    ],
+    "conference": {
+      "name": "SEC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 85,
+        "defenseOVR": 86,
+        "specialTeamsOVR": 78,
+        "teamOVR": 85,
+        "prestige": 8,
+        "dynastyOffenseOVR": 86,
+        "dynastyDefenseOVR": 86,
+        "dynastyTeamOVR": 86,
+        "roadToCFPTier": 3,
+        "academicPrestige": 3,
+        "athleticFacilities": 9,
+        "brandExposure": 7,
+        "campusLifestyle": 10,
+        "championshipContender": 9,
+        "coachPrestige": 12,
+        "coachStability": 8,
+        "conferencePrestige": 12,
+        "programTradition": 9,
+        "stadiumAtmosphere": 8,
+        "offensiveScheme": "Veer and Shoot",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 21203,
+    "stadium": {
+      "id": 126,
+      "stadium_id": "vaught-hemingway-stadium-ole-miss",
+      "school": 84,
+      "name": "Vaught-Hemingway Stadium",
+      "elevation": "146.85",
+      "capacity": 64038,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1915,
+      "nickname": null
+    },
+    "image": "/team-logos/ole-miss.webp"
+  },
+  {
+    "id": 706,
+    "name": "Oregon",
+    "mascot": "Ducks",
+    "city": "Eugene",
+    "state": "OR",
+    "colors": [
+      "#007030",
+      "#FEE11A"
+    ],
+    "conference": {
+      "name": "Big Ten"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 85,
+        "defenseOVR": 92,
+        "specialTeamsOVR": 82,
+        "teamOVR": 86,
+        "prestige": 9,
+        "dynastyOffenseOVR": 91,
+        "dynastyDefenseOVR": 94,
+        "dynastyTeamOVR": 92,
+        "roadToCFPTier": 1,
+        "academicPrestige": 6,
+        "athleticFacilities": 11,
+        "brandExposure": 12,
+        "campusLifestyle": 11,
+        "championshipContender": 12,
+        "coachPrestige": 12,
+        "coachStability": 10,
+        "conferencePrestige": 12,
+        "programTradition": 8,
+        "stadiumAtmosphere": 11,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "Base 3-4"
+      }
+    ],
+    "enrollment": 22257,
+    "stadium": {
+      "id": 10,
+      "stadium_id": "autzen-stadium-oregon",
+      "school": 85,
+      "name": "Autzen Stadium",
+      "elevation": "127.42",
+      "capacity": 54000,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1967,
+      "nickname": null
+    },
+    "image": "/team-logos/oregon.webp"
+  },
+  {
+    "id": 707,
+    "name": "Oregon State",
+    "mascot": "Beavers",
+    "city": "Corvallis",
+    "state": "OR",
+    "colors": [
+      "#D73F09",
+      "#000000"
+    ],
+    "conference": {
+      "name": "Pac-12"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 82,
+        "defenseOVR": 76,
+        "specialTeamsOVR": 76,
+        "teamOVR": 78,
+        "prestige": 4,
+        "dynastyOffenseOVR": 76,
+        "dynastyDefenseOVR": 79,
+        "dynastyTeamOVR": 77,
+        "roadToCFPTier": 4,
+        "academicPrestige": 4,
+        "athleticFacilities": 5,
+        "brandExposure": 4,
+        "campusLifestyle": 5,
+        "championshipContender": 4,
+        "coachPrestige": 8,
+        "coachStability": 3,
+        "conferencePrestige": 8,
+        "programTradition": 4,
+        "stadiumAtmosphere": 4,
+        "offensiveScheme": "Power Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 33193,
+    "stadium": {
+      "id": 102,
+      "stadium_id": "reser-stadium-oregon-state",
+      "school": 86,
+      "name": "Reser Stadium",
+      "elevation": "66.91",
+      "capacity": 43363,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1953,
+      "nickname": null
+    },
+    "image": "/team-logos/oregon-state.webp"
+  },
+  {
+    "id": 708,
+    "name": "Penn State",
+    "mascot": "Nittany Lions",
+    "city": "University Park",
+    "state": "PA",
+    "colors": [
+      "#001E44",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "Big Ten"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 91,
+        "defenseOVR": 94,
+        "specialTeamsOVR": 80,
+        "teamOVR": 88,
+        "prestige": 9,
+        "dynastyOffenseOVR": 89,
+        "dynastyDefenseOVR": 89,
+        "dynastyTeamOVR": 89,
+        "roadToCFPTier": 1,
+        "academicPrestige": 8,
+        "athleticFacilities": 12,
+        "brandExposure": 9,
+        "campusLifestyle": 10,
+        "championshipContender": 11,
+        "coachPrestige": 12,
+        "coachStability": 11,
+        "conferencePrestige": 12,
+        "programTradition": 10,
+        "stadiumAtmosphere": 12,
+        "offensiveScheme": "Power Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 47560,
+    "stadium": {
+      "id": 12,
+      "stadium_id": "beaver-stadium-penn-state",
+      "school": 87,
+      "name": "Beaver Stadium",
+      "elevation": "354.16",
+      "capacity": 106572,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1960,
+      "nickname": null
+    },
+    "image": "/team-logos/penn-state.webp"
+  },
+  {
+    "id": 709,
+    "name": "Pittsburgh",
+    "mascot": "Panthers",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "colors": [
+      "#003594",
+      "#FFB81C"
+    ],
+    "conference": {
+      "name": "ACC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 80,
+        "defenseOVR": 86,
+        "specialTeamsOVR": 68,
+        "teamOVR": 81,
+        "prestige": 7,
+        "dynastyOffenseOVR": 79,
+        "dynastyDefenseOVR": 81,
+        "dynastyTeamOVR": 79,
+        "roadToCFPTier": 5,
+        "academicPrestige": 7,
+        "athleticFacilities": 5,
+        "brandExposure": 7,
+        "campusLifestyle": 5,
+        "championshipContender": 5,
+        "coachPrestige": 9,
+        "coachStability": 3,
+        "conferencePrestige": 11,
+        "programTradition": 7,
+        "stadiumAtmosphere": 5,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "Base 4-3"
+      }
+    ],
+    "enrollment": 29238,
+    "stadium": {
+      "id": 1,
+      "stadium_id": "acrisure-stadium-pittsburgh",
+      "school": 88,
+      "name": "Acrisure Stadium",
+      "elevation": "220.59",
+      "capacity": 68400,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 2001,
+      "nickname": null
+    },
+    "image": "/team-logos/pittsburgh.webp"
+  },
+  {
+    "id": 710,
+    "name": "Purdue",
+    "mascot": "Boilermakers",
+    "city": "West Lafayette",
+    "state": "IN",
+    "colors": [
+      "#CFB991",
+      "#000000"
+    ],
+    "conference": {
+      "name": "Big Ten"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 71,
+        "defenseOVR": 72,
+        "specialTeamsOVR": 77,
+        "teamOVR": 74,
+        "prestige": 4,
+        "dynastyOffenseOVR": 79,
+        "dynastyDefenseOVR": 76,
+        "dynastyTeamOVR": 77,
+        "roadToCFPTier": 4,
+        "academicPrestige": 8,
+        "athleticFacilities": 6,
+        "brandExposure": 7,
+        "campusLifestyle": 5,
+        "championshipContender": 4,
+        "coachPrestige": 6,
+        "coachStability": 5,
+        "conferencePrestige": 12,
+        "programTradition": 5,
+        "stadiumAtmosphere": 6,
+        "offensiveScheme": "Air Raid",
+        "defensiveScheme": "3-2-6"
+      }
+    ],
+    "enrollment": 49639,
+    "stadium": {
+      "id": 106,
+      "stadium_id": "ross-ade-stadium-purdue",
+      "school": 89,
+      "name": "Ross-Ade Stadium",
+      "elevation": "197.53",
+      "capacity": 57282,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1924,
+      "nickname": null
+    },
+    "image": "/team-logos/purdue.webp"
+  },
+  {
+    "id": 711,
+    "name": "Rice",
+    "mascot": "Owls",
+    "city": "Houston",
+    "state": "TX",
+    "colors": [
+      "#00205B",
+      "#C1C6C8"
+    ],
+    "conference": {
+      "name": "American"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 64,
+        "defenseOVR": 72,
+        "specialTeamsOVR": 81,
+        "teamOVR": 70,
+        "prestige": 2,
+        "dynastyOffenseOVR": 69,
+        "dynastyDefenseOVR": 71,
+        "dynastyTeamOVR": 69,
+        "roadToCFPTier": 4,
+        "academicPrestige": 11,
+        "athleticFacilities": 3,
+        "brandExposure": 3,
+        "campusLifestyle": 4,
+        "championshipContender": 3,
+        "coachPrestige": 4,
+        "coachStability": 2,
+        "conferencePrestige": 7,
+        "programTradition": 6,
+        "stadiumAtmosphere": 2,
+        "offensiveScheme": "Spread Option",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 8285,
+    "stadium": {
+      "id": 104,
+      "stadium_id": "rice-stadium-rice",
+      "school": 90,
+      "name": "Rice Stadium",
+      "elevation": "7.15",
+      "capacity": 47000,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1950,
+      "nickname": null
+    },
+    "image": "/team-logos/rice.webp"
+  },
+  {
+    "id": 712,
+    "name": "Rutgers",
+    "mascot": "Scarlet Knights",
+    "city": "Piscataway",
+    "state": "NJ",
+    "colors": [
+      "#CC0033"
+    ],
+    "conference": {
+      "name": "Big Ten"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 82,
+        "defenseOVR": 82,
+        "specialTeamsOVR": 85,
+        "teamOVR": 82,
+        "prestige": 5,
+        "dynastyOffenseOVR": 79,
+        "dynastyDefenseOVR": 79,
+        "dynastyTeamOVR": 79,
+        "roadToCFPTier": 3,
+        "academicPrestige": 9,
+        "athleticFacilities": 4,
+        "brandExposure": 4,
+        "campusLifestyle": 5,
+        "championshipContender": 5,
+        "coachPrestige": 8,
+        "coachStability": 4,
+        "conferencePrestige": 12,
+        "programTradition": 1,
+        "stadiumAtmosphere": 5,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "Base 4-3"
+      }
+    ],
+    "enrollment": 50804,
+    "stadium": {
+      "id": 112,
+      "stadium_id": "shi-stadium-rutgers",
+      "school": 91,
+      "name": "SHI Stadium",
+      "elevation": null,
+      "capacity": 52454,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": null,
+      "nickname": null
+    },
+    "image": "/team-logos/rutgers.webp"
+  },
+  {
+    "id": 713,
+    "name": "Sam Houston",
+    "mascot": "Bearkats",
+    "city": "Huntsville",
+    "state": "TX",
+    "colors": [
+      "#F56423",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "CUSA"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 73,
+        "defenseOVR": 66,
+        "specialTeamsOVR": 80,
+        "teamOVR": 72,
+        "prestige": 3,
+        "dynastyOffenseOVR": 69,
+        "dynastyDefenseOVR": 66,
+        "dynastyTeamOVR": 67,
+        "roadToCFPTier": 5,
+        "academicPrestige": 2,
+        "athleticFacilities": 0,
+        "brandExposure": 0,
+        "campusLifestyle": 4,
+        "championshipContender": 2,
+        "coachPrestige": 3,
+        "coachStability": 5,
+        "conferencePrestige": 4,
+        "programTradition": 0,
+        "stadiumAtmosphere": 0,
+        "offensiveScheme": "Air Raid",
+        "defensiveScheme": "3-3-5"
+      }
+    ],
+    "enrollment": 21679,
+    "stadium": {
+      "id": 20,
+      "stadium_id": "bowers-stadium-sam-houston",
+      "school": 92,
+      "name": "Bowers Stadium",
+      "elevation": "127.62",
+      "capacity": 14000,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1986,
+      "nickname": null
+    },
+    "image": "/team-logos/sam-houston.webp"
+  },
+  {
+    "id": 714,
+    "name": "San Diego State",
+    "mascot": "Aztecs",
+    "city": "San Diego",
+    "state": "CA",
+    "colors": [
+      "#C41230",
+      "#000000"
+    ],
+    "conference": {
+      "name": "Mountain West"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 71,
+        "defenseOVR": 78,
+        "specialTeamsOVR": 85,
+        "teamOVR": 77,
+        "prestige": 4,
+        "dynastyOffenseOVR": 76,
+        "dynastyDefenseOVR": 76,
+        "dynastyTeamOVR": 76,
+        "roadToCFPTier": 4,
+        "academicPrestige": 5,
+        "athleticFacilities": 3,
+        "brandExposure": 2,
+        "campusLifestyle": 11,
+        "championshipContender": 3,
+        "coachPrestige": 6,
+        "coachStability": 3,
+        "conferencePrestige": 6,
+        "programTradition": 5,
+        "stadiumAtmosphere": 5,
+        "offensiveScheme": "Veer and Shoot",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 35732,
+    "stadium": {
+      "id": 114,
+      "stadium_id": "snapdragon-stadium-san-diego-state",
+      "school": 93,
+      "name": "Snapdragon Stadium",
+      "elevation": "62.00",
+      "capacity": 35000,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 2022,
+      "nickname": null
+    },
+    "image": "/team-logos/san-diego-state.webp"
+  },
+  {
+    "id": 715,
+    "name": "San Jose State",
+    "mascot": "Spartans",
+    "city": "San Jose",
+    "state": "CA",
+    "colors": [
+      "#FFB81A",
+      "#FFFFFF",
+      "#0038A8"
+    ],
+    "conference": {
+      "name": "Mountain West"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 71,
+        "defenseOVR": 76,
+        "specialTeamsOVR": 80,
+        "teamOVR": 73,
+        "prestige": 5,
+        "dynastyOffenseOVR": 69,
+        "dynastyDefenseOVR": 71,
+        "dynastyTeamOVR": 69,
+        "roadToCFPTier": 5,
+        "academicPrestige": 3,
+        "athleticFacilities": 1,
+        "brandExposure": 2,
+        "campusLifestyle": 5,
+        "championshipContender": 1,
+        "coachPrestige": 6,
+        "coachStability": 2,
+        "conferencePrestige": 6,
+        "programTradition": 4,
+        "stadiumAtmosphere": 1,
+        "offensiveScheme": "Run And Shoot",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 37133,
+    "stadium": {
+      "id": 116,
+      "stadium_id": "spartan-stadium-san-jose-state",
+      "school": 94,
+      "name": "Spartan Stadium",
+      "elevation": "28.31",
+      "capacity": 30456,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1933,
+      "nickname": null
+    },
+    "image": "/team-logos/san-jose-state.webp"
+  },
+  {
+    "id": 716,
+    "name": "SMU",
+    "mascot": "Mustangs",
+    "city": "Dallas",
+    "state": "TX",
+    "colors": [
+      "#CC0035",
+      "#354CA1"
+    ],
+    "conference": {
+      "name": "ACC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 87,
+        "defenseOVR": 82,
+        "specialTeamsOVR": 86,
+        "teamOVR": 84,
+        "prestige": 7,
+        "dynastyOffenseOVR": 86,
+        "dynastyDefenseOVR": 84,
+        "dynastyTeamOVR": 85,
+        "roadToCFPTier": 3,
+        "academicPrestige": 6,
+        "athleticFacilities": 4,
+        "brandExposure": 6,
+        "campusLifestyle": 8,
+        "championshipContender": 11,
+        "coachPrestige": 9,
+        "coachStability": 8,
+        "conferencePrestige": 11,
+        "programTradition": 5,
+        "stadiumAtmosphere": 3,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 12385,
+    "stadium": {
+      "id": 48,
+      "stadium_id": "gerald-j-ford-stadium-smu",
+      "school": 95,
+      "name": "Gerald J. Ford Stadium",
+      "elevation": "169.41",
+      "capacity": 32000,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 2000,
+      "nickname": null
+    },
+    "image": "/team-logos/smu.webp"
+  },
+  {
+    "id": 717,
+    "name": "South Alabama",
+    "mascot": "Jaguars",
+    "city": "Mobile",
+    "state": "AL",
+    "colors": [
+      "#00205B",
+      "#FFFFFF",
+      "#BF0D3E"
+    ],
+    "conference": {
+      "name": "Sun Belt"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 71,
+        "defenseOVR": 70,
+        "specialTeamsOVR": 68,
+        "teamOVR": 72,
+        "prestige": 3,
+        "dynastyOffenseOVR": 69,
+        "dynastyDefenseOVR": 71,
+        "dynastyTeamOVR": 69,
+        "roadToCFPTier": 5,
+        "academicPrestige": 0,
+        "athleticFacilities": 0,
+        "brandExposure": 2,
+        "campusLifestyle": 4,
+        "championshipContender": 3,
+        "coachPrestige": 3,
+        "coachStability": 0,
+        "conferencePrestige": 5,
+        "programTradition": 2,
+        "stadiumAtmosphere": 2,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 13992,
+    "stadium": {
+      "id": 50,
+      "stadium_id": "hancock-whitney-stadium-south-alabama",
+      "school": 96,
+      "name": "Hancock Whitney Stadium",
+      "elevation": null,
+      "capacity": 25450,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": null,
+      "nickname": null
+    },
+    "image": "/team-logos/south-alabama.webp"
+  },
+  {
+    "id": 718,
+    "name": "South Carolina",
+    "mascot": "Gamecocks",
+    "city": "Columbia",
+    "state": "SC",
+    "colors": [
+      "#73000A",
+      "#000000"
+    ],
+    "conference": {
+      "name": "SEC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 85,
+        "defenseOVR": 84,
+        "specialTeamsOVR": 83,
+        "teamOVR": 82,
+        "prestige": 7,
+        "dynastyOffenseOVR": 84,
+        "dynastyDefenseOVR": 86,
+        "dynastyTeamOVR": 84,
+        "roadToCFPTier": 3,
+        "academicPrestige": 5,
+        "athleticFacilities": 9,
+        "brandExposure": 9,
+        "campusLifestyle": 8,
+        "championshipContender": 8,
+        "coachPrestige": 9,
+        "coachStability": 8,
+        "conferencePrestige": 12,
+        "programTradition": 1,
+        "stadiumAtmosphere": 9,
+        "offensiveScheme": "Power Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 35471,
+    "stadium": {
+      "id": 132,
+      "stadium_id": "williams-brice-stadium-south-carolina",
+      "school": 97,
+      "name": "Williams-Brice Stadium",
+      "elevation": "60.55",
+      "capacity": 80250,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1934,
+      "nickname": null
+    },
+    "image": "/team-logos/south-carolina.webp"
+  },
+  {
+    "id": 720,
+    "name": "Southern Miss",
+    "mascot": "Golden Eagles",
+    "city": "Hattiesburg",
+    "state": "MS",
+    "colors": [
+      "#000000",
+      "#FFD046"
+    ],
+    "conference": {
+      "name": "Sun Belt"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 75,
+        "defenseOVR": 68,
+        "specialTeamsOVR": 75,
+        "teamOVR": 74,
+        "prestige": 4,
+        "dynastyOffenseOVR": 74,
+        "dynastyDefenseOVR": 71,
+        "dynastyTeamOVR": 72,
+        "roadToCFPTier": 4,
+        "academicPrestige": 0,
+        "athleticFacilities": 0,
+        "brandExposure": 3,
+        "campusLifestyle": 5,
+        "championshipContender": 0,
+        "coachPrestige": 6,
+        "coachStability": 2,
+        "conferencePrestige": 5,
+        "programTradition": 2,
+        "stadiumAtmosphere": 3,
+        "offensiveScheme": "Veer and Shoot",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 14146,
+    "stadium": {
+      "id": 78,
+      "stadium_id": "m-m-roberts-stadium-southern-miss",
+      "school": 99,
+      "name": "M. M. Roberts Stadium",
+      "elevation": "64.53",
+      "capacity": 36000,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1932,
+      "nickname": null
+    },
+    "image": "/team-logos/southern-miss.webp"
+  },
+  {
+    "id": 719,
+    "name": "South Florida",
+    "mascot": "Bulls",
+    "city": "Tampa",
+    "state": "FL",
+    "colors": [
+      "#006747",
+      "#CFC493"
+    ],
+    "conference": {
+      "name": "American"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 76,
+        "defenseOVR": 80,
+        "specialTeamsOVR": 75,
+        "teamOVR": 78,
+        "prestige": 3,
+        "dynastyOffenseOVR": 79,
+        "dynastyDefenseOVR": 79,
+        "dynastyTeamOVR": 79,
+        "roadToCFPTier": 4,
+        "academicPrestige": 6,
+        "athleticFacilities": 4,
+        "brandExposure": 3,
+        "campusLifestyle": 6,
+        "championshipContender": 4,
+        "coachPrestige": 5,
+        "coachStability": 4,
+        "conferencePrestige": 7,
+        "programTradition": 1,
+        "stadiumAtmosphere": 2,
+        "offensiveScheme": "Veer and Shoot",
+        "defensiveScheme": "3-3-5"
+      }
+    ],
+    "enrollment": 44322,
+    "stadium": {
+      "id": 100,
+      "stadium_id": "raymond-james-stadium-south-florida",
+      "school": 98,
+      "name": "Raymond James Stadium",
+      "elevation": "11.08",
+      "capacity": 65828,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1998,
+      "nickname": null
+    },
+    "image": "/team-logos/south-florida.webp"
+  },
+  {
+    "id": 721,
+    "name": "Stanford",
+    "mascot": "Cardinal",
+    "city": "Stanford",
+    "state": "CA",
+    "colors": [
+      "#8C1515",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "ACC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 71,
+        "defenseOVR": 80,
+        "specialTeamsOVR": 86,
+        "teamOVR": 76,
+        "prestige": 5,
+        "dynastyOffenseOVR": 79,
+        "dynastyDefenseOVR": 79,
+        "dynastyTeamOVR": 79,
+        "roadToCFPTier": 4,
+        "academicPrestige": 12,
+        "athleticFacilities": 8,
+        "brandExposure": 5,
+        "campusLifestyle": 10,
+        "championshipContender": 5,
+        "coachPrestige": 3,
+        "coachStability": 0,
+        "conferencePrestige": 11,
+        "programTradition": 9,
+        "stadiumAtmosphere": 3,
+        "offensiveScheme": "Power Spread",
+        "defensiveScheme": "Base 3-4"
+      }
+    ],
+    "enrollment": 17680,
+    "stadium": {
+      "id": 117,
+      "stadium_id": "stanford-stadium-stanford",
+      "school": 100,
+      "name": "Stanford Stadium",
+      "elevation": "18.38",
+      "capacity": 50424,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 2006,
+      "nickname": null
+    },
+    "image": "/team-logos/stanford.webp"
+  },
+  {
+    "id": 722,
+    "name": "Syracuse",
+    "mascot": "Orange",
+    "city": "Syracuse",
+    "state": "NY",
+    "colors": [
+      "#FF431B"
+    ],
+    "conference": {
+      "name": "ACC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 76,
+        "defenseOVR": 78,
+        "specialTeamsOVR": 80,
+        "teamOVR": 77,
+        "prestige": 6,
+        "dynastyOffenseOVR": 81,
+        "dynastyDefenseOVR": 81,
+        "dynastyTeamOVR": 81,
+        "roadToCFPTier": 4,
+        "academicPrestige": 7,
+        "athleticFacilities": 6,
+        "brandExposure": 4,
+        "campusLifestyle": 5,
+        "championshipContender": 7,
+        "coachPrestige": 8,
+        "coachStability": 5,
+        "conferencePrestige": 11,
+        "programTradition": 6,
+        "stadiumAtmosphere": 5,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "3-3-5 Tite"
+      }
+    ],
+    "enrollment": 21772,
+    "stadium": {
+      "id": 58,
+      "stadium_id": "jma-wireless-dome-syracuse",
+      "school": 101,
+      "name": "JMA Wireless Dome",
+      "elevation": "162.70",
+      "capacity": 49057,
+      "field_type": "Turf",
+      "roof_type": "Dome",
+      "built_in": 1980,
+      "nickname": null
+    },
+    "image": "/team-logos/syracuse.webp"
+  },
+  {
+    "id": 723,
+    "name": "TCU",
+    "mascot": "Horned Frogs",
+    "city": "Fort Worth",
+    "state": "TX",
+    "colors": [
+      "#4D1979",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "Big 12"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 82,
+        "defenseOVR": 82,
+        "specialTeamsOVR": 77,
+        "teamOVR": 80,
+        "prestige": 7,
+        "dynastyOffenseOVR": 79,
+        "dynastyDefenseOVR": 81,
+        "dynastyTeamOVR": 79,
+        "roadToCFPTier": 3,
+        "academicPrestige": 6,
+        "athleticFacilities": 7,
+        "brandExposure": 9,
+        "campusLifestyle": 8,
+        "championshipContender": 9,
+        "coachPrestige": 5,
+        "coachStability": 1,
+        "conferencePrestige": 10,
+        "programTradition": 9,
+        "stadiumAtmosphere": 6,
+        "offensiveScheme": "Air Raid",
+        "defensiveScheme": "3-3-5"
+      }
+    ],
+    "enrollment": 11938,
+    "stadium": {
+      "id": 7,
+      "stadium_id": "amon-g-carter-stadium-tcu",
+      "school": 102,
+      "name": "Amon G. Carter Stadium",
+      "elevation": "185.44",
+      "capacity": 46000,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1929,
+      "nickname": null
+    },
+    "image": "/team-logos/tcu.webp"
+  },
+  {
+    "id": 724,
+    "name": "Temple",
+    "mascot": "Owls",
+    "city": "Philadelphia",
+    "state": "PA",
+    "colors": [
+      "#990033",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "American"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 67,
+        "defenseOVR": 70,
+        "specialTeamsOVR": 77,
+        "teamOVR": 72,
+        "prestige": 3,
+        "dynastyOffenseOVR": 69,
+        "dynastyDefenseOVR": 69,
+        "dynastyTeamOVR": 69,
+        "roadToCFPTier": 5,
+        "academicPrestige": 6,
+        "athleticFacilities": 4,
+        "brandExposure": 3,
+        "campusLifestyle": 6,
+        "championshipContender": 1,
+        "coachPrestige": 5,
+        "coachStability": 5,
+        "conferencePrestige": 7,
+        "programTradition": 1,
+        "stadiumAtmosphere": 4,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "Base 3-4"
+      }
+    ],
+    "enrollment": 35626,
+    "stadium": {
+      "id": 75,
+      "stadium_id": "lincoln-financial-field-temple",
+      "school": 103,
+      "name": "Lincoln Financial Field",
+      "elevation": "3.20",
+      "capacity": 69879,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 2003,
+      "nickname": null
+    },
+    "image": "/team-logos/temple.webp"
+  },
+  {
+    "id": 725,
+    "name": "Tennessee",
+    "mascot": "Volunteers",
+    "city": "Knoxville",
+    "state": "TN",
+    "colors": [
+      "#FF8200",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "SEC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 83,
+        "defenseOVR": 88,
+        "specialTeamsOVR": 78,
+        "teamOVR": 84,
+        "prestige": 8,
+        "dynastyOffenseOVR": 86,
+        "dynastyDefenseOVR": 86,
+        "dynastyTeamOVR": 86,
+        "roadToCFPTier": 2,
+        "academicPrestige": 5,
+        "athleticFacilities": 10,
+        "brandExposure": 9,
+        "campusLifestyle": 9,
+        "championshipContender": 11,
+        "coachPrestige": 11,
+        "coachStability": 8,
+        "conferencePrestige": 12,
+        "programTradition": 9,
+        "stadiumAtmosphere": 10,
+        "offensiveScheme": "Veer and Shoot",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 31701,
+    "stadium": {
+      "id": 93,
+      "stadium_id": "neyland-stadium-tennessee",
+      "school": 104,
+      "name": "Neyland Stadium",
+      "elevation": "271.95",
+      "capacity": 101915,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1921,
+      "nickname": null
+    },
+    "image": "/team-logos/tennessee.webp"
+  },
+  {
+    "id": 726,
+    "name": "Texas",
+    "mascot": "Longhorns",
+    "city": "Austin",
+    "state": "TX",
+    "colors": [
+      "#BF5700",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "SEC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 91,
+        "defenseOVR": 94,
+        "specialTeamsOVR": 90,
+        "teamOVR": 88,
+        "prestige": 9,
+        "dynastyOffenseOVR": 91,
+        "dynastyDefenseOVR": 94,
+        "dynastyTeamOVR": 92,
+        "roadToCFPTier": 1,
+        "academicPrestige": 9,
+        "athleticFacilities": 11,
+        "brandExposure": 12,
+        "campusLifestyle": 12,
+        "championshipContender": 12,
+        "coachPrestige": 12,
+        "coachStability": 11,
+        "conferencePrestige": 12,
+        "programTradition": 11,
+        "stadiumAtmosphere": 11,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 51991,
+    "stadium": {
+      "id": 33,
+      "stadium_id": "darrell-k-royal-texas-memorial-stadium-texas",
+      "school": 105,
+      "name": "Darrell K Royal-Texas Memorial Stadium",
+      "elevation": "160.31",
+      "capacity": 100119,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1924,
+      "nickname": null
+    },
+    "image": "/team-logos/texas.webp"
+  },
+  {
+    "id": 727,
+    "name": "Texas A&M",
+    "mascot": "Aggies",
+    "city": "College Station",
+    "state": "TX",
+    "colors": [
+      "#500000",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "SEC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 89,
+        "defenseOVR": 90,
+        "specialTeamsOVR": 86,
+        "teamOVR": 88,
+        "prestige": 8,
+        "dynastyOffenseOVR": 94,
+        "dynastyDefenseOVR": 91,
+        "dynastyTeamOVR": 92,
+        "roadToCFPTier": 2,
+        "academicPrestige": 8,
+        "athleticFacilities": 11,
+        "brandExposure": 11,
+        "campusLifestyle": 9,
+        "championshipContender": 10,
+        "coachPrestige": 10,
+        "coachStability": 9,
+        "conferencePrestige": 12,
+        "programTradition": 9,
+        "stadiumAtmosphere": 10,
+        "offensiveScheme": "Power Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 72530,
+    "stadium": {
+      "id": 71,
+      "stadium_id": "kyle-field-texas-am",
+      "school": 106,
+      "name": "Kyle Field",
+      "elevation": "108.82",
+      "capacity": 102733,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1927,
+      "nickname": null
+    },
+    "image": "/team-logos/texas-am.webp"
+  },
+  {
+    "id": 728,
+    "name": "Texas State",
+    "mascot": "Bobcats",
+    "city": "San Marcos",
+    "state": "TX",
+    "colors": [
+      "#501214",
+      "#6A5638"
+    ],
+    "conference": {
+      "name": "Sun Belt"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 71,
+        "defenseOVR": 70,
+        "specialTeamsOVR": 71,
+        "teamOVR": 73,
+        "prestige": 4,
+        "dynastyOffenseOVR": 69,
+        "dynastyDefenseOVR": 71,
+        "dynastyTeamOVR": 69,
+        "roadToCFPTier": 4,
+        "academicPrestige": 1,
+        "athleticFacilities": 2,
+        "brandExposure": 2,
+        "campusLifestyle": 5,
+        "championshipContender": 3,
+        "coachPrestige": 6,
+        "coachStability": 4,
+        "conferencePrestige": 5,
+        "programTradition": 0,
+        "stadiumAtmosphere": 1,
+        "offensiveScheme": "Veer and Shoot",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 37864,
+    "stadium": {
+      "id": 57,
+      "stadium_id": "jim-wacker-field-at-bobcat-stadium-texas-state",
+      "school": 107,
+      "name": "Jim Wacker Field at Bobcat Stadium",
+      "elevation": "177.87",
+      "capacity": 30000,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1981,
+      "nickname": null
+    },
+    "image": "/team-logos/texas-state.webp"
+  },
+  {
+    "id": 729,
+    "name": "Texas Tech",
+    "mascot": "Red Raiders",
+    "city": "Lubbock",
+    "state": "TX",
+    "colors": [
+      "#CC0000",
+      "#000000"
+    ],
+    "conference": {
+      "name": "Big 12"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 87,
+        "defenseOVR": 92,
+        "specialTeamsOVR": 86,
+        "teamOVR": 86,
+        "prestige": 7,
+        "dynastyOffenseOVR": 86,
+        "dynastyDefenseOVR": 86,
+        "dynastyTeamOVR": 86,
+        "roadToCFPTier": 3,
+        "academicPrestige": 2,
+        "athleticFacilities": 8,
+        "brandExposure": 10,
+        "campusLifestyle": 5,
+        "championshipContender": 9,
+        "coachPrestige": 8,
+        "coachStability": 6,
+        "conferencePrestige": 10,
+        "programTradition": 4,
+        "stadiumAtmosphere": 8,
+        "offensiveScheme": "Veer and Shoot",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 40542,
+    "stadium": {
+      "id": 63,
+      "stadium_id": "jones-att-stadium-texas-tech",
+      "school": 108,
+      "name": "Jones AT&T Stadium",
+      "elevation": "980.76",
+      "capacity": 60454,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1947,
+      "nickname": null
+    },
+    "image": "/team-logos/texas-tech.webp"
+  },
+  {
+    "id": 730,
+    "name": "Toledo",
+    "mascot": "Rockets",
+    "city": "Toledo",
+    "state": "OH",
+    "colors": [
+      "#0B2240",
+      "#FFCD00"
+    ],
+    "conference": {
+      "name": "MAC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 76,
+        "defenseOVR": 78,
+        "specialTeamsOVR": 71,
+        "teamOVR": 78,
+        "prestige": 3,
+        "dynastyOffenseOVR": 71,
+        "dynastyDefenseOVR": 74,
+        "dynastyTeamOVR": 72,
+        "roadToCFPTier": 4,
+        "academicPrestige": 1,
+        "athleticFacilities": 2,
+        "brandExposure": 0,
+        "campusLifestyle": 4,
+        "championshipContender": 2,
+        "coachPrestige": 6,
+        "coachStability": 8,
+        "conferencePrestige": 3,
+        "programTradition": 5,
+        "stadiumAtmosphere": 3,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 17045,
+    "stadium": {
+      "id": 49,
+      "stadium_id": "glass-bowl-toledo",
+      "school": 109,
+      "name": "Glass Bowl",
+      "elevation": "181.48",
+      "capacity": 26038,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1937,
+      "nickname": null
+    },
+    "image": "/team-logos/toledo.webp"
+  },
+  {
+    "id": 731,
+    "name": "Troy",
+    "mascot": "Trojans",
+    "city": "Troy",
+    "state": "AL",
+    "colors": [
+      "#98002E",
+      "#999999",
+      "#000000"
+    ],
+    "conference": {
+      "name": "Sun Belt"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 73,
+        "defenseOVR": 72,
+        "specialTeamsOVR": 82,
+        "teamOVR": 73,
+        "prestige": 4,
+        "dynastyOffenseOVR": 69,
+        "dynastyDefenseOVR": 71,
+        "dynastyTeamOVR": 69,
+        "roadToCFPTier": 4,
+        "academicPrestige": 0,
+        "athleticFacilities": 1,
+        "brandExposure": 1,
+        "campusLifestyle": 5,
+        "championshipContender": 0,
+        "coachPrestige": 3,
+        "coachStability": 0,
+        "conferencePrestige": 5,
+        "programTradition": 6,
+        "stadiumAtmosphere": 3,
+        "offensiveScheme": "Power Spread",
+        "defensiveScheme": "3-3-5 Tite"
+      }
+    ],
+    "enrollment": 14901,
+    "stadium": {
+      "id": 127,
+      "stadium_id": "veterans-memorial-stadium-troy",
+      "school": 110,
+      "name": "Veterans Memorial Stadium",
+      "elevation": "154.77",
+      "capacity": 30000,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1950,
+      "nickname": null
+    },
+    "image": "/team-logos/troy.webp"
+  },
+  {
+    "id": 732,
+    "name": "Tulane",
+    "mascot": "Green Wave",
+    "city": "New Orleans",
+    "state": "LA",
+    "colors": [
+      "#006548",
+      "#3A8DDE"
+    ],
+    "conference": {
+      "name": "American"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 78,
+        "defenseOVR": 78,
+        "specialTeamsOVR": 73,
+        "teamOVR": 78,
+        "prestige": 5,
+        "dynastyOffenseOVR": 76,
+        "dynastyDefenseOVR": 79,
+        "dynastyTeamOVR": 77,
+        "roadToCFPTier": 4,
+        "academicPrestige": 7,
+        "athleticFacilities": 1,
+        "brandExposure": 2,
+        "campusLifestyle": 9,
+        "championshipContender": 7,
+        "coachPrestige": 9,
+        "coachStability": 7,
+        "conferencePrestige": 7,
+        "programTradition": 5,
+        "stadiumAtmosphere": 3,
+        "offensiveScheme": "Power Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 13127,
+    "stadium": {
+      "id": 14,
+      "stadium_id": "benson-field-at-yulman-stadium-tulane",
+      "school": 111,
+      "name": "Benson Field at Yulman Stadium",
+      "elevation": "0.00",
+      "capacity": 30000,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 2014,
+      "nickname": null
+    },
+    "image": "/team-logos/tulane.webp"
+  },
+  {
+    "id": 733,
+    "name": "Tulsa",
+    "mascot": "Golden Hurricane",
+    "city": "Tulsa",
+    "state": "OK",
+    "colors": [
+      "#D0B787",
+      "#003595",
+      "#CE0E2D"
+    ],
+    "conference": {
+      "name": "American"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 67,
+        "defenseOVR": 68,
+        "specialTeamsOVR": 78,
+        "teamOVR": 72,
+        "prestige": 4,
+        "dynastyOffenseOVR": 71,
+        "dynastyDefenseOVR": 71,
+        "dynastyTeamOVR": 71,
+        "roadToCFPTier": 4,
+        "academicPrestige": 3,
+        "athleticFacilities": 2,
+        "brandExposure": 1,
+        "campusLifestyle": 4,
+        "championshipContender": 3,
+        "coachPrestige": 2,
+        "coachStability": 5,
+        "conferencePrestige": 7,
+        "programTradition": 8,
+        "stadiumAtmosphere": 2,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "Base 4-3"
+      }
+    ],
+    "enrollment": 3832,
+    "stadium": {
+      "id": 113,
+      "stadium_id": "skelly-field-at-h-a-chapman-stadium-tulsa",
+      "school": 112,
+      "name": "Skelly Field at H. A. Chapman Stadium",
+      "elevation": "235.59",
+      "capacity": 30000,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1930,
+      "nickname": null
+    },
+    "image": "/team-logos/tulsa.webp"
+  },
+  {
+    "id": 734,
+    "name": "UAB",
+    "mascot": "Blazers",
+    "city": "Birmingham",
+    "state": "AL",
+    "colors": [
+      "#1E6B52",
+      "#CDC26C"
+    ],
+    "conference": {
+      "name": "American"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 69,
+        "defenseOVR": 68,
+        "specialTeamsOVR": 85,
+        "teamOVR": 72,
+        "prestige": 3,
+        "dynastyOffenseOVR": 69,
+        "dynastyDefenseOVR": 71,
+        "dynastyTeamOVR": 69,
+        "roadToCFPTier": 4,
+        "academicPrestige": 4,
+        "athleticFacilities": 4,
+        "brandExposure": 3,
+        "campusLifestyle": 4,
+        "championshipContender": 1,
+        "coachPrestige": 1,
+        "coachStability": 0,
+        "conferencePrestige": 7,
+        "programTradition": 1,
+        "stadiumAtmosphere": 0,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 22289,
+    "stadium": {
+      "id": 99,
+      "stadium_id": "protective-stadium-uab",
+      "school": 113,
+      "name": "Protective Stadium",
+      "elevation": "604.00",
+      "capacity": 47100,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": null,
+      "nickname": null
+    },
+    "image": "/team-logos/uab.webp"
+  },
+  {
+    "id": 735,
+    "name": "UCF",
+    "mascot": "Knights",
+    "city": "Orlando",
+    "state": "FL",
+    "colors": [
+      "#000000",
+      "#B7A369"
+    ],
+    "conference": {
+      "name": "Big 12"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 73,
+        "defenseOVR": 80,
+        "specialTeamsOVR": 81,
+        "teamOVR": 78,
+        "prestige": 6,
+        "dynastyOffenseOVR": 79,
+        "dynastyDefenseOVR": 84,
+        "dynastyTeamOVR": 81,
+        "roadToCFPTier": 3,
+        "academicPrestige": 5,
+        "athleticFacilities": 5,
+        "brandExposure": 5,
+        "campusLifestyle": 8,
+        "championshipContender": 7,
+        "coachPrestige": 7,
+        "coachStability": 7,
+        "conferencePrestige": 10,
+        "programTradition": 3,
+        "stadiumAtmosphere": 6,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "4-3 Multiple"
+      }
+    ],
+    "enrollment": 70406,
+    "stadium": {
+      "id": 42,
+      "stadium_id": "fbc-mortgage-stadium-ucf",
+      "school": 114,
+      "name": "FBC Mortgage Stadium",
+      "elevation": "20.94",
+      "capacity": 44206,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 2007,
+      "nickname": "The Bounce House"
+    },
+    "image": "/team-logos/ucf.webp"
+  },
+  {
+    "id": 736,
+    "name": "UCLA",
+    "mascot": "Bruins",
+    "city": "Los Angeles",
+    "state": "CA",
+    "colors": [
+      "#2774AE",
+      "#F2A900"
+    ],
+    "conference": {
+      "name": "Big Ten"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 82,
+        "defenseOVR": 76,
+        "specialTeamsOVR": 87,
+        "teamOVR": 78,
+        "prestige": 7,
+        "dynastyOffenseOVR": 84,
+        "dynastyDefenseOVR": 84,
+        "dynastyTeamOVR": 84,
+        "roadToCFPTier": 3,
+        "academicPrestige": 11,
+        "athleticFacilities": 9,
+        "brandExposure": 6,
+        "campusLifestyle": 12,
+        "championshipContender": 6,
+        "coachPrestige": 5,
+        "coachStability": 1,
+        "conferencePrestige": 12,
+        "programTradition": 9,
+        "stadiumAtmosphere": 7,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "4-3 Multiple"
+      }
+    ],
+    "enrollment": 47516,
+    "stadium": {
+      "id": 105,
+      "stadium_id": "rose-bowl-ucla",
+      "school": 115,
+      "name": "Rose Bowl",
+      "elevation": "245.18",
+      "capacity": 88565,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1922,
+      "nickname": null
+    },
+    "image": "/team-logos/ucla.webp"
+  },
+  {
+    "id": 737,
+    "name": "UConn",
+    "mascot": "Huskies",
+    "city": "Storrs",
+    "state": "CT",
+    "colors": [
+      "#000E2F",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "Independent"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 78,
+        "defenseOVR": 70,
+        "specialTeamsOVR": 80,
+        "teamOVR": 76,
+        "prestige": 3,
+        "dynastyOffenseOVR": 71,
+        "dynastyDefenseOVR": 71,
+        "dynastyTeamOVR": 71,
+        "roadToCFPTier": 4,
+        "academicPrestige": 7,
+        "athleticFacilities": 4,
+        "brandExposure": 1,
+        "campusLifestyle": 4,
+        "championshipContender": 5,
+        "coachPrestige": 6,
+        "coachStability": 6,
+        "conferencePrestige": 9,
+        "programTradition": 5,
+        "stadiumAtmosphere": 1,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "3-3-5"
+      }
+    ],
+    "enrollment": 32146,
+    "stadium": {
+      "id": 101,
+      "stadium_id": "rentschler-field-uconn",
+      "school": 116,
+      "name": "Rentschler Field",
+      "elevation": "6.52",
+      "capacity": 40000,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 2003,
+      "nickname": null
+    },
+    "image": "/team-logos/uconn.webp"
+  },
+  {
+    "id": 674,
+    "name": "UL\u2013Monroe",
+    "mascot": "Warhawks",
+    "city": "Monroe",
+    "state": "LA",
+    "colors": [
+      "#840029",
+      "#FDB913"
+    ],
+    "conference": {
+      "name": "Sun Belt"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 64,
+        "defenseOVR": 70,
+        "specialTeamsOVR": 82,
+        "teamOVR": 70,
+        "prestige": 3,
+        "dynastyOffenseOVR": 66,
+        "dynastyDefenseOVR": 66,
+        "dynastyTeamOVR": 66,
+        "roadToCFPTier": 5,
+        "academicPrestige": 0,
+        "athleticFacilities": 0,
+        "brandExposure": 0,
+        "campusLifestyle": 4,
+        "championshipContender": 2,
+        "coachPrestige": 1,
+        "coachStability": 0,
+        "conferencePrestige": 5,
+        "programTradition": 1,
+        "stadiumAtmosphere": 0,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 8215,
+    "stadium": {
+      "id": 96,
+      "stadium_id": "malone-stadium",
+      "school": 96,
+      "name": "Malone Stadium",
+      "elevation": "NA",
+      "capacity": 27617,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1978,
+      "nickname": null
+    },
+    "image": "/team-logos/louisiana-monroe.webp"
+  },
+  {
+    "id": 738,
+    "name": "UMass",
+    "mascot": "Minutemen",
+    "city": "Amherst",
+    "state": "MA",
+    "colors": [
+      "#881C1C",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "Independent"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 66,
+        "defenseOVR": 64,
+        "specialTeamsOVR": 76,
+        "teamOVR": 69,
+        "prestige": 3,
+        "dynastyOffenseOVR": 66,
+        "dynastyDefenseOVR": 66,
+        "dynastyTeamOVR": 66,
+        "roadToCFPTier": 5,
+        "academicPrestige": 8,
+        "athleticFacilities": 0,
+        "brandExposure": 0,
+        "campusLifestyle": 4,
+        "championshipContender": 2,
+        "coachPrestige": 4,
+        "coachStability": 5,
+        "conferencePrestige": 3,
+        "programTradition": 4,
+        "stadiumAtmosphere": 0,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "Multiple Defense"
+      }
+    ],
+    "enrollment": 32045,
+    "stadium": {
+      "id": 131,
+      "stadium_id": "warren-mcguirk-alumni-stadium-umass",
+      "school": 117,
+      "name": "Warren McGuirk Alumni Stadium",
+      "elevation": "46.59",
+      "capacity": 17000,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1965,
+      "nickname": null
+    },
+    "image": "/team-logos/umass.webp"
+  },
+  {
+    "id": 739,
+    "name": "UNLV",
+    "mascot": "Rebels",
+    "city": "Las Vegas",
+    "state": "NV",
+    "colors": [
+      "#CF0A2C",
+      "#CAC8C8"
+    ],
+    "conference": {
+      "name": "Mountain West"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 75,
+        "defenseOVR": 74,
+        "specialTeamsOVR": 76,
+        "teamOVR": 77,
+        "prestige": 3,
+        "dynastyOffenseOVR": 74,
+        "dynastyDefenseOVR": 76,
+        "dynastyTeamOVR": 74,
+        "roadToCFPTier": 4,
+        "academicPrestige": 1,
+        "athleticFacilities": 3,
+        "brandExposure": 4,
+        "campusLifestyle": 6,
+        "championshipContender": 6,
+        "coachPrestige": 8,
+        "coachStability": 2,
+        "conferencePrestige": 6,
+        "programTradition": 1,
+        "stadiumAtmosphere": 1,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "Multiple Defense"
+      }
+    ],
+    "enrollment": 30679,
+    "stadium": {
+      "id": 5,
+      "stadium_id": "allegiant-stadium-unlv",
+      "school": 118,
+      "name": "Allegiant Stadium",
+      "elevation": null,
+      "capacity": 65000,
+      "field_type": "Turf",
+      "roof_type": "Dome",
+      "built_in": null,
+      "nickname": null
+    },
+    "image": "/team-logos/unlv.webp"
+  },
+  {
+    "id": 740,
+    "name": "USC",
+    "mascot": "Trojans",
+    "city": "Los Angeles",
+    "state": "CA",
+    "colors": [
+      "#9D2235",
+      "#FFC72C"
+    ],
+    "conference": {
+      "name": "Big Ten"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 85,
+        "defenseOVR": 84,
+        "specialTeamsOVR": 82,
+        "teamOVR": 82,
+        "prestige": 8,
+        "dynastyOffenseOVR": 84,
+        "dynastyDefenseOVR": 84,
+        "dynastyTeamOVR": 84,
+        "roadToCFPTier": 3,
+        "academicPrestige": 10,
+        "athleticFacilities": 10,
+        "brandExposure": 10,
+        "campusLifestyle": 12,
+        "championshipContender": 9,
+        "coachPrestige": 12,
+        "coachStability": 3,
+        "conferencePrestige": 12,
+        "programTradition": 12,
+        "stadiumAtmosphere": 8,
+        "offensiveScheme": "Air Raid",
+        "defensiveScheme": "3-4 Multiple"
+      }
+    ],
+    "enrollment": 49318,
+    "stadium": {
+      "id": 77,
+      "stadium_id": "los-angeles-memorial-coliseum-usc",
+      "school": 119,
+      "name": "Los Angeles Memorial Coliseum",
+      "elevation": "42.50",
+      "capacity": 77500,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1923,
+      "nickname": null
+    },
+    "image": "/team-logos/usc.webp"
+  },
+  {
+    "id": 743,
+    "name": "Utah",
+    "mascot": "Utes",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "colors": [
+      "#BE0000",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "Big 12"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 85,
+        "defenseOVR": 82,
+        "specialTeamsOVR": 76,
+        "teamOVR": 82,
+        "prestige": 7,
+        "dynastyOffenseOVR": 84,
+        "dynastyDefenseOVR": 84,
+        "dynastyTeamOVR": 84,
+        "roadToCFPTier": 3,
+        "academicPrestige": 4,
+        "athleticFacilities": 7,
+        "brandExposure": 5,
+        "campusLifestyle": 5,
+        "championshipContender": 6,
+        "coachPrestige": 11,
+        "coachStability": 7,
+        "conferencePrestige": 10,
+        "programTradition": 8,
+        "stadiumAtmosphere": 9,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 34464,
+    "stadium": {
+      "id": 103,
+      "stadium_id": "rice-eccles-stadium-utah",
+      "school": 120,
+      "name": "Rice-Eccles Stadium",
+      "elevation": "1411.54",
+      "capacity": 51444,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1998,
+      "nickname": null
+    },
+    "image": "/team-logos/utah.webp"
+  },
+  {
+    "id": 744,
+    "name": "Utah State",
+    "mascot": "Aggies",
+    "city": "Logan",
+    "state": "UT",
+    "colors": [
+      "#00263A",
+      "#FFFFFF",
+      "#8A8D8F"
+    ],
+    "conference": {
+      "name": "Mountain West"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 67,
+        "defenseOVR": 70,
+        "specialTeamsOVR": 77,
+        "teamOVR": 72,
+        "prestige": 4,
+        "dynastyOffenseOVR": 69,
+        "dynastyDefenseOVR": 74,
+        "dynastyTeamOVR": 71,
+        "roadToCFPTier": 5,
+        "academicPrestige": 1,
+        "athleticFacilities": 2,
+        "brandExposure": 1,
+        "campusLifestyle": 5,
+        "championshipContender": 3,
+        "coachPrestige": 5,
+        "coachStability": 0,
+        "conferencePrestige": 6,
+        "programTradition": 2,
+        "stadiumAtmosphere": 2,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "Base 3-4"
+      }
+    ],
+    "enrollment": 27426,
+    "stadium": {
+      "id": 83,
+      "stadium_id": "maverik-stadium",
+      "school": 121,
+      "name": "Maverik Stadium",
+      "elevation": "1427.91",
+      "capacity": 25513,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1968,
+      "nickname": null
+    },
+    "image": "/team-logos/utah-state.webp"
+  },
+  {
+    "id": 741,
+    "name": "UTEP",
+    "mascot": "Miners",
+    "city": "El Paso",
+    "state": "TX",
+    "colors": [
+      "#041E42",
+      "#FF8200",
+      "#B1B3B3"
+    ],
+    "conference": {
+      "name": "CUSA"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 71,
+        "defenseOVR": 64,
+        "specialTeamsOVR": 76,
+        "teamOVR": 70,
+        "prestige": 3,
+        "dynastyOffenseOVR": 64,
+        "dynastyDefenseOVR": 66,
+        "dynastyTeamOVR": 64,
+        "roadToCFPTier": 5,
+        "academicPrestige": 1,
+        "athleticFacilities": 2,
+        "brandExposure": 3,
+        "campusLifestyle": 4,
+        "championshipContender": 2,
+        "coachPrestige": 4,
+        "coachStability": 0,
+        "conferencePrestige": 4,
+        "programTradition": 1,
+        "stadiumAtmosphere": 2,
+        "offensiveScheme": "Air Raid",
+        "defensiveScheme": "3-3-5"
+      }
+    ],
+    "enrollment": 24003,
+    "stadium": {
+      "id": 119,
+      "stadium_id": "sun-bowl-stadium-utep",
+      "school": 122,
+      "name": "Sun Bowl Stadium",
+      "elevation": "1183.70",
+      "capacity": 51500,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1963,
+      "nickname": null
+    },
+    "image": "/team-logos/utep.webp"
+  },
+  {
+    "id": 742,
+    "name": "UTSA",
+    "mascot": "Roadrunners",
+    "city": "San Antonio",
+    "state": "TX",
+    "colors": [
+      "#0B2240",
+      "#E14504",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "American"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 78,
+        "defenseOVR": 70,
+        "specialTeamsOVR": 71,
+        "teamOVR": 77,
+        "prestige": 3,
+        "dynastyOffenseOVR": 76,
+        "dynastyDefenseOVR": 76,
+        "dynastyTeamOVR": 77,
+        "roadToCFPTier": 4,
+        "academicPrestige": 2,
+        "athleticFacilities": 2,
+        "brandExposure": 3,
+        "campusLifestyle": 5,
+        "championshipContender": 2,
+        "coachPrestige": 5,
+        "coachStability": 7,
+        "conferencePrestige": 7,
+        "programTradition": 2,
+        "stadiumAtmosphere": 1,
+        "offensiveScheme": "Power Spread",
+        "defensiveScheme": "Base 3-4"
+      }
+    ],
+    "enrollment": 34734,
+    "stadium": {
+      "id": 3,
+      "stadium_id": "alamodome-utsa",
+      "school": 123,
+      "name": "Alamodome",
+      "elevation": "201.55",
+      "capacity": 36582,
+      "field_type": "Turf",
+      "roof_type": "Dome",
+      "built_in": 1993,
+      "nickname": null
+    },
+    "image": "/team-logos/utsa.webp"
+  },
+  {
+    "id": 745,
+    "name": "Vanderbilt",
+    "mascot": "Commodores",
+    "city": "Nashville",
+    "state": "TN",
+    "colors": [
+      "#000000",
+      "#CFAE70"
+    ],
+    "conference": {
+      "name": "SEC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 85,
+        "defenseOVR": 82,
+        "specialTeamsOVR": 83,
+        "teamOVR": 82,
+        "prestige": 5,
+        "dynastyOffenseOVR": 84,
+        "dynastyDefenseOVR": 84,
+        "dynastyTeamOVR": 84,
+        "roadToCFPTier": 3,
+        "academicPrestige": 10,
+        "athleticFacilities": 5,
+        "brandExposure": 5,
+        "campusLifestyle": 9,
+        "championshipContender": 6,
+        "coachPrestige": 6,
+        "coachStability": 6,
+        "conferencePrestige": 12,
+        "programTradition": 3,
+        "stadiumAtmosphere": 4,
+        "offensiveScheme": "Pistol",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 13796,
+    "stadium": {
+      "id": 125,
+      "stadium_id": "vanderbilt-stadium-vanderbilt",
+      "school": 124,
+      "name": "Vanderbilt Stadium",
+      "elevation": "159.92",
+      "capacity": 40351,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1922,
+      "nickname": null
+    },
+    "image": "/team-logos/vanderbilt.webp"
+  },
+  {
+    "id": 746,
+    "name": "Virginia",
+    "mascot": "Cavaliers",
+    "city": "Charlottesville",
+    "state": "VA",
+    "colors": [
+      "#F84C1E",
+      "#232D4B"
+    ],
+    "conference": {
+      "name": "ACC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 80,
+        "defenseOVR": 78,
+        "specialTeamsOVR": 82,
+        "teamOVR": 80,
+        "prestige": 5,
+        "dynastyOffenseOVR": 84,
+        "dynastyDefenseOVR": 84,
+        "dynastyTeamOVR": 84,
+        "roadToCFPTier": 3,
+        "academicPrestige": 10,
+        "athleticFacilities": 5,
+        "brandExposure": 5,
+        "campusLifestyle": 7,
+        "championshipContender": 2,
+        "coachPrestige": 5,
+        "coachStability": 1,
+        "conferencePrestige": 11,
+        "programTradition": 3,
+        "stadiumAtmosphere": 5,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 26026,
+    "stadium": {
+      "id": 111,
+      "stadium_id": "scott-stadium-virginia",
+      "school": 125,
+      "name": "Scott Stadium",
+      "elevation": "170.47",
+      "capacity": 61500,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1931,
+      "nickname": null
+    },
+    "image": "/team-logos/virginia.webp"
+  },
+  {
+    "id": 747,
+    "name": "Virginia Tech",
+    "mascot": "Hokies",
+    "city": "Blacksburg",
+    "state": "VA",
+    "colors": [
+      "#861F41",
+      "#E87722"
+    ],
+    "conference": {
+      "name": "ACC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 82,
+        "defenseOVR": 80,
+        "specialTeamsOVR": 82,
+        "teamOVR": 80,
+        "prestige": 6,
+        "dynastyOffenseOVR": 81,
+        "dynastyDefenseOVR": 84,
+        "dynastyTeamOVR": 82,
+        "roadToCFPTier": 3,
+        "academicPrestige": 8,
+        "athleticFacilities": 8,
+        "brandExposure": 6,
+        "campusLifestyle": 8,
+        "championshipContender": 6,
+        "coachPrestige": 4,
+        "coachStability": 0,
+        "conferencePrestige": 11,
+        "programTradition": 7,
+        "stadiumAtmosphere": 8,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 37279,
+    "stadium": {
+      "id": 72,
+      "stadium_id": "lane-stadium-virginia-tech",
+      "school": 126,
+      "name": "Lane Stadium",
+      "elevation": "632.26",
+      "capacity": 65632,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1965,
+      "nickname": null
+    },
+    "image": "/team-logos/virginia-tech.webp"
+  },
+  {
+    "id": 748,
+    "name": "Wake Forest",
+    "mascot": "Demon Deacons",
+    "city": "Winston-Salem",
+    "state": "NC",
+    "colors": [
+      "#CEB888",
+      "#2C2A29"
+    ],
+    "conference": {
+      "name": "ACC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 76,
+        "defenseOVR": 78,
+        "specialTeamsOVR": 83,
+        "teamOVR": 78,
+        "prestige": 5,
+        "dynastyOffenseOVR": 79,
+        "dynastyDefenseOVR": 81,
+        "dynastyTeamOVR": 79,
+        "roadToCFPTier": 4,
+        "academicPrestige": 8,
+        "athleticFacilities": 5,
+        "brandExposure": 8,
+        "campusLifestyle": 6,
+        "championshipContender": 3,
+        "coachPrestige": 8,
+        "coachStability": 5,
+        "conferencePrestige": 11,
+        "programTradition": 2,
+        "stadiumAtmosphere": 4,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 8947,
+    "stadium": {
+      "id": 11,
+      "stadium_id": "bbt-field-wake-forest",
+      "school": 127,
+      "name": "BB&T Field",
+      "elevation": "283.55",
+      "capacity": 31500,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1968,
+      "nickname": null
+    },
+    "image": "/team-logos/wake-forest.webp"
+  },
+  {
+    "id": 749,
+    "name": "Washington",
+    "mascot": "Huskies",
+    "city": "Seattle",
+    "state": "WA",
+    "colors": [
+      "#33006F",
+      "#E8D3A2"
+    ],
+    "conference": {
+      "name": "Big Ten"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 82,
+        "defenseOVR": 80,
+        "specialTeamsOVR": 81,
+        "teamOVR": 81,
+        "prestige": 8,
+        "dynastyOffenseOVR": 81,
+        "dynastyDefenseOVR": 84,
+        "dynastyTeamOVR": 82,
+        "roadToCFPTier": 3,
+        "academicPrestige": 8,
+        "athleticFacilities": 9,
+        "brandExposure": 8,
+        "campusLifestyle": 9,
+        "championshipContender": 7,
+        "coachPrestige": 7,
+        "coachStability": 3,
+        "conferencePrestige": 12,
+        "programTradition": 9,
+        "stadiumAtmosphere": 9,
+        "offensiveScheme": "Multiple Offense",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 52439,
+    "stadium": {
+      "id": 54,
+      "stadium_id": "husky-stadium-washington",
+      "school": 128,
+      "name": "Husky Stadium",
+      "elevation": "11.66",
+      "capacity": 70138,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1920,
+      "nickname": null
+    },
+    "image": "/team-logos/washington.webp"
+  },
+  {
+    "id": 750,
+    "name": "Washington State",
+    "mascot": "Cougars",
+    "city": "Pullman",
+    "state": "WA",
+    "colors": [
+      "#981E32",
+      "#53565A"
+    ],
+    "conference": {
+      "name": "Pac-12"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 75,
+        "defenseOVR": 74,
+        "specialTeamsOVR": 73,
+        "teamOVR": 77,
+        "prestige": 6,
+        "dynastyOffenseOVR": 79,
+        "dynastyDefenseOVR": 76,
+        "dynastyTeamOVR": 77,
+        "roadToCFPTier": 4,
+        "academicPrestige": 3,
+        "athleticFacilities": 5,
+        "brandExposure": 4,
+        "campusLifestyle": 5,
+        "championshipContender": 6,
+        "coachPrestige": 6,
+        "coachStability": 4,
+        "conferencePrestige": 8,
+        "programTradition": 2,
+        "stadiumAtmosphere": 6,
+        "offensiveScheme": "Power Spread",
+        "defensiveScheme": "Base 4-3"
+      }
+    ],
+    "enrollment": 29843,
+    "stadium": {
+      "id": 81,
+      "stadium_id": "martin-stadium-washington-state",
+      "school": 129,
+      "name": "Martin Stadium",
+      "elevation": "773.95",
+      "capacity": 32952,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1972,
+      "nickname": null
+    },
+    "image": "/team-logos/washington-state.webp"
+  },
+  {
+    "id": 752,
+    "name": "Western Kentucky",
+    "mascot": "Hilltoppers",
+    "city": "Bowling Green",
+    "state": "KY",
+    "colors": [
+      "#B01E24",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "CUSA"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 71,
+        "defenseOVR": 70,
+        "specialTeamsOVR": 78,
+        "teamOVR": 73,
+        "prestige": 4,
+        "dynastyOffenseOVR": 71,
+        "dynastyDefenseOVR": 71,
+        "dynastyTeamOVR": 71,
+        "roadToCFPTier": 5,
+        "academicPrestige": 0,
+        "athleticFacilities": 0,
+        "brandExposure": 5,
+        "campusLifestyle": 4,
+        "championshipContender": 2,
+        "coachPrestige": 3,
+        "coachStability": 0,
+        "conferencePrestige": 4,
+        "programTradition": 3,
+        "stadiumAtmosphere": 2,
+        "offensiveScheme": "Air Raid",
+        "defensiveScheme": "Base 3-4"
+      }
+    ],
+    "enrollment": 16750,
+    "stadium": {
+      "id": 52,
+      "stadium_id": "houchens-industries-l-t-smith-stadium-western-kentucky",
+      "school": 131,
+      "name": "Houchens Industries-L. T. Smith Stadium",
+      "elevation": "154.43",
+      "capacity": 22113,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1968,
+      "nickname": null
+    },
+    "image": "/team-logos/western-kentucky.webp"
+  },
+  {
+    "id": 753,
+    "name": "Western Michigan",
+    "mascot": "Broncos",
+    "city": "Kalamazoo",
+    "state": "MI",
+    "colors": [
+      "#532E1F",
+      "#F1C500"
+    ],
+    "conference": {
+      "name": "MAC"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 69,
+        "defenseOVR": 68,
+        "specialTeamsOVR": 76,
+        "teamOVR": 73,
+        "prestige": 3,
+        "dynastyOffenseOVR": 66,
+        "dynastyDefenseOVR": 69,
+        "dynastyTeamOVR": 67,
+        "roadToCFPTier": 5,
+        "academicPrestige": 1,
+        "athleticFacilities": 2,
+        "brandExposure": 2,
+        "campusLifestyle": 4,
+        "championshipContender": 2,
+        "coachPrestige": 5,
+        "coachStability": 4,
+        "conferencePrestige": 3,
+        "programTradition": 1,
+        "stadiumAtmosphere": 2,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 19038,
+    "stadium": {
+      "id": 128,
+      "stadium_id": "waldo-stadium-western-michigan",
+      "school": 132,
+      "name": "Waldo Stadium",
+      "elevation": "243.82",
+      "capacity": 30200,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1939,
+      "nickname": null
+    },
+    "image": "/team-logos/western-michigan.webp"
+  },
+  {
+    "id": 751,
+    "name": "West Virginia",
+    "mascot": "Mountaineers",
+    "city": "Morgantown",
+    "state": "WV",
+    "colors": [
+      "#EAAA00",
+      "#002855"
+    ],
+    "conference": {
+      "name": "Big 12"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 78,
+        "defenseOVR": 82,
+        "specialTeamsOVR": 81,
+        "teamOVR": 80,
+        "prestige": 6,
+        "dynastyOffenseOVR": 81,
+        "dynastyDefenseOVR": 84,
+        "dynastyTeamOVR": 82,
+        "roadToCFPTier": 3,
+        "academicPrestige": 2,
+        "athleticFacilities": 4,
+        "brandExposure": 5,
+        "campusLifestyle": 6,
+        "championshipContender": 4,
+        "coachPrestige": 9,
+        "coachStability": 7,
+        "conferencePrestige": 10,
+        "programTradition": 8,
+        "stadiumAtmosphere": 8,
+        "offensiveScheme": "Spread",
+        "defensiveScheme": "3-3-5"
+      }
+    ],
+    "enrollment": 25474,
+    "stadium": {
+      "id": 91,
+      "stadium_id": "mountaineer-field-at-milan-puskar-stadium-west-virginia",
+      "school": 130,
+      "name": "Mountaineer Field at Milan Puskar Stadium",
+      "elevation": "327.41",
+      "capacity": 60000,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1980,
+      "nickname": null
+    },
+    "image": "/team-logos/west-virginia.webp"
+  },
+  {
+    "id": 754,
+    "name": "Wisconsin",
+    "mascot": "Badgers",
+    "city": "Madison",
+    "state": "WI",
+    "colors": [
+      "#C5050C",
+      "#FFFFFF"
+    ],
+    "conference": {
+      "name": "Big Ten"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 80,
+        "defenseOVR": 84,
+        "specialTeamsOVR": 80,
+        "teamOVR": 81,
+        "prestige": 7,
+        "dynastyOffenseOVR": 86,
+        "dynastyDefenseOVR": 84,
+        "dynastyTeamOVR": 85,
+        "roadToCFPTier": 3,
+        "academicPrestige": 9,
+        "athleticFacilities": 9,
+        "brandExposure": 9,
+        "campusLifestyle": 9,
+        "championshipContender": 7,
+        "coachPrestige": 8,
+        "coachStability": 2,
+        "conferencePrestige": 12,
+        "programTradition": 9,
+        "stadiumAtmosphere": 10,
+        "offensiveScheme": "Multiple Offense",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 47932,
+    "stadium": {
+      "id": 27,
+      "stadium_id": "camp-randall-stadium-wisconsin",
+      "school": 133,
+      "name": "Camp Randall Stadium",
+      "elevation": "263.60",
+      "capacity": 80321,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1917,
+      "nickname": null
+    },
+    "image": "/team-logos/wisconsin.webp"
+  },
+  {
+    "id": 755,
+    "name": "Wyoming",
+    "mascot": "Cowboys",
+    "city": "Laramie",
+    "state": "WY",
+    "colors": [
+      "#492F24",
+      "#FFC425"
+    ],
+    "conference": {
+      "name": "Mountain West"
+    },
+    "teamData": [
+      {
+        "offenseOVR": 73,
+        "defenseOVR": 68,
+        "specialTeamsOVR": 72,
+        "teamOVR": 74,
+        "prestige": 4,
+        "dynastyOffenseOVR": 69,
+        "dynastyDefenseOVR": 69,
+        "dynastyTeamOVR": 69,
+        "roadToCFPTier": 5,
+        "academicPrestige": 2,
+        "athleticFacilities": 3,
+        "brandExposure": 1,
+        "campusLifestyle": 5,
+        "championshipContender": 3,
+        "coachPrestige": 4,
+        "coachStability": 1,
+        "conferencePrestige": 6,
+        "programTradition": 3,
+        "stadiumAtmosphere": 2,
+        "offensiveScheme": "Multiple Offense",
+        "defensiveScheme": "4-2-5"
+      }
+    ],
+    "enrollment": 11479,
+    "stadium": {
+      "id": 130,
+      "stadium_id": "war-memorial-stadium-wyoming",
+      "school": 134,
+      "name": "War Memorial Stadium",
+      "elevation": "2200.15",
+      "capacity": 29181,
+      "field_type": "Turf",
+      "roof_type": "Open",
+      "built_in": 1950,
+      "nickname": null
+    },
+    "image": "/team-logos/wyoming.webp"
+  }
+]

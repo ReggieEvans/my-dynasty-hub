@@ -16,9 +16,11 @@ body {
     --card-foreground: #fafafa;
     --popover: #242424;
     --popover-foreground: #fafafa;
-    --primary: #3ecf8e;
+    /* --primary: #3ecf8e; */
+    --primary: #9D7F39;
     --primary-foreground: #fafafa;
-    --primary-gradient: #006239;
+    /* --primary-gradient: #006239; */
+    --primary-gradient: #604e21;
     --secondary: #296eb4;
     --secondary-foreground: #fafafa;
     --muted: #898989;
@@ -43,9 +45,9 @@ body {
     --card-foreground: #fafafa;
     --popover: #242424;
     --popover-foreground: #fafafa;
-    --primary: #3ecf8e;
+    --primary: #9D7F39;
     --primary-foreground: #fafafa;
-    --primary-gradient: #006239;
+    --primary-gradient: #604e21;
     --secondary: #296eb4;
     --secondary-foreground: #fafafa;
     --muted: #898989;
@@ -74,11 +76,15 @@ body {
   }
 
   .btn-primary {
-    @apply bg-gradient-to-br from-primary to-primary-gradient w-full text-foreground font-semibold p-6 rounded hover:brightness-90 transition-all duration-300;
+    @apply bg-gradient-to-br from-primary to-primary-gradient text-foreground font-semibold py-4 px-8 rounded hover:brightness-90 transition-all duration-300;
   }
 
   .btn-action {
     @apply flex items-center gap-4 w-full hover:bg-background-secondary rounded-md p-2 transition-all duration-300
+  }
+
+  .green-gradient {
+    @apply bg-gradient-to-b from-primary via-primary to-primary-gradient bg-clip-text text-transparent;
   }
 }
 

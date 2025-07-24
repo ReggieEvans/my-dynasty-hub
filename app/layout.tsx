@@ -1,6 +1,7 @@
 import "./globals.css";
 
 import type { Metadata } from "next";
+import { Alfa_Slab_One } from "next/font/google";
 import localFont from "next/font/local";
 
 import { ThemeProvider } from "@/components/providers/theme-provider";
@@ -45,6 +46,13 @@ const roboto = localFont({
   display: "swap",
 });
 
+const alfaSlabOne = Alfa_Slab_One({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-alfaSlabOne",
+  display: "swap",
+});
+
 export const metadata: Metadata = {
   title: "MyDynastyHub",
   description:
@@ -58,7 +66,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${roboto.variable} antialiased`}>
+      <body className={`${roboto.variable} ${alfaSlabOne.variable} antialiased`}>
         <AppProvider>
           <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
             {children}
