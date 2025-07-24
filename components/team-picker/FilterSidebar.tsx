@@ -57,7 +57,7 @@ const FilterSidebar: React.FC<FilterSidebarProps> = ({ filters, setFilters, sele
   }
 
   return (
-    <aside className="w-full py-4 px-6 bg-card shadow-lg border border-border">
+    <aside className="w-full h-full py-4 px-6 bg-card shadow-lg border border-border">
       <div className="flex flex-col mb-4">
         <h2 className="text-xl font-semibold text-primary">
           Preset Filters <span className="text-gray-500 font-bold uppercase text-xs">(Optional)</span>

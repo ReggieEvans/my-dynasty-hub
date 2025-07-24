@@ -1,4 +1,3 @@
-// /components/RatingPill.tsx
 import { cn } from '@/lib/utils'
 
 interface RatingPillProps {
@@ -11,7 +10,7 @@ export function RatingPill({ value, size = 'md', variant = 'pill' }: RatingPillP
   const color = getColor(value, variant)
 
   const sizeClass =
-    size === 'sm' ? 'text-xs' : size === 'lg' ? 'text-lg' : size === 'xl' ? 'text-5xl font-header' : 'text-sm'
+    size === 'sm' ? 'text-xs' : size === 'lg' ? 'text-lg' : size === 'xl' ? 'text-4xl font-header' : 'text-sm'
 
   const spacingClass =
     variant === 'pill'

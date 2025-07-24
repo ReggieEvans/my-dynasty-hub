@@ -939,8 +939,19 @@
         "defensiveScheme": "4-2-5"
       }
     ],
-    "enrollment": null,
-    "stadium": null,
+    "enrollment": 45000,
+    "stadium": {
+      "id": 95,
+      "stadium_id": "california-memorial-stadium",
+      "school": 95,
+      "name": "California Memorial Stadium",
+      "elevation": "NA",
+      "capacity": 63186,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1923,
+      "nickname": null
+    },
     "image": "/team-logos/california.webp"
   },
   {
@@ -1351,8 +1362,19 @@
         "defensiveScheme": "3-3-5"
       }
     ],
-    "enrollment": null,
-    "stadium": null,
+    "enrollment": 24221,
+    "stadium": {
+      "id": 94,
+      "stadium_id": "delaware-stadium",
+      "school": 94,
+      "name": "Delaware Stadium",
+      "elevation": "NA",
+      "capacity": 18500,
+      "field_type": "FieldTurf",
+      "roof_type": "Open",
+      "built_in": 1952,
+      "nickname": null
+    },
     "image": "/team-logos/delaware.webp"
   },
   {
@@ -1552,8 +1574,19 @@
         "defensiveScheme": "4-2-5"
       }
     ],
-    "enrollment": null,
-    "stadium": null,
+    "enrollment": 56000,
+    "stadium": {
+      "id": 999,
+      "stadium_id": "pitbull-stadium",
+      "school": 99,
+      "name": "Pitbull Stadium",
+      "elevation": "NA",
+      "capacity": 20000,
+      "field_type": "FieldTurf",
+      "roof_type": "Open",
+      "built_in": 1995,
+      "nickname": null
+    },
     "image": "/team-logos/fiu.webp"
   },
   {
@@ -3137,8 +3170,19 @@
         "defensiveScheme": "4-3 Multiple"
       }
     ],
-    "enrollment": null,
-    "stadium": null,
+    "enrollment": 19852,
+    "stadium": {
+      "id": 98,
+      "stadium_id": "hard-rock-stadium",
+      "school": 98,
+      "name": "Hard Rock Stadium",
+      "elevation": "NA",
+      "capacity": 65326,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1985,
+      "nickname": null
+    },
     "image": "/team-logos/miami.webp"
   },
   {
@@ -3550,8 +3594,19 @@
         "defensiveScheme": "4-2-5"
       }
     ],
-    "enrollment": null,
-    "stadium": null,
+    "enrollment": 18419,
+    "stadium": {
+      "id": 97,
+      "stadium_id": "robert-w-plaster-stadium",
+      "school": 97,
+      "name": "Robert W. Plaster Stadium",
+      "elevation": "NA",
+      "capacity": 17500,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1941,
+      "nickname": null
+    },
     "image": "/team-logos/missouri-state.webp"
   },
   {
@@ -6192,8 +6247,19 @@
         "defensiveScheme": "4-2-5"
       }
     ],
-    "enrollment": null,
-    "stadium": null,
+    "enrollment": 8215,
+    "stadium": {
+      "id": 96,
+      "stadium_id": "malone-stadium",
+      "school": 96,
+      "name": "Malone Stadium",
+      "elevation": "NA",
+      "capacity": 27617,
+      "field_type": "Grass",
+      "roof_type": "Open",
+      "built_in": 1978,
+      "nickname": null
+    },
     "image": "/team-logos/louisiana-monroe.webp"
   },
   {

@@ -1,19 +1,15 @@
 // presetFilters.ts
 
 export type PresetFilterSet = {
-  label: string;
+  label: string
   filters: {
-    [key: string]:
-      | { min?: number; max?: number }
-      | string
-      | number
-      | undefined;
-  };
-};
+    [key: string]: { min?: number; max?: number } | string | number | undefined
+  }
+}
 
 export const presetFilters: PresetFilterSet[] = [
   {
-    label: 'Elite School',
+    label: 'Easy Street',
     filters: {
       academicPrestige: { min: 9 },
       programTradition: { min: 9 },
@@ -23,9 +19,43 @@ export const presetFilters: PresetFilterSet[] = [
   {
     label: 'Championship Contender',
     filters: {
-      championshipContender: { min: 9 },
+      championshipContender: { min: 8 },
       dynastyTeamOVR: { min: 90 },
       prestige: { min: 4 },
+    },
+  },
+  {
+    label: 'Underdog Program',
+    filters: {
+      prestige: { max: 4 },
+      dynastyTeamOVR: { max: 75 },
+      championshipContender: { max: 4 },
+    },
+  },
+  {
+    label: 'Cupcake Challenge',
+    filters: {
+      prestige: { max: 1 },
+    },
+  },
+  {
+    label: 'Struggling with Big Stadium',
+    filters: {
+      prestige: { max: 3 },
+      dynastyTeamOVR: { max: 75 },
+      stadiumCapacity: { min: 30000 },
+    },
+  },
+  {
+    label: 'Power 5 School',
+    filters: {
+      conference: 'Power 5',
+    },
+  },
+  {
+    label: 'Group of 5 School',
+    filters: {
+      conference: 'Group of 5',
     },
   },
   {
@@ -41,33 +71,6 @@ export const presetFilters: PresetFilterSet[] = [
     },
   },
   {
-    label: 'Great Facilities',
-    filters: {
-      athleticFacilities: { min: 9 },
-      stadiumAtmosphere: { min: 9 },
-    },
-  },
-  {
-    label: 'Underdog Program',
-    filters: {
-      prestige: { max: 4 },
-      dynastyTeamOVR: { max: 80 },
-      championshipContender: { max: 4 },
-    },
-  },
-  {
-    label: 'High Academic Standards',
-    filters: {
-      academicPrestige: { min: 10 },
-    },
-  },
-  {
-    label: 'Party School Vibes',
-    filters: {
-      campusLifestyle: { min: 9 },
-    },
-  },
-  {
     label: 'Modern Spread Offense',
     filters: {
       offensiveScheme: 'Spread',
@@ -79,4 +82,4 @@ export const presetFilters: PresetFilterSet[] = [
       offensiveScheme: 'Pro Style',
     },
   },
-];
+]
