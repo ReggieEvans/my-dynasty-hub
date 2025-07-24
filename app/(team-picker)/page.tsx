@@ -239,6 +239,8 @@ export default function LandingPage() {
                   )}
                 </div>
 
+                 {teamPicked && <ConfettiExplosion />}
+
                 <div className="text-center">
                   <h3 className="font-header text-3xl sm:text-5xl uppercase">{team?.name}</h3>
                   <h3 className="font-header text-2xl sm:text-3xl uppercase">{team?.mascot}</h3>
@@ -267,8 +269,6 @@ export default function LandingPage() {
                 </div>
               </div>
             ) : null}
-
-            {teamPicked && <ConfettiExplosion />}
 
             {!isSpinning && (
               <div className="mt-8 uppercase font-black text-2xl text-muted">
