@@ -3,6 +3,7 @@
 
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
+import ConfettiExplosion from "react-confetti-explosion";
 import CountUp from 'react-countup'
 
 import FilterSidebar from '@/components/team-picker/FilterSidebar'
@@ -48,6 +49,7 @@ export default function LandingPage() {
   const [selectedPreset, setSelectedPreset] = useState('')
   const [spinnerTeam, setSpinnerTeam] = useState<TeamPickerTeam | null>(null)
   const [isSpinning, setIsSpinning] = useState(false)
+  const [teamPicked, setTeamPicked] = useState(false)
 
   useEffect(() => {
     const scaledFields = ['prestige', 'coachPrestige', 'conferencePrestige']
@@ -106,6 +108,7 @@ export default function LandingPage() {
   const handleFindTeam = () => {
     setIsSpinning(true)
     setTeam(null)
+    setTeamPicked(false)
 
     let i = 0
     const spinInterval = setInterval(() => {
@@ -113,12 +116,12 @@ export default function LandingPage() {
       i++
     }, 100)
 
-    console.log('✅ Filtered Teams:', filteredTeams)
     setTimeout(() => {
       clearInterval(spinInterval)
       const randomTeam = filteredTeams[Math.floor(Math.random() * filteredTeams.length)]
       setSpinnerTeam(null)
       setTeam(randomTeam)
+      setTeamPicked(true)
       setIsSpinning(false)
     }, 1000)
   }
@@ -128,8 +131,6 @@ export default function LandingPage() {
     setFilters({})
     setSelectedPreset('')
   }
-
-  console.log('Current Filters:', filters)
 
   return (
     <>
@@ -201,11 +202,11 @@ export default function LandingPage() {
             {isSpinning && spinnerTeam && (
               <div className="flex justify-center items-center">
                 <Image
-                  src={spinnerTeam.image}
-                  alt={spinnerTeam.name}
-                  width={240}
-                  height={240}
-                  className="transition duration-100 ease-in-out"
+                  src='/spinner-wheel.png'
+                  alt='spinner-wheel'
+                  width={480}
+                  height={480}
+                  className="transition ease-in-out animate-spin"
                 />
               </div>
             )}
@@ -264,6 +265,8 @@ export default function LandingPage() {
                 </div>
               </div>
             ) : null}
+
+            {teamPicked && <ConfettiExplosion />}
 
             {!isSpinning && (
               <div className="mt-8 uppercase font-black text-2xl text-muted">

@@ -8,7 +8,6 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '..
 import { Table, TableBody, TableCaption, TableCell, TableHead, TableHeader, TableRow } from '../ui/table'
 
 export default function PossibleTeamsList({ teams }: { teams: TeamPickerTeam[] }) {
-  console.log(teams)
   return (
     <Accordion type="single" collapsible className="w-full" defaultValue={'possible-teams'}>
       <AccordionItem value="possible-teams" className="bg-background rounded my-2 px-4">

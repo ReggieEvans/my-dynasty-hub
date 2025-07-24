@@ -45,8 +45,6 @@ export const TeamOverview = () => {
   if (error)
     return <div className="text-destructive">Failed to load roster</div>;
 
-  console.log(rosterSummary);
-
   const normalized = (rosterSummary?.map((r) => ({
     ...r,
     side: r.side.toLowerCase() as "offense" | "defense" | "total",
