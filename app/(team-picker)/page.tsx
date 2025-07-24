@@ -202,7 +202,7 @@ export default function LandingPage() {
             {isSpinning && spinnerTeam && (
               <div className="flex justify-center items-center">
                 <Image
-                  src='/spinner-wheel.png'
+                  src='/spinner-wheel.webp'
                   alt='spinner-wheel'
                   width={480}
                   height={480}
