@@ -25,17 +25,17 @@ export const presetFilters: PresetFilterSet[] = [
     },
   },
   {
-    label: 'Underdog Program',
+    label: 'Underdog Challenge',
     filters: {
-      prestige: { max: 4 },
-      dynastyTeamOVR: { max: 75 },
-      championshipContender: { max: 4 },
+      prestige: { max: 2 },
+      dynastyTeamOVR: { max: 70 },
     },
   },
   {
     label: 'Cupcake Challenge',
     filters: {
       prestige: { max: 1 },
+      dynastyTeamOVR: { max: 65 },
     },
   },
   {
