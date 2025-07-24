@@ -207,6 +207,7 @@ export default function LandingPage() {
                   width={480}
                   height={480}
                   className="transition ease-in-out animate-spin"
+                  priority
                 />
               </div>
             )}
@@ -233,6 +234,7 @@ export default function LandingPage() {
                       width={240}
                       height={240}
                       className="mx-auto rounded"
+                      unoptimized
                     />
                   )}
                 </div>

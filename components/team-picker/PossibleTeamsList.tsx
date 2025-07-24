@@ -40,6 +40,7 @@ export default function PossibleTeamsList({ teams }: { teams: TeamPickerTeam[] }
                         alt={`${team.name} logo`}
                         width={20}
                         height={20}
+                        unoptimized
                       />
                       {team.name}
                     </TableCell>
